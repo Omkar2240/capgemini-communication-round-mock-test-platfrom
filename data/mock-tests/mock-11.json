@@ -1,0 +1,503 @@
+{
+  "id": "mock-11",
+  "testNumber": 11,
+  "title": "Mock Test 11: Strategic Digital Transformation & Org Change",
+  "difficulty": "Advanced",
+  "durationMinutes": 60,
+  "description": "Enterprise operating model modernization, cultural change resistance, executive sponsorship alignment, and organizational agility transformation.",
+  "sectionTimers": {
+    "grammar": 12,
+    "writing": 10,
+    "situational": 10,
+    "reading": 10,
+    "listening": 8,
+    "speaking": 10
+  },
+  "sections": {
+    "grammar": [
+      {
+        "id": "mock-11-gram-01",
+        "type": "grammar",
+        "prompt": "Neither the transformation task force nor the regional managing directors _____ convinced of the aggressive timeline.",
+        "options": [
+          "was",
+          "were",
+          "is",
+          "has been"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"were\") is correct. In 'neither... nor' constructions, the verb agrees with the closer plural subject ('regional managing directors' -> 'were').",
+        "topic": "Subject-Verb Agreement",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-11-gram-02",
+        "type": "grammar",
+        "prompt": "Prior to the global organizational restructuring, senior leadership _____ comprehensive cultural maturity assessments.",
+        "options": [
+          "has commissioned",
+          "commissioning",
+          "had commissioned",
+          "commissions"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"had commissioned\") is correct. Past perfect ('had commissioned') is required for an action completed before the past milestone of global restructuring.",
+        "topic": "Tenses",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-11-gram-03",
+        "type": "grammar",
+        "prompt": "Fostering cross-departmental agility requires _____ profound paradigm shift across legacy management hierarchies.",
+        "options": [
+          "an",
+          "the",
+          "no article needed",
+          "a"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"a\") is correct. 'Profound' begins with a consonant sound (/p/), requiring indefinite article 'a'.",
+        "topic": "Articles",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-11-gram-04",
+        "type": "grammar",
+        "prompt": "The proposed enterprise operating model aligns seamlessly _____ our client's long-term environmental sustainability targets.",
+        "options": [
+          "with",
+          "to",
+          "for",
+          "against"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"with\") is correct. The verb 'aligns' pairs standardly with the preposition 'with'.",
+        "topic": "Prepositions",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-11-gram-05",
+        "type": "grammar",
+        "prompt": "Were the executive board _____ to approve the digital transformation roadmap today, Phase 1 mobilization would commence in July.",
+        "options": [
+          "decides",
+          "to decide",
+          "decided",
+          "will decide"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"to decide\") is correct. Formal inverted second conditional ('Were [subject] to [infinitive]') requires 'to decide'.",
+        "topic": "Conditionals",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-11-gram-06",
+        "type": "grammar",
+        "prompt": "The enterprise agility initiative succeeded, _____ widespread initial skepticism among regional branch directors.",
+        "options": [
+          "because",
+          "therefore",
+          "notwithstanding",
+          "since"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"notwithstanding\") is correct. Concessive preposition 'notwithstanding' (meaning despite) connects the success with the initial skepticism.",
+        "topic": "Conjunctions",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-11-gram-07",
+        "type": "grammar",
+        "prompt": "Of the three transformation blueprints submitted by international consultancies, Capgemini's proposed roadmap was deemed _____ viable.",
+        "options": [
+          "more",
+          "much",
+          "very",
+          "most"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"most\") is correct. Superlative 'most viable' is required when comparing among three or more submitted blueprints.",
+        "topic": "Adjectives & Adverbs",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-11-gram-08",
+        "type": "grammar",
+        "prompt": "Quarterly transformation progress metrics and cultural sentiment surveys _____ directly to the board of directors.",
+        "options": [
+          "are presented",
+          "is presented",
+          "presenting",
+          "presented"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"are presented\") is correct. Passive voice present simple plural ('are presented') agrees with the plural compound subject 'metrics and surveys'.",
+        "topic": "Voice & Modals",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-11-gram-09",
+        "type": "grammar",
+        "prompt": "The Chief Transformation Officer, _____ visionary leadership modernized the enterprise legacy footprint, retired last spring.",
+        "options": [
+          "who",
+          "whose",
+          "whom",
+          "which"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"whose\") is correct. Possessive relative pronoun 'whose' attributes visionary leadership to the Chief Transformation Officer.",
+        "topic": "Pronouns & Relative Clauses",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-11-gram-10",
+        "type": "grammar",
+        "prompt": "To sustain competitive differentiation, the enterprise must _____ obsolete hierarchical silos in favor of cross-functional value streams.",
+        "options": [
+          "dismantling",
+          "dismantled",
+          "dismantle",
+          "dismantlement"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"dismantle\") is correct. Modal auxiliary 'must' takes the base verb 'dismantle' (meaning to deconstruct or take apart).",
+        "topic": "Business Vocabulary",
+        "difficulty": "hard"
+      }
+    ],
+    "writing": [
+      {
+        "id": "mock-11-wri-01",
+        "type": "writing",
+        "prompt": "Write a high-stakes strategic briefing memo to the client Chief Executive Officer and Executive Committee addressing deep-seated cultural resistance from middle management during an enterprise agile transformation, proposing three structural change interventions.",
+        "scenario": "Middle managers fear loss of operational authority and resource control. Proposed interventions: leadership coaching on value-stream enablement, realignment of incentive compensation toward product outcomes, and establishing an internal Agile Community of Practice.",
+        "expectedFormat": "professional_email",
+        "recommendedWordCount": {
+          "min": 90,
+          "max": 160
+        },
+        "evaluationCriteria": [
+          "Authoritative executive tone",
+          "Nuanced diagnosis of organizational friction",
+          "Actionable interventions",
+          "Strategic leadership framing"
+        ],
+        "modelResponse": "Dear Executive Committee Members,\n\nSubject: Overcoming Middle Management Friction in Enterprise Agile Transformation\n\nWhile our enterprise digital transformation has delivered promising early wins in software release cadence, our cultural sentiment audits reveal acute anxiety and passive resistance across mid-tier management. Managers predominantly perceive agile squads as a threat to their traditional organizational authority and resource governance.\n\nTo pivot middle management from skepticism into enthusiastic transformation champions, we recommend three decisive interventions:\n\n1. Executive Coaching & Role Reframing: Transition traditional managers into strategic Chapter Leads and Value Stream Enablers focused on talent development rather than command-and-control task allocation.\n2. Incentive Realignment: Restructure annual performance scorecards to reward cross-functional product velocity and team psychological safety rather than siloed headcount management.\n3. Enterprise Agile Guilds: Establish an open Community of Practice providing peer mentorship, transparent roadmaps, and continuous upskilling.\n\nI welcome the opportunity to discuss this leadership enablement framework during Thursday's executive session.\n\nSincerely,\nGlobal Head of Transformation Advisory",
+        "keyPoints": [
+          "Authoritative executive tone",
+          "Nuanced diagnosis of organizational friction",
+          "Actionable interventions",
+          "Strategic leadership framing"
+        ]
+      },
+      {
+        "id": "mock-11-wri-02",
+        "type": "writing",
+        "prompt": "Summarize Kotter's 8-Step Change Model and explain why establishing a genuine sense of urgency is critical before initiating enterprise structural reorganizations.",
+        "scenario": "Focus on complacence vs urgency, guiding coalitions, strategic vision articulation, and embedding cultural change in corporate DNA.",
+        "expectedFormat": "formal_memo",
+        "recommendedWordCount": {
+          "min": 75,
+          "max": 130
+        },
+        "evaluationCriteria": [
+          "Accurate articulation of Kotter's change model",
+          "Nuanced change management rationale",
+          "Coherent structural synthesis",
+          "High syntactic clarity"
+        ],
+        "modelResponse": "John Kotter's 8-Step Change Model provides a sequential framework for navigating complex organizational transformations. Kotter emphasizes that transformations predominantly fail when leaders attempt structural re-engineering without first establishing a genuine sense of urgency. Without widespread urgency, entrenched complacency prevails, and employees view change as an ephemeral corporate fad. By objectively communicating market disruptions, emerging competitive threats, and the severe operational costs of organizational inertia, leadership disrupts organizational paralysis. This urgency creates fertile psychological ground to assemble a powerful guiding coalition, articulate a compelling strategic vision, empower broad-based employee action, celebrate incremental short-term wins, and ultimately anchor new collaborative operating behaviors deep within the corporate cultural DNA.",
+        "keyPoints": [
+          "Accurate articulation of Kotter's change model",
+          "Nuanced change management rationale",
+          "Coherent structural synthesis",
+          "High syntactic clarity"
+        ]
+      }
+    ],
+    "situational": [
+      {
+        "id": "mock-11-sit-01",
+        "type": "situational",
+        "context": "During a global transformation town hall, a veteran department head stands up and publicly denounces the new agile operating model, claiming it is an expensive consulting buzzword that destroys accountability.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Have corporate security escort the veteran department head out of the auditorium immediately.",
+          "Agree with the department head completely and announce on the microphone that the transformation is canceled.",
+          "Publicly mock the department head's age and claim that older managers cannot understand modern technology.",
+          "Remain poised, thank the department head for their candid feedback, validate that poorly executed transformations can indeed create confusion, and offer to walk through objective data from the successful pilot squad while inviting them to co-design the departmental transition framework."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Gracefully validating genuine organizational anxieties while countering with objective pilot empirical data and co-design opportunities defuses public hostility and builds authentic alignment.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Remain poised, thank the department head for their candid feedback, validate that poorly executed transformations can indeed create confusion, and offer to walk through objective data from the successful pilot squad while inviting them to co-design the departmental transition framework."
+      },
+      {
+        "id": "mock-11-sit-02",
+        "type": "situational",
+        "context": "You observe that the client CEO has stopped attending weekly transformation steering sessions and is no longer referencing the initiative in company-wide communications, causing momentum to stall.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Request a private executive briefing with the CEO, share telemetry showing that executive silence is causing middle managers to delay deliverables, and co-author a high-impact CEO video message reaffirming the strategic imperative.",
+          "Send an angry, passive-aggressive email to the CEO with copy to the entire board of directors.",
+          "Abandon the transformation project immediately and tell your consulting squad to stop working.",
+          "Spread rumors across the company that the CEO is about to be terminated by the board."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Re-engaging the executive sponsor privately with empirical behavioral data and providing turn-key communication collateral revitalizes vital top-down transformation momentum.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Request a private executive briefing with the CEO, share telemetry showing that executive silence is causing middle managers to delay deliverables, and co-author a high-impact CEO video message reaffirming the strategic imperative."
+      },
+      {
+        "id": "mock-11-sit-03",
+        "type": "situational",
+        "context": "Two influential regional offices refuse to adopt the new standardized cloud ERP software, insisting that their local spreadsheets and legacy tools are legally required for their domestic operations.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Remotely delete their legacy spreadsheets overnight without warning to force compliance.",
+          "Collaborate with regional legal and compliance officers to review their actual domestic statutory mandates, distinguish genuine legal necessities from ingrained habits, and incorporate certified local compliance modules into the global platform.",
+          "Allow the two regional offices to permanently ignore all enterprise software systems forever.",
+          "File a lawsuit against the regional office managers in international commercial court."
+        ],
+        "bestOption": 1,
+        "bestOptionRationale": "Option B is the optimal professional strategy. Rigorous compliance validation separates genuine regional regulatory requirements from change resistance, enabling tailored platform customization without fragmenting enterprise governance.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Collaborate with regional legal and compliance officers to review their actual domestic statutory mandates, distinguish genuine legal necessities from ingrained habits, and incorporate certified local compliance modules into the global platform."
+      },
+      {
+        "id": "mock-11-sit-04",
+        "type": "situational",
+        "context": "An enterprise transformation pilot squad experiences high team attrition and burnout because managers are enforcing new agile rituals while simultaneously demanding 100% of their legacy waterfall documentation.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Tell the engineers to work 80 hours a week and complete both sets of documentation without complaining.",
+          "Instruct the pilot squad to stop writing any code and focus 100% of their time on filling out forms.",
+          "Meet with PMO leadership to formally sunset redundant waterfall documentation templates, establish a single operating rhythm, and protect the pilot squad's capacity so they can focus on high-value delivery.",
+          "Ignore the attrition figures because consultant turnover is an inevitable part of business."
+        ],
+        "bestOption": 2,
+        "bestOptionRationale": "Option C is the optimal professional strategy. Eliminating dual-operating system overhead and formally retiring obsolete legacy administrative burdens protects team health and enables true agile velocity.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Meet with PMO leadership to formally sunset redundant waterfall documentation templates, establish a single operating rhythm, and protect the pilot squad's capacity so they can focus on high-value delivery."
+      },
+      {
+        "id": "mock-11-sit-05",
+        "type": "situational",
+        "context": "A client transformation sponsor requests that you alter the employee cultural pulse survey results to hide negative feedback regarding managerial micro-management before the board presentation.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Falsify the survey charts immediately to show 100% employee happiness and satisfaction.",
+          "Leaked the unredacted negative survey data to national newspapers to expose the sponsor.",
+          "Delete all survey records from the server and claim that the survey was never conducted.",
+          "Politely refuse to falsify data, explain that transparent survey findings are essential for designing targeted leadership coaching, and frame the negative feedback constructively as actionable high-leverage improvement opportunities for the board."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Upholding research integrity while constructively reframing critical employee sentiment as strategic leadership coaching opportunities protects consulting ethics and drives meaningful organizational change.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Politely refuse to falsify data, explain that transparent survey findings are essential for designing targeted leadership coaching, and frame the negative feedback constructively as actionable high-leverage improvement opportunities for the board."
+      },
+      {
+        "id": "mock-11-sit-06",
+        "type": "situational",
+        "context": "You notice that senior executives praise the transformation in public meetings, but privately direct their direct reports to prioritize legacy siloed metrics over cross-functional value streams.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Facilitate an executive alignment workshop to redefine executive KPIs, linking annual bonuses directly to cross-functional end-to-end customer outcomes rather than legacy siloed departmental metrics.",
+          "Pretend not to notice the discrepancy and collect your consulting fees quietly.",
+          "Confront the executives in the corporate cafeteria and accuse them of hypocrisy in front of their staff.",
+          "Tell junior employees to disobey all executive instructions immediately."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Aligning executive incentive compensation and bonus structures with cross-functional outcomes systematically closes the gap between public rhetoric and private managerial directives.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Facilitate an executive alignment workshop to redefine executive KPIs, linking annual bonuses directly to cross-functional end-to-end customer outcomes rather than legacy siloed departmental metrics."
+      }
+    ],
+    "reading": {
+      "id": "mock-11-read",
+      "type": "reading",
+      "passageTitle": "The Architecture of Organizational Metamorphosis: Navigating the Human Dynamics of Digital Transformation",
+      "passageTopic": "Strategic Digital Transformation & Org Change",
+      "wordCount": 344,
+      "passageContent": "In the contemporary corporate landscape, digital transformation has evolved from a discretionary technology modernization agenda into an existential organizational imperative. Yet, empirical research conducted across global management consultancies reveals a sobering reality: over seventy percent of large-scale digital transformations fail to achieve their stated strategic objectives. While post-mortems frequently cite technical debt, architecture mismatches, or vendor underperformance, the root cause is almost invariably sociocultural. Organizations attempt to superimpose modern digital technologies onto antiquated, industrial-era organizational hierarchies and command-and-control cultures.\n\nA successful digital transformation is fundamentally an operating model reinvention. Traditional enterprises are structured around functional silos—marketing, sales, engineering, risk, and operations—each defending insular fiefdoms, localized budgets, and proprietary metrics. In contrast, modern digital enterprises operate around cross-functional, customer-centric value streams. In a value-stream topology, persistent squads composed of product strategists, software engineers, UX designers, and data scientists collaborate autonomously to deliver continuous business outcomes. The organizational challenge lies not in drafting value stream topologies on slides, but in dismantling the deep psychological attachment to functional authority.\n\nHerein lies the primary bottleneck of organizational metamorphosis: the resistance of middle management. Senior executives initiate transformations with sweeping strategic visions, and frontline engineers often welcome modern tooling and agile empowerment. However, middle managers frequently experience acute status anxiety. In traditional hierarchies, a manager's prestige, compensation, and corporate influence are directly correlated with headcount and span of control. Cross-functional squads, decentralized decision-making, and automated governance threaten this paradigm, stripping managers of their historic gatekeeper function. Consequently, middle management often engages in passive institutional resistance—attending agile ceremonies while perpetuating legacy reporting mandates and vetoing autonomous squad initiatives.\n\nTo overcome this systemic inertia, transformation leaders must apply structured Change Management frameworks. John Kotter's seminal research demonstrates that without establishing a burning platform—a transparent, undeniable articulation of the existential business threats posed by market stagnation—organizations cannot shake free from complacency. Furthermore, structural realignment must precede behavioral expectations: performance appraisal mechanisms, executive bonus allocations, and career progression ladders must be re-engineered to reward collaboration, risk tolerance, and psychological safety. Technology provides the operational capability, but human alignment provides the enduring enterprise momentum.",
+      "questions": [
+        {
+          "id": "mock-11-read-q01",
+          "prompt": "According to empirical research cited in the text, why do over 70% of large-scale digital transformations fail?",
+          "options": [
+            "Because modern cloud computing hardware is statistically prone to spontaneous combustion.",
+            "Because organizations superimpose modern technologies onto antiquated, industrial-era hierarchies and siloed cultures.",
+            "Because international software engineers refuse to work more than twenty minutes per week.",
+            "Because digital transformations are legally prohibited across all international commercial enterprises."
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"Because organizations superimpose modern technologies onto antiquated, industrial-era hierarchies and siloed cultures.\") is correct. The passage explains: 'the root cause is almost invariably sociocultural. Organizations attempt to superimpose modern digital technologies onto antiquated, industrial-era organizational hierarchies and command-and-control cultures.'",
+          "questionType": "factual"
+        },
+        {
+          "id": "mock-11-read-q02",
+          "prompt": "Why do middle managers frequently exhibit acute resistance to enterprise agile transformations?",
+          "options": [
+            "Because agile transformations require all middle managers to write low-level C++ code.",
+            "Because modern software engineering causes widespread computer monitor eye strain.",
+            "Because decentralized squad autonomy threatens their historic prestige, headcount control, and gatekeeper authority.",
+            "Because middle managers are universally prohibited from attending company social gatherings."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"Because decentralized squad autonomy threatens their historic prestige, headcount control, and gatekeeper authority.\") is correct. The text states: 'In traditional hierarchies, a manager's prestige, compensation, and corporate influence are directly correlated with headcount and span of control. Cross-functional squads... threaten this paradigm, stripping managers of their historic gatekeeper function.'",
+          "questionType": "inference"
+        },
+        {
+          "id": "mock-11-read-q03",
+          "prompt": "In contrast to functional silos, how are modern digital enterprises structured?",
+          "options": [
+            "Around completely isolated geographic branch offices with zero network communication.",
+            "Around annual paper-based filing cabinets managed exclusively by postal mail.",
+            "Around temporary three-day contractor task forces that disband immediately.",
+            "Around persistent, cross-functional value streams focused on continuous customer outcomes."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"Around persistent, cross-functional value streams focused on continuous customer outcomes.\") is correct. The passage states: 'modern digital enterprises operate around cross-functional, customer-centric value streams. In a value-stream topology, persistent squads... collaborate autonomously to deliver continuous business outcomes.'",
+          "questionType": "vocabulary"
+        },
+        {
+          "id": "mock-11-read-q04",
+          "prompt": "What critical operational alignment must precede behavioral expectations according to the author?",
+          "options": [
+            "Performance appraisals, bonus allocations, and career ladders must be re-engineered to reward collaboration.",
+            "All company computer monitors must be upgraded to 8K resolution displays.",
+            "Every employee must be forced to relocate their personal residence to corporate headquarters.",
+            "All external vendors must be terminated within twenty-four hours without notice."
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"Performance appraisals, bonus allocations, and career ladders must be re-engineered to reward collaboration.\") is correct. The final paragraph stresses: 'structural realignment must precede behavioral expectations: performance appraisal mechanisms, executive bonus allocations, and career progression ladders must be re-engineered to reward collaboration, risk tolerance, and psychological safety.'",
+          "questionType": "main-idea"
+        }
+      ]
+    },
+    "listening": {
+      "id": "mock-11-list",
+      "type": "listening",
+      "title": "Audio Executive Briefing: Steering Committee Transformation Progress Review",
+      "context": "Executive steering committee reviewing Month-9 digital transformation velocity, middle management sentiment, and enablement initiatives.",
+      "dialogue": [
+        {
+          "speaker": "Claire",
+          "text": "Good afternoon Robert. In our Month-9 transformation review, code deployment frequency has accelerated by 310% across thirty-four delivery squads, while failure rates dropped to 4.2%."
+        },
+        {
+          "speaker": "Robert",
+          "text": "Those delivery metrics are impressive Claire, but our cultural pulse survey of 4,200 employees revealed that sentiment among mid-level operational managers has plunged to 34% favorability."
+        },
+        {
+          "speaker": "Claire",
+          "text": "Yes, managers feel sidelined by decentralized decision-making. To remediate this, we are launching an intensive six-week 'Leadership in Complexity' executive coaching academy next Monday."
+        },
+        {
+          "speaker": "Robert",
+          "text": "How is the executive remuneration committee supporting this behavioral transition?"
+        },
+        {
+          "speaker": "Claire",
+          "text": "The committee ratified tying 40% of managerial annual bonuses to squad empowerment, cross-silo collaboration, and team retention metrics."
+        },
+        {
+          "speaker": "Robert",
+          "text": "That alignment of incentives will turn skeptical managers into enthusiastic transformation champions."
+        }
+      ],
+      "fullScriptText": "Claire: Good afternoon Robert. In our Month-9 transformation review, code deployment frequency has accelerated by 310% across thirty-four delivery squads, while failure rates dropped to 4.2%.\nRobert: Those delivery metrics are impressive Claire, but our cultural pulse survey of 4,200 employees revealed that sentiment among mid-level operational managers has plunged to 34% favorability.\nClaire: Yes, managers feel sidelined by decentralized decision-making. To remediate this, we are launching an intensive six-week 'Leadership in Complexity' executive coaching academy next Monday.\nRobert: How is the executive remuneration committee supporting this behavioral transition?\nClaire: The committee ratified tying 40% of managerial annual bonuses to squad empowerment, cross-silo collaboration, and team retention metrics.\nRobert: That alignment of incentives will turn skeptical managers into enthusiastic transformation champions.",
+      "questions": [
+        {
+          "id": "mock-11-list-q01",
+          "prompt": "By what percentage did code deployment frequency accelerate across the 34 transformed delivery squads?",
+          "options": [
+            "45%",
+            "120%",
+            "310%",
+            "500%"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"310%\") is correct. Claire Delacroix states: 'median code deployment frequency has surged by 310%, while change failure rates have dropped from 18% to 4.2%.'"
+        },
+        {
+          "id": "mock-11-list-q02",
+          "prompt": "What favorability sentiment was recorded among mid-level operational managers in the employee survey?",
+          "options": [
+            "82% favorability",
+            "12% favorability",
+            "98% favorability",
+            "34% favorability"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"34% favorability\") is correct. Claire notes: 'sentiment among mid-level operational managers has plunged to thirty-four percent favorability.'"
+        },
+        {
+          "id": "mock-11-list-q03",
+          "prompt": "What percentage of managerial annual bonuses has the remuneration committee ratified to tie to squad empowerment and cross-silo metrics?",
+          "options": [
+            "40%",
+            "10%",
+            "25%",
+            "80%"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"40%\") is correct. The speaker confirms: 'the executive remuneration committee has ratified our proposal to tie 40% of managerial annual bonuses to squad empowerment, cross-silo collaboration, and team retention metrics.'"
+        },
+        {
+          "id": "mock-11-list-q04",
+          "prompt": "What is the duration of the 'Leadership in Complexity' executive coaching academy launching next Monday?",
+          "options": [
+            "Two days",
+            "Six weeks",
+            "Six months",
+            "One year"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"Six weeks\") is correct. Claire specifies: 'we are introducing a six-week intensive \"Leadership in Complexity\" executive coaching academy.'"
+        }
+      ]
+    },
+    "speaking": [
+      {
+        "id": "mock-11-spk-01",
+        "type": "speaking",
+        "prompt": "Deliver an inspiring, visionary 90-second address to an all-hands corporate meeting of 500 employees who are anxious and exhausted from ongoing organizational restructuring.",
+        "context": "Acknowledge the fatigue of continuous change, articulate the compelling long-term strategic vision, validate their collective accomplishments, and inspire mutual trust.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Authentic empathy acknowledging change fatigue",
+          "Celebrating concrete milestones achieved",
+          "Articulating the strategic imperative of organizational agility",
+          "Rallying collective purpose and mutual trust"
+        ],
+        "modelTranscript": "Colleagues, I want to begin today with absolute honesty: organizational transformation is demanding, and I recognize that navigating continuous change over the past several months has been mentally and physically exhausting. Each of you has balanced delivering daily business operations while fundamentally reimagining how we work, collaborate, and innovate. That fatigue is real, and your resilience deserves our profound gratitude. But look at what we have achieved together: we have slashed customer onboarding times, broken down decade-old departmental walls, and launched digital capabilities that our competitors are scrambling to replicate. We are not transforming for the sake of buzzwords; we are transforming so that our organization thrives in an unpredictable digital future, ensuring our jobs, our culture, and our customer impact remain strong for the next generation. As we enter this next phase, our commitment to you is stability, transparency, and relentless support. Thank you for your passion, your bravery, and your belief in what we are building together."
+      },
+      {
+        "id": "mock-11-spk-02",
+        "type": "speaking",
+        "prompt": "Explain to a skeptical legacy department director why transitioning from project-based funding to persistent product value-stream funding delivers superior business outcomes and financial governance.",
+        "context": "Contrast the inefficiencies of temporary project funding (stop-and-start resource churn, handoff loss, estimation gaming) with persistent product funding (continuous delivery, deep domain knowledge, stable squads).",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Flaws of traditional project funding (stop-start churn, knowledge loss)",
+          "Benefits of persistent product value-stream funding",
+          "Preserving institutional knowledge & domain mastery",
+          "Dynamic financial governance and responsive ROI"
+        ],
+        "modelTranscript": "In traditional project-based funding, we treat technology delivery like a construction contract: we assemble a temporary team, spend months debating speculative cost estimates, execute the project, and then disband the squad just as they achieve peak collaboration and domain expertise. When enhancements are needed a year later, we reassemble a new team that must spend months deciphering legacy code, creating massive overhead and knowledge loss. Transitioning to persistent product value-stream funding fundamentally fixes this inefficiency. Instead of funding transient projects, we fund stable, persistent squads dedicated to specific customer journeys. These squads build deep domain mastery, retain institutional architectural memory, and continuously deploy high-value features. Far from losing financial governance, executive leadership gains dynamic capital allocation: if market conditions shift, you can dial funding up or down across value streams quarterly based on proven business outcomes rather than speculative multi-year business cases."
+      }
+    ]
+  }
+}

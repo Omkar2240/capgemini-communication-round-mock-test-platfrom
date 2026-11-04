@@ -1,0 +1,503 @@
+{
+  "id": "mock-08",
+  "testNumber": 8,
+  "title": "Mock Test 08: Major Incident Management & RCA",
+  "difficulty": "Intermediate",
+  "durationMinutes": 60,
+  "description": "Crisis communications, Sev-1 triage protocols, blameless post-mortem methodology, and executive incident post-mortems.",
+  "sectionTimers": {
+    "grammar": 12,
+    "writing": 10,
+    "situational": 10,
+    "reading": 10,
+    "listening": 8,
+    "speaking": 10
+  },
+  "sections": {
+    "grammar": [
+      {
+        "id": "mock-08-gram-01",
+        "type": "grammar",
+        "prompt": "Neither the primary DNS cluster nor the secondary failover endpoints _____ responding during the Sev-1 outage.",
+        "options": [
+          "was",
+          "were",
+          "is",
+          "has been"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"were\") is correct. In 'neither... nor' constructions, the verb agrees with the closer subject ('failover endpoints', plural -> 'were').",
+        "topic": "Subject-Verb Agreement",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-08-gram-02",
+        "type": "grammar",
+        "prompt": "Before the incident bridge was convened, the site reliability squad _____ the corrupted redis cache.",
+        "options": [
+          "has already purged",
+          "already purges",
+          "had already purged",
+          "was already purging"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"had already purged\") is correct. Past perfect ('had already purged') denotes an action completed prior to the past event of convening the incident bridge.",
+        "topic": "Tenses",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-08-gram-03",
+        "type": "grammar",
+        "prompt": "The incident commander declared _____ Sev-1 operational emergency within eight minutes of telemetry alerting.",
+        "options": [
+          "an",
+          "the",
+          "no article needed",
+          "a"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"a\") is correct. 'Sev-1' (/sɛv wʌn/) begins with a consonant sound, requiring indefinite article 'a'.",
+        "topic": "Articles",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-08-gram-04",
+        "type": "grammar",
+        "prompt": "The engineering post-mortem adhered strictly _____ the blameless review guidelines established by enterprise SRE.",
+        "options": [
+          "to",
+          "with",
+          "in",
+          "by"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"to\") is correct. The verb 'adhere' is conventionally paired with the preposition 'to'.",
+        "topic": "Prepositions",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-08-gram-05",
+        "type": "grammar",
+        "prompt": "If the network operations center _____ traffic to the disaster recovery site immediately, customer downtime would have been halved.",
+        "options": [
+          "rerouted",
+          "had rerouted",
+          "has rerouted",
+          "would reroute"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"had rerouted\") is correct. Third conditional (past unreal condition: 'had rerouted' ... 'would have been halved') requires past perfect in the if-clause.",
+        "topic": "Conditionals",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-08-gram-06",
+        "type": "grammar",
+        "prompt": "The automated canary deployment was rolled back _____ error rates exceeded the 0.5% critical threshold.",
+        "options": [
+          "although",
+          "despite",
+          "because",
+          "whereas"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"because\") is correct. Causal conjunction 'because' connects the rollback action to the threshold breach trigger.",
+        "topic": "Conjunctions",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-08-gram-07",
+        "type": "grammar",
+        "prompt": "Of all the incident containment strategies reviewed, isolating the microservice container proved to be _____ effective.",
+        "options": [
+          "more",
+          "much",
+          "as",
+          "most"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"most\") is correct. Superlative form 'most effective' is required when evaluating among all strategies reviewed.",
+        "topic": "Adjectives & Adverbs",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-08-gram-08",
+        "type": "grammar",
+        "prompt": "Detailed timeline incident logs _____ by the designated scribe throughout the duration of the outage.",
+        "options": [
+          "were compiled",
+          "was compiled",
+          "compiling",
+          "compiled"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"were compiled\") is correct. Passive voice past simple plural ('were compiled') agrees with the plural subject 'logs'.",
+        "topic": "Voice & Modals",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-08-gram-09",
+        "type": "grammar",
+        "prompt": "The Site Reliability Engineer, _____ quick thinking prevented data corruption in the database shard, was recognized by executive leadership.",
+        "options": [
+          "who",
+          "whose",
+          "whom",
+          "which"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"whose\") is correct. Possessive relative pronoun 'whose' attributes the quick thinking to the Site Reliability Engineer.",
+        "topic": "Pronouns & Relative Clauses",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-08-gram-10",
+        "type": "grammar",
+        "prompt": "Following the service restoration, our infrastructure team will _____ the underlying race condition in the messaging queue.",
+        "options": [
+          "rectifying",
+          "rectified",
+          "rectify",
+          "rectification"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"rectify\") is correct. Modal auxiliary 'will' takes the base verb 'rectify' (meaning to correct or remedy).",
+        "topic": "Business Vocabulary",
+        "difficulty": "medium"
+      }
+    ],
+    "writing": [
+      {
+        "id": "mock-08-wri-01",
+        "type": "writing",
+        "prompt": "Write an urgent executive incident notification email to client stakeholders regarding a Sev-1 payment service outage, providing initial root cause findings, current mitigation status, and the estimated time to full recovery (ETR).",
+        "scenario": "Payment gateway experienced connection pool exhaustion at 14:15 UTC. Traffic has been diverted to backup payment processors. Current payment processing success rate is 94%. Full restoration expected by 16:30 UTC.",
+        "expectedFormat": "professional_email",
+        "recommendedWordCount": {
+          "min": 90,
+          "max": 160
+        },
+        "evaluationCriteria": [
+          "Clear crisis communication tone",
+          "Specific timeline and impact metrics",
+          "Actionable mitigation explanation",
+          "Clear next communication checkpoint"
+        ],
+        "modelResponse": "Executive Stakeholders,\n\nIncident Update: Sev-1 Payment Gateway Degradation\nStatus: Mitigated / Monitoring\n\nAt 14:15 UTC, automated alerts detected connection pool exhaustion within our primary payment orchestration microservice, resulting in transient transaction failures for approximately 18% of checkout requests.\n\nImmediate Remediation Actions:\n1. At 14:32 UTC, our Incident Response Team rerouted inbound transaction volume to our secondary payment processor gateway.\n2. We expanded database connection pool thresholds across all active Kubernetes ingress nodes.\n\nCurrent Status:\nPayment transaction success rates have rebounded to 94.2%. Core checkout workflows are operating normally. Our engineering squad is actively clearing queued asynchronous reconciliation events.\n\nEstimated Time to Full Recovery (ETR): 16:30 UTC.\n\nA dedicated incident bridge remains active, and our next executive status briefing will be published at 15:30 UTC or immediately upon any material change.\n\nSincerely,\nIncident Commander",
+        "keyPoints": [
+          "Clear crisis communication tone",
+          "Specific timeline and impact metrics",
+          "Actionable mitigation explanation",
+          "Clear next communication checkpoint"
+        ]
+      },
+      {
+        "id": "mock-08-wri-02",
+        "type": "writing",
+        "prompt": "Summarize the core principles of a Blameless Post-Mortem culture and explain why punishing human error increases systemic operational risk in complex software systems.",
+        "scenario": "Focus on psychological safety, root-cause depth (the 5 Whys), systemic safeguards, and knowledge sharing.",
+        "expectedFormat": "formal_memo",
+        "recommendedWordCount": {
+          "min": 75,
+          "max": 130
+        },
+        "evaluationCriteria": [
+          "Analytical rigor",
+          "Clear organizational psychology rationale",
+          "Professional structure",
+          "Concise synthesis"
+        ],
+        "modelResponse": "A blameless post-mortem culture operates on the foundational assumption that engineers act in good faith with the information available to them. When failures occur, blaming human error is counterproductive because it treats the symptom rather than systemic vulnerabilities. Punitive responses foster organizational fear, encouraging engineers to conceal mistakes, suppress near-misses, and withhold operational telemetry. Conversely, a blameless culture fosters psychological safety, allowing teams to conduct honest, in-depth root cause investigations using techniques like the '5 Whys.' By examining architectural gaps, flawed automated testing, ambiguous documentation, and inadequate observability, organizations implement durable structural safeguards—such as automated canary guardrails and circuit breakers—that make complex software systems fundamentally resilient against inevitable human slips.",
+        "keyPoints": [
+          "Analytical rigor",
+          "Clear organizational psychology rationale",
+          "Professional structure",
+          "Concise synthesis"
+        ]
+      }
+    ],
+    "situational": [
+      {
+        "id": "mock-08-sit-01",
+        "type": "situational",
+        "context": "During an active Sev-1 production outage, an anxious client executive joins the technical war room and begins asking constant questions, distracting the lead engineers diagnosing the server logs.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Shout at the executive to shut up and kick them off the bridge call without any explanation.",
+          "Stop all troubleshooting efforts and spend thirty minutes answering the executive's speculative questions.",
+          "Mute your microphone, pretend the audio is broken, and let the executive continue derailing the technical team.",
+          "Politely invite the executive into a dedicated stakeholder communication channel, introduce a designated liaison who provides updates every fifteen minutes, and protect the lead engineers so they can focus on technical triage."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Establishing a designated stakeholder liaison with a regular briefing cadence protects technical triage focus while keeping leadership informed.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Politely invite the executive into a dedicated stakeholder communication channel, introduce a designated liaison who provides updates every fifteen minutes, and protect the lead engineers so they can focus on technical triage."
+      },
+      {
+        "id": "mock-08-sit-02",
+        "type": "situational",
+        "context": "You are conducting a post-mortem review after a major database outage, and a senior manager repeatedly attempts to pin all blame on a junior developer who ran an unoptimized script.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Intervene firmly, reiterate that the post-mortem is strictly blameless, redirect the discussion to why the production database allowed direct unindexed execution without guardrails, and focus on automated prevention.",
+          "Agree with the senior manager publicly to avoid personal conflict and recommend firing the junior developer.",
+          "Cancel the post-mortem meeting entirely and refuse to publish an incident report.",
+          "Privately mock the junior developer after the meeting to appease the senior manager."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Upholding blameless post-mortem standards redirects focus from human scapegoating to systemic architectural safeguards and automated prevention.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Intervene firmly, reiterate that the post-mortem is strictly blameless, redirect the discussion to why the production database allowed direct unindexed execution without guardrails, and focus on automated prevention."
+      },
+      {
+        "id": "mock-08-sit-03",
+        "type": "situational",
+        "context": "A critical bug in your team's code caused a brief four-minute outage on the client's public website, but the client has not noticed or raised any ticket yet.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Keep completely silent about the bug and hope that the client never inspects their historical web logs.",
+          "Document the incident transparently, notify the client operations lead with an explanation of the root cause and immediate patch applied, and present the timeline proactively during the next standup.",
+          "Delete the server logs for that four-minute window to eliminate any evidence of downtime.",
+          "Blame the four minutes of downtime on a fictitious national telecommunications provider outage."
+        ],
+        "bestOption": 1,
+        "bestOptionRationale": "Option B is the optimal professional strategy. Proactive transparency regarding minor incidents reinforces client trust and demonstrates professional integrity and rigorous operational oversight.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Document the incident transparently, notify the client operations lead with an explanation of the root cause and immediate patch applied, and present the timeline proactively during the next standup."
+      },
+      {
+        "id": "mock-08-sit-04",
+        "type": "situational",
+        "context": "During a midnight production cutover, your automated regression suite fails three non-critical smoke tests, while core checkout workflows pass with 100% accuracy.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Override the test suite silently, mark all failed tests as passed in Jira, and log off to go to sleep.",
+          "Immediately abort the entire cutover and roll back all changes without analyzing what the three failures actually were.",
+          "Convene an immediate fifteen-minute go/no-go assessment with the engineering lead and client product owner, assess the business impact of the failed secondary tests, and make an informed collective decision whether to proceed or abort.",
+          "Delete the three failed tests permanently from the codebase so they never fail in future builds."
+        ],
+        "bestOption": 2,
+        "bestOptionRationale": "Option C is the optimal professional strategy. Disciplined go/no-go governance involves evaluating risk context collaboratively with stakeholders rather than taking unilateral shortcuts or premature rollbacks.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Convene an immediate fifteen-minute go/no-go assessment with the engineering lead and client product owner, assess the business impact of the failed secondary tests, and make an informed collective decision whether to proceed or abort."
+      },
+      {
+        "id": "mock-08-sit-05",
+        "type": "situational",
+        "context": "A client stakeholder demands that your team deploy a hotfix directly into production without running it through the staging environment or automated CI/CD pipeline.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Comply with the client's request immediately and push the untested code directly to master branch.",
+          "Hang up on the stakeholder and report them to the local police department for pressuring you.",
+          "Pretend to deploy the hotfix directly, but actually deploy it to a staging sandbox and lie to the client.",
+          "Respectfully refuse to bypass production gates, explain that unvalidated changes risk causing a catastrophic secondary outage, and offer to expedite testing through the automated pipeline under emergency protocols."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Adhering to emergency deployment guardrails prevents untested changes from causing catastrophic secondary failures while fulfilling urgency responsibly.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Respectfully refuse to bypass production gates, explain that unvalidated changes risk causing a catastrophic secondary outage, and offer to expedite testing through the automated pipeline under emergency protocols."
+      },
+      {
+        "id": "mock-08-sit-06",
+        "type": "situational",
+        "context": "After resolving an incident, the client insists that you sign a document claiming that the software platform will guaranteed never experience any downtime in the future.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Politely explain that in complex distributed cloud systems, 100% zero downtime cannot be mathematically or operationally guaranteed, and guide them toward industry-standard Service Level Agreements (SLAs) such as 99.95% availability with high-availability redundancy.",
+          "Sign the guarantee immediately without reading it to make the client feel happy.",
+          "Laugh out loud in the client's face and tell them they know nothing about computers.",
+          "Agree verbally to 100% uptime but refuse to put anything in writing."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Educating stakeholders on realistic high-availability cloud SLAs (e.g. 99.95%) aligns contractual expectations with distributed systems realities.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Politely explain that in complex distributed cloud systems, 100% zero downtime cannot be mathematically or operationally guaranteed, and guide them toward industry-standard Service Level Agreements (SLAs) such as 99.95% availability with high-availability redundancy."
+      }
+    ],
+    "reading": {
+      "id": "mock-08-read",
+      "type": "reading",
+      "passageTitle": "Site Reliability Engineering: The Mechanics of Resilient Incident Management and Post-Mortems",
+      "passageTopic": "Major Incident Management & RCA",
+      "wordCount": 334,
+      "passageContent": "In modern digital enterprises operating at scale, software system failures are not anomalies; they are statistical inevitabilities. Distributed microservice architectures, asynchronous event queues, and multi-tenant cloud substrates interact in non-deterministic ways that defeat exhaustive pre-production testing. Recognizing this reality, high-performing engineering organizations shift their paradigm from attempting to prevent all possible failures to building resilient systems capable of rapid detection, graceful containment, and systematic organizational learning.\n\nThe frontline mechanism of operational resilience is Major Incident Management (MIM). When an alert triggers a Sev-1 categorization—typically defined as a critical disruption impacting customer-facing revenue workflows or data integrity—a formal Incident Command System (ICS) is activated. The ICS designates clear, non-overlapping roles. The Incident Commander (IC) holds sole authority over triage strategy, operational tempo, and deployment approvals, purposefully detached from diagnosing code lines. Assisting the IC are technical leads focused strictly on hypothesis generation and execution, an Incident Scribe documenting timeline events and state changes, and a dedicated Communications Lead managing stakeholder briefings.\n\nOnce customer-facing service is restored—whether through automated rollback, traffic rerouting, or capacity shedding—the most critical phase begins: the Blameless Post-Mortem. The blameless philosophy, pioneered in high-hazard disciplines like avionics and healthcare and popularized in technology by Google SRE, posits that human error is the starting point of an investigation, not the conclusion. When an engineer executes a flawed command or overlooks a configuration drift, punishing that individual creates perverse incentives: operational opacity, delayed escalation, and fear.\n\nInstead, effective post-mortems analyze the systemic conditions that permitted the error to impact production. Investigations employ the '5 Whys' framework to traverse outward from the proximal cause (e.g., 'a database thread pool was exhausted') to foundational vulnerabilities (e.g., 'unbounded queue sizes, absence of circuit breakers, and insufficient load test automation'). The output of this process is not an assignment of culpability, but an actionable, tracked set of remediation items. By mandating that 50% of an SRE team's engineering capacity be reserved for proactive reliability engineering and automated error budget management, enterprises transform operational crises into permanent structural resilience.",
+      "questions": [
+        {
+          "id": "mock-08-read-q01",
+          "prompt": "In a formal Incident Command System (ICS), what is the primary operational role of the Incident Commander (IC)?",
+          "options": [
+            "Writing low-level kernel code patches directly in the production environment.",
+            "Holding sole authority over triage strategy, operational tempo, and approvals while remaining detached from diagnosing code.",
+            "Conducting sales pitches to prospective new clients while the outage is ongoing.",
+            "Answering customer support telephone hotlines personally throughout the crisis."
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"Holding sole authority over triage strategy, operational tempo, and approvals while remaining detached from diagnosing code.\") is correct. The passage explains: 'The Incident Commander (IC) holds sole authority over triage strategy, operational tempo, and deployment approvals, purposefully detached from diagnosing code lines.'",
+          "questionType": "factual"
+        },
+        {
+          "id": "mock-08-read-q02",
+          "prompt": "Why does the blameless post-mortem philosophy consider punishing human error counterproductive?",
+          "options": [
+            "Software engineers are legally immune from contractual employment responsibilities.",
+            "Cloud service providers automatically pay financial compensation for all human mistakes.",
+            "Punishing individuals fosters organizational fear, delayed escalation, and operational opacity.",
+            "Computers are entirely capable of self-healing without human engineering intervention."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"Punishing individuals fosters organizational fear, delayed escalation, and operational opacity.\") is correct. The text states: 'punishing that individual creates perverse incentives: operational opacity, delayed escalation, and fear.'",
+          "questionType": "inference"
+        },
+        {
+          "id": "mock-08-read-q03",
+          "prompt": "What technique do post-mortem investigations use to move from proximal causes to foundational systemic vulnerabilities?",
+          "options": [
+            "Randomized coin tosses during executive steering meetings.",
+            "Annual customer satisfaction survey questionnaires.",
+            "Single-pass syntax linting over archived legacy codebases.",
+            "The '5 Whys' root-cause traversal framework."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"The '5 Whys' root-cause traversal framework.\") is correct. The author notes: 'Investigations employ the \"5 Whys\" framework to traverse outward from the proximal cause... to foundational vulnerabilities.'",
+          "questionType": "vocabulary"
+        },
+        {
+          "id": "mock-08-read-q04",
+          "prompt": "What percentage of an SRE team's engineering capacity does the text state should be reserved for proactive reliability engineering?",
+          "options": [
+            "50%",
+            "5%",
+            "20%",
+            "95%"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"50%\") is correct. The final sentence specifies: 'mandating that 50% of an SRE team's engineering capacity be reserved for proactive reliability engineering and automated error budget management.'",
+          "questionType": "main-idea"
+        }
+      ]
+    },
+    "listening": {
+      "id": "mock-08-list",
+      "type": "listening",
+      "title": "Audio Debrief: Sev-1 Incident Post-Mortem & Remediation Action Plan",
+      "context": "Blameless post-mortem debriefing following a Sev-1 authentication outage and reviewing corrective actions.",
+      "dialogue": [
+        {
+          "speaker": "Danielle",
+          "text": "Good morning Alex. Let us review the timeline of yesterday's Sev-1 authentication incident. Monitoring flagged elevated errors at 08:12 UTC, and we isolated the root cause by 08:40 UTC."
+        },
+        {
+          "speaker": "Alex",
+          "text": "That is correct Danielle. The OAuth token signing key cache had expired without successfully rotating, which triggered a cascading thread deadlock in our Redis cluster."
+        },
+        {
+          "speaker": "Danielle",
+          "text": "Total service disruption lasted precisely 62 minutes before our engineers manually injected the updated signing keys and executed a rolling pod restart."
+        },
+        {
+          "speaker": "Alex",
+          "text": "To prevent recurrence, platform engineering is deploying automated key renewal alerts that fire thirty days, seven days, and 48 hours prior to expiration."
+        },
+        {
+          "speaker": "Danielle",
+          "text": "And we will validate the resilience of this fix with an automated chaos engineering simulation on staging next Tuesday."
+        },
+        {
+          "speaker": "Alex",
+          "text": "Agreed. All action items are documented in Jira and assigned for completion before the next release."
+        }
+      ],
+      "fullScriptText": "Danielle: Good morning Alex. Let us review the timeline of yesterday's Sev-1 authentication incident. Monitoring flagged elevated errors at 08:12 UTC, and we isolated the root cause by 08:40 UTC.\nAlex: That is correct Danielle. The OAuth token signing key cache had expired without successfully rotating, which triggered a cascading thread deadlock in our Redis cluster.\nDanielle: Total service disruption lasted precisely 62 minutes before our engineers manually injected the updated signing keys and executed a rolling pod restart.\nAlex: To prevent recurrence, platform engineering is deploying automated key renewal alerts that fire thirty days, seven days, and 48 hours prior to expiration.\nDanielle: And we will validate the resilience of this fix with an automated chaos engineering simulation on staging next Tuesday.\nAlex: Agreed. All action items are documented in Jira and assigned for completion before the next release.",
+      "questions": [
+        {
+          "id": "mock-08-list-q01",
+          "prompt": "What specific technical malfunction caused the cascading deadlock in the Redis cluster?",
+          "options": [
+            "A physical fiber optic cable was severed by an earthquake in California.",
+            "A junior developer accidentally deleted all user login credentials from the database.",
+            "The OAuth token signing key cache had expired without successfully rotating.",
+            "The public internet domain name registration expired due to non-payment of invoices."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"The OAuth token signing key cache had expired without successfully rotating.\") is correct. Danielle Evans notes: 'at 08:40 UTC, the team identified that our OAuth token signing key cache had expired without successfully rotating. This key rotation failure triggered a cascading deadlock in our Redis cluster.'"
+        },
+        {
+          "id": "mock-08-list-q02",
+          "prompt": "What was the total duration of the customer-facing service disruption?",
+          "options": [
+            "Exactly 8 minutes",
+            "Nearly 4 hours",
+            "Over 24 hours",
+            "Precisely 62 minutes"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"Precisely 62 minutes\") is correct. Danielle clearly states: 'Total service disruption lasted precisely 62 minutes.'"
+        },
+        {
+          "id": "mock-08-list-q03",
+          "prompt": "What notification cadence will the platform team implement for automated cryptographic key renewal alerts?",
+          "options": [
+            "Thirty days, seven days, and 48 hours prior to expiration",
+            "Five minutes before expiration only",
+            "Once every six months via postal mail",
+            "Only after the keys have completely expired in production"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"Thirty days, seven days, and 48 hours prior to expiration\") is correct. The transcript explicitly states: 'automated key renewal alerts that fire thirty days, seven days, and 48 hours prior to cryptographic expiration.'"
+        },
+        {
+          "id": "mock-08-list-q04",
+          "prompt": "What testing methodology will be conducted next Tuesday on staging to validate key expiration resilience?",
+          "options": [
+            "Manual telephone testing by customer service representatives",
+            "An automated chaos engineering simulation",
+            "An open-book multiple choice questionnaire for developers",
+            "A complete shutdown of all company email systems"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"An automated chaos engineering simulation\") is correct. Danielle specifies: 'we will conduct an automated chaos engineering simulation on our staging environment next Tuesday to validate key expiration resilience.'"
+        }
+      ]
+    },
+    "speaking": [
+      {
+        "id": "mock-08-spk-01",
+        "type": "speaking",
+        "prompt": "Deliver a calm, reassuring, and technically authoritative live audio update to client leadership during an ongoing critical server disruption.",
+        "context": "Acknowledge the severity of the outage, communicate current mitigation actions underway, provide a clear timeline for the next briefing, and avoid speculative blame.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Calm, authoritative crisis demeanor",
+          "Acknowledging business impact without panic",
+          "Concise summary of containment steps underway",
+          "Clear checkpoint commitment for the next update"
+        ],
+        "modelTranscript": "Good afternoon, leadership team. I am speaking directly from our active incident command bridge to provide an authoritative update on our core platform service disruption. We fully recognize the critical operational impact this issue has on your customer transactions, and resolving it is our highest organizational priority. At 14:10 UTC, our monitoring flagged elevated latency across our checkout API gateway. In response, our site reliability squad isolated the degraded database replica and is currently rerouting traffic to our warm standby cluster. While diagnostic telemetry is actively streaming, our primary focus remains rapid service restoration. We anticipate completing the failover within the next twenty minutes. I have assigned a dedicated incident scribe to log every step, and I will personally deliver our next status briefing at 14:45 UTC, or immediately upon service recovery."
+      },
+      {
+        "id": "mock-08-spk-02",
+        "type": "speaking",
+        "prompt": "Explain how implementing automated CI/CD guardrails and canary deployments prevents high-impact production outages compared to traditional big-bang software releases.",
+        "context": "Contrast risky monolithic releases with progressive rollout strategies, automated metric analysis, and instant automated rollbacks.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Risks of monolithic 'big-bang' deployments",
+          "Mechanics of canary releases (percentage routing)",
+          "Automated observability & error threshold rollbacks",
+          "Reducing blast radius and safeguarding user experience"
+        ],
+        "modelTranscript": "Traditional big-bang deployments carry immense systemic risk because hundreds of unvalidated changes are pushed simultaneously to an entire user base; when an unexpected defect emerges, identifying the root cause is chaotic and rolling back disrupts the entire enterprise. Modern CI/CD guardrails mitigate this through progressive canary deployments. Instead of exposing all traffic immediately, a new release artifact is routed to a tiny cohort—typically two to five percent of live traffic. During this canary window, automated observability pipelines continuously evaluate performance metrics, error rates, and CPU utilization against the baseline. If error thresholds breach predefined tolerances, automated circuit breakers immediately roll back the canary deployment without human delay. This drastically limits the blast radius to a fraction of users, safeguarding customer experience and ensuring production stability."
+      }
+    ]
+  }
+}

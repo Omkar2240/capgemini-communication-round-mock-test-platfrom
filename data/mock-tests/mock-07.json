@@ -1,0 +1,503 @@
+{
+  "id": "mock-07",
+  "testNumber": 7,
+  "title": "Mock Test 07: Stakeholder Alignment & Budget Variance",
+  "difficulty": "Intermediate",
+  "durationMinutes": 60,
+  "description": "Financial variance reporting, executive stakeholder negotiation, scope adjustment trade-offs, and professional governance dialogue.",
+  "sectionTimers": {
+    "grammar": 12,
+    "writing": 10,
+    "situational": 10,
+    "reading": 10,
+    "listening": 8,
+    "speaking": 10
+  },
+  "sections": {
+    "grammar": [
+      {
+        "id": "mock-07-gram-01",
+        "type": "grammar",
+        "prompt": "The program steering committee _____ unanimous in approving the proposed cost-containment measures.",
+        "options": [
+          "were",
+          "was",
+          "have been",
+          "are"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"was\") is correct. Collective noun 'committee' acting as a unified entity takes a singular verb ('was').",
+        "topic": "Subject-Verb Agreement",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-07-gram-02",
+        "type": "grammar",
+        "prompt": "Before the quarterly steering review, the financial controller _____ the revised vendor burn rates.",
+        "options": [
+          "has audited",
+          "auditing",
+          "had audited",
+          "audits"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"had audited\") is correct. Past perfect ('had audited') expresses an audit completed before the past event of the quarterly steering review.",
+        "topic": "Tenses",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-07-gram-03",
+        "type": "grammar",
+        "prompt": "Implementing this automated invoicing workflow will eliminate _____ substantial amount of administrative overhead.",
+        "options": [
+          "an",
+          "the",
+          "no article needed",
+          "a"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"a\") is correct. 'Substantial' begins with a consonant sound (/s/), requiring the indefinite article 'a'.",
+        "topic": "Articles",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-07-gram-04",
+        "type": "grammar",
+        "prompt": "The engagement manager accounted _____ the 14% budget variance by pointing to unplanned security compliance mandates.",
+        "options": [
+          "for",
+          "to",
+          "with",
+          "at"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"for\") is correct. The phrasal verb 'accounted for' means provided an explanation or justification for something.",
+        "topic": "Prepositions",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-07-gram-05",
+        "type": "grammar",
+        "prompt": "If the procurement office _____ the licensing contract by Friday, our rollout timeline will remain intact.",
+        "options": [
+          "finalized",
+          "finalizes",
+          "will finalize",
+          "has finalized"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"finalizes\") is correct. First conditional clause (If + present simple, will + verb) requires 'finalizes' for the third-person singular subject.",
+        "topic": "Conditionals",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-07-gram-06",
+        "type": "grammar",
+        "prompt": "The project was completed within budget, _____ several critical integration features had to be deferred to Phase 2.",
+        "options": [
+          "because",
+          "therefore",
+          "although",
+          "since"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"although\") is correct. Concessive conjunction 'although' correctly links the budget success with the compromise of deferring features.",
+        "topic": "Conjunctions",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-07-gram-07",
+        "type": "grammar",
+        "prompt": "Among all four vendor proposals evaluated, TechCorp offered the _____ comprehensive service level agreement.",
+        "options": [
+          "more",
+          "much",
+          "very",
+          "most"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"most\") is correct. Superlative form 'the most comprehensive' is required when comparing more than two options (all four proposals).",
+        "topic": "Adjectives & Adverbs",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-07-gram-08",
+        "type": "grammar",
+        "prompt": "Quarterly variance reports _____ directly to the Chief Financial Officer every third Monday.",
+        "options": [
+          "are submitted",
+          "is submitted",
+          "submitting",
+          "submitted"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"are submitted\") is correct. Passive voice present simple ('are submitted') correctly aligns with the plural subject 'variance reports'.",
+        "topic": "Voice & Modals",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-07-gram-09",
+        "type": "grammar",
+        "prompt": "The Senior Delivery Director, _____ strategic foresight prevented severe cost overruns, received executive commendation.",
+        "options": [
+          "which",
+          "whose",
+          "whom",
+          "who"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"whose\") is correct. Possessive relative pronoun 'whose' attributes the strategic foresight to the Senior Delivery Director.",
+        "topic": "Pronouns & Relative Clauses",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-07-gram-10",
+        "type": "grammar",
+        "prompt": "To prevent capital leakage, the PMO will _____ all discretionary travel and entertainment expenditures for the remainder of Q3.",
+        "options": [
+          "curtailing",
+          "curtailed",
+          "curtail",
+          "curtailment"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"curtail\") is correct. Modal auxiliary 'will' takes the base infinitive verb form 'curtail' (meaning to reduce or restrict).",
+        "topic": "Business Vocabulary",
+        "difficulty": "medium"
+      }
+    ],
+    "writing": [
+      {
+        "id": "mock-07-wri-01",
+        "type": "writing",
+        "prompt": "Write an email to an executive project sponsor explaining an 8% budget variance resulting from mid-sprint compliance changes, outlining two mitigation options, and asking for their decision on the preferred path.",
+        "scenario": "New regional data privacy regulations mandated additional encryption and security audits. Mitigation Option A reallocates unspent contractor hours; Option B descopes non-critical analytics dashboards.",
+        "expectedFormat": "professional_email",
+        "recommendedWordCount": {
+          "min": 90,
+          "max": 160
+        },
+        "evaluationCriteria": [
+          "Diplomatic executive tone",
+          "Clear explanation of variance causes",
+          "Structured presentation of mitigation options",
+          "Action-oriented decision request"
+        ],
+        "modelResponse": "Dear Mr. Davenport,\n\nI am writing to provide complete visibility regarding an 8% financial variance projected for our Q3 digital platform initiative. This adjustment stems from newly enacted regional data privacy directives, which mandated unanticipated encryption protocols and third-party penetration testing.\n\nTo absorb this variance without expanding our total capital allocation, we have formulated two viable mitigation strategies:\n\nOption A: Reallocate unspent contractor contingency funds from our Q4 infrastructure pool, preserving 100% of the originally committed product roadmap.\n\nOption B: Descope two secondary analytics dashboards and defer them to next fiscal year, remaining strictly within the original Q3 financial envelope.\n\nOur delivery squad strongly endorses Option A as it safeguards end-user delivery commitments. Could you please let us know your preferred direction during tomorrow's executive briefing?\n\nWarm regards,\nLead Engagement Manager",
+        "keyPoints": [
+          "Diplomatic executive tone",
+          "Clear explanation of variance causes",
+          "Structured presentation of mitigation options",
+          "Action-oriented decision request"
+        ]
+      },
+      {
+        "id": "mock-07-wri-02",
+        "type": "writing",
+        "prompt": "Summarize the principles of Earned Value Management (EVM) and explain how tracking Cost Performance Index (CPI) and Schedule Performance Index (SPI) helps leaders preempt project failure.",
+        "scenario": "Explain planned value, earned value, actual cost, and how CPI/SPI ratios provide objective trend analysis beyond raw budget burn.",
+        "expectedFormat": "formal_memo",
+        "recommendedWordCount": {
+          "min": 75,
+          "max": 130
+        },
+        "evaluationCriteria": [
+          "Objective technical exposition",
+          "Accurate definition of EVM metrics",
+          "Coherent cause-and-effect flow",
+          "Professional syntactic polish"
+        ],
+        "modelResponse": "Earned Value Management (EVM) is a rigorous project governance methodology that integrates scope, schedule, and cost metrics into an objective performance baseline. Rather than simply comparing actual expenditures against planned budgets, EVM evaluates Earned Value—the budgeted cost of work actually performed. Key performance indicators include the Cost Performance Index (CPI) and Schedule Performance Index (SPI). A CPI below 1.0 indicates cost overruns relative to output, while an SPI below 1.0 flags delivery schedule slippage. By continuously monitoring these complementary indices, program leaders obtain early mathematical warnings of project distress, enabling proactive resource reallocation and scope realignment before financial deficits become irrecoverable.",
+        "keyPoints": [
+          "Objective technical exposition",
+          "Accurate definition of EVM metrics",
+          "Coherent cause-and-effect flow",
+          "Professional syntactic polish"
+        ]
+      }
+    ],
+    "situational": [
+      {
+        "id": "mock-07-sit-01",
+        "type": "situational",
+        "context": "During a tense steering committee meeting, the client VP accuses your team of mismanaging contractor hours and causing a $45,000 budget overrun.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Interrupt the VP defensively and claim that the client's internal managers are entirely to blame for being incompetent.",
+          "Accept all blame immediately and promise to refund $45,000 from your company's own pocket without consulting leadership.",
+          "Pack up your laptop and walk out of the steering committee meeting to demonstrate professional offense.",
+          "Remain composed, acknowledge the VP's concern, present the audited timesheet records showing that the additional hours were spent on client-approved security changes, and offer to walk through a detailed line-item reconciliation after the meeting."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Maintaining professional composure, validating financial records objectively, and offering transparent reconciliation de-escalates conflict while upholding team credibility.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Remain composed, acknowledge the VP's concern, present the audited timesheet records showing that the additional hours were spent on client-approved security changes, and offer to walk through a detailed line-item reconciliation after the meeting."
+      },
+      {
+        "id": "mock-07-sit-02",
+        "type": "situational",
+        "context": "Your project controller informs you that due to favorable foreign exchange rates and automated testing efficiencies, the project has an unexpected $60,000 budget surplus.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Schedule a transparent review with the client sponsor and internal leadership, present options such as accelerating backlog features, bolstering test coverage, or returning the surplus to the client's budget reserve.",
+          "Conceal the surplus in an unmonitored contingency slush fund to spend on team parties and lavish dinners.",
+          "Immediately bill extra fictional contractor hours to consume the entire $60,000 surplus before the fiscal quarter ends.",
+          "Ignore the financial report completely since surpluses do not require executive management attention."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Transparent governance and collaborative allocation of budget surpluses reinforces client trust and maximizes project ROI.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Schedule a transparent review with the client sponsor and internal leadership, present options such as accelerating backlog features, bolstering test coverage, or returning the surplus to the client's budget reserve."
+      },
+      {
+        "id": "mock-07-sit-03",
+        "type": "situational",
+        "context": "A key client stakeholder demands that an expensive new reporting portal be built within the current sprint, but refuses to provide extra budget or extend deadlines.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Promise the client that the team will deliver everything, and secretly force developers to work all night throughout the sprint.",
+          "Explain the concept of the project management triangle, explain that adding the portal requires either descoping another feature of equal effort or securing additional funding, and invite them to prioritize the sprint backlog collaboratively.",
+          "Tell the stakeholder rudely that their demand is ridiculous and refuse to speak to them for the rest of the project.",
+          "Drop core platform security testing quietly to make room for the client's new reporting portal."
+        ],
+        "bestOption": 1,
+        "bestOptionRationale": "Option B is the optimal professional strategy. Grounding scope negotiations in the project iron triangle helps stakeholders make conscious, trade-off decisions without jeopardizing quality or team health.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Explain the concept of the project management triangle, explain that adding the portal requires either descoping another feature of equal effort or securing additional funding, and invite them to prioritize the sprint backlog collaboratively."
+      },
+      {
+        "id": "mock-07-sit-04",
+        "type": "situational",
+        "context": "You discover that one of your subcontractor partner firms has been logging billing hours for an engineer who transitioned off the project three weeks ago.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Approve the invoice anyway because questioning a subcontractor might damage interpersonal relationships.",
+          "Threaten the subcontractor's CEO with public slander on social media platforms without checking the billing facts.",
+          "Halt approval of the subcontractor invoice immediately, alert your procurement and legal representatives, and request a corrected billing ledger with full credit for the erroneously billed hours.",
+          "Deduct the disputed amount secretly from a different, unrelated vendor's invoice."
+        ],
+        "bestOption": 2,
+        "bestOptionRationale": "Option C is the optimal professional strategy. Prudent financial governance requires freezing disputed invoices and engaging legal and procurement channels to secure accurate financial reconciliations.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Halt approval of the subcontractor invoice immediately, alert your procurement and legal representatives, and request a corrected billing ledger with full credit for the erroneously billed hours."
+      },
+      {
+        "id": "mock-07-sit-05",
+        "type": "situational",
+        "context": "The client's finance director requests a 15% across-the-board rate cut on all Capgemini consultant billable hours due to company-wide enterprise cost reductions.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Agree on the spot without consulting your account leadership, slashing team salaries immediately.",
+          "Refuse to discuss commercial terms and threaten to pull all consultants off the project by tomorrow morning.",
+          "Accept the rate cut but instruct consultants to work 15% fewer hours while logging full-time attendance.",
+          "Acknowledge the client's commercial pressures, engage your account executive and commercial director, and propose alternative value models such as blended onshore/offshore ratios or fixed-price milestone delivery rather than arbitrary rate reductions."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Involving commercial leadership to restructure delivery models (e.g. offshore blending) accommodates client cost constraints without degrading partnership viability or profitability.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Acknowledge the client's commercial pressures, engage your account executive and commercial director, and propose alternative value models such as blended onshore/offshore ratios or fixed-price milestone delivery rather than arbitrary rate reductions."
+      },
+      {
+        "id": "mock-07-sit-06",
+        "type": "situational",
+        "context": "Two departments within the client organization have conflicting requirements for an enterprise dashboard, and their disagreements are stalling milestone sign-off.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Organize a joint alignment workshop with design prototypes, map both departments' operational KPIs, and create a unified role-based dashboard view that serves both user personas.",
+          "Pick the department whose manager has the higher executive title and completely ignore the other department.",
+          "Halt all development indefinitely until the two client departments resolve their personal arguments.",
+          "Build two completely separate, redundant enterprise platforms, doubling client maintenance costs without telling them."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Facilitating collaborative design workshops with role-based features synthesizes conflicting requirements into a cohesive enterprise solution.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Organize a joint alignment workshop with design prototypes, map both departments' operational KPIs, and create a unified role-based dashboard view that serves both user personas."
+      }
+    ],
+    "reading": {
+      "id": "mock-07-read",
+      "type": "reading",
+      "passageTitle": "Strategic Financial Management: Navigating Enterprise Cost Variance and Portfolio Health",
+      "passageTopic": "Stakeholder Alignment & Budget Variance",
+      "wordCount": 333,
+      "passageContent": "In large-scale technology consulting engagements, financial governance is intrinsically tied to project success. While technical excellence determines the quality of deliverables, rigorous fiscal discipline dictates whether an engagement creates sustainable enterprise value or deteriorates into acrimonious dispute. Enterprise programs frequently encounter budget variance—defined as the mathematical divergence between planned expenditures (the cost baseline) and actual capital burned over a specific reporting horizon.\n\nBudget variances are rarely the result of a single catastrophic failure; rather, they accumulate through subtle, compounding operational dynamics. The most prevalent driver is unmanaged scope creep—the gradual addition of technical requirements, user stories, and architectural enhancements without corresponding contractual amendments or funding allocations. A second major contributor is estimation optimism bias, wherein early-stage planning fails to account for technical debt, integration complexity, and regulatory friction. Finally, external market factors, such as currency fluctuations in offshore delivery hubs and sudden vendor price increases, can skew forecasted burn rates.\n\nTo manage variances effectively, mature organizations deploy Earned Value Management (EVM) frameworks. EVM introduces three foundational data points: Planned Value (PV), which represents the authorized budget assigned to scheduled work; Earned Value (EV), quantifying the budget associated with work actually completed; and Actual Cost (AC), capturing the realized expenditures incurred. By contrasting these variables, financial controllers derive two critical diagnostic ratios: the Cost Performance Index (CPI = EV / AC) and the Schedule Performance Index (SPI = EV / PV).\n\nA CPI value lower than 1.0 indicates that the program is spending more money than budgeted for the volume of work delivered, signaling immediate cost inefficiency. Conversely, an SPI below 1.0 indicates delivery schedule slippage. Research in portfolio management demonstrates that when a project's cumulative CPI falls below 0.85 after the 20% completion milestone, it almost never recovers to its original budget baseline without decisive executive intervention. Remediation strategies must focus on root causes: renegotiating contractual scope, optimizing onshore-offshore staffing ratios, replacing bespoke components with commercial off-the-shelf modules, and instituting strict weekly variance thresholds to prevent minor discrepancies from metastasizing into programmatic crises.",
+      "questions": [
+        {
+          "id": "mock-07-read-q01",
+          "prompt": "What is defined as the most prevalent driver of project budget variance in enterprise consulting engagements?",
+          "options": [
+            "Sudden worldwide shortages of cloud server hardware components.",
+            "Unmanaged scope creep where features are added without formal contractual funding amendments.",
+            "Mandatory annual salary increases mandated by international trade unions.",
+            "Complete failure of automated software testing pipelines across all delivery squads."
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"Unmanaged scope creep where features are added without formal contractual funding amendments.\") is correct. The passage explicitly states: 'The most prevalent driver is unmanaged scope creep—the gradual addition of technical requirements, user stories, and architectural enhancements without corresponding contractual amendments.'",
+          "questionType": "factual"
+        },
+        {
+          "id": "mock-07-read-q02",
+          "prompt": "How does Earned Value Management (EVM) calculate the Cost Performance Index (CPI)?",
+          "options": [
+            "By multiplying Planned Value (PV) by the total number of offshore engineers.",
+            "By subtracting actual expenses from the original unapproved marketing budget.",
+            "By dividing the Earned Value (EV) by the Actual Cost (AC).",
+            "By dividing total billable hours by the number of completed customer interviews."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"By dividing the Earned Value (EV) by the Actual Cost (AC).\") is correct. The text gives the exact formula: 'Cost Performance Index (CPI = EV / AC)'.",
+          "questionType": "inference"
+        },
+        {
+          "id": "mock-07-read-q03",
+          "prompt": "What does portfolio management research indicate when a project's cumulative CPI drops below 0.85 after 20% completion?",
+          "options": [
+            "The project is guaranteed to complete two months ahead of schedule with zero quality defects.",
+            "The project will immediately receive an automated government grant to cover all remaining expenses.",
+            "The project team should immediately double the number of onshore project directors.",
+            "The project almost never recovers to its original budget baseline without decisive executive intervention."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"The project almost never recovers to its original budget baseline without decisive executive intervention.\") is correct. The passage highlights: 'when a project's cumulative CPI falls below 0.85 after the 20% completion milestone, it almost never recovers to its original budget baseline without decisive executive intervention.'",
+          "questionType": "vocabulary"
+        },
+        {
+          "id": "mock-07-read-q04",
+          "prompt": "What remediation strategy does the author suggest to prevent minor variances from becoming programmatic crises?",
+          "options": [
+            "Instituting strict weekly variance thresholds, optimizing staffing ratios, and renegotiating contractual scope.",
+            "Ignoring financial spreadsheets and focusing solely on developer subjective morale.",
+            "Terminating all quality assurance engineers to reduce immediate labor overhead.",
+            "Converting all project contracts to open-ended time-and-materials agreements unconditionally."
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"Instituting strict weekly variance thresholds, optimizing staffing ratios, and renegotiating contractual scope.\") is correct. The author recommends: 'renegotiating contractual scope, optimizing onshore-offshore staffing ratios... and instituting strict weekly variance thresholds to prevent minor discrepancies from metastasizing into programmatic crises.'",
+          "questionType": "main-idea"
+        }
+      ]
+    },
+    "listening": {
+      "id": "mock-07-list",
+      "type": "listening",
+      "title": "Executive Audio Briefing: Program Portfolio Financial Reconciliation",
+      "context": "Program portfolio financial reconciliation review addressing budget variance and corrective resource allocation.",
+      "dialogue": [
+        {
+          "speaker": "Marcus",
+          "text": "Good afternoon Sarah. Let us review our midterm financial metrics for the Retail Omnichannel program as of Sprint 14."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Certainly Marcus. Our Planned Value was 2.8 million dollars, Earned Value stands at 2.65 million dollars, and Actual Cost has reached 3.1 million dollars. That gives us an SPI of 0.95 and a CPI of 0.85."
+        },
+        {
+          "speaker": "Marcus",
+          "text": "Our cost efficiency is flashing amber. What is the root cause of this 450,000-dollar budget overrun?"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "The primary driver was retaining specialized senior external cloud architects six weeks longer than budgeted to resolve legacy ERP data schema mismatches."
+        },
+        {
+          "speaker": "Marcus",
+          "text": "To recover our margins, we are transitioning oversight to internal global delivery center leads, reducing our monthly blended rate by 28%."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Additionally, the client steering committee approved a 150,000-dollar formal budget adjustment under Change Request 12 to fund the additional ERP transformation."
+        }
+      ],
+      "fullScriptText": "Marcus: Good afternoon Sarah. Let us review our midterm financial metrics for the Retail Omnichannel program as of Sprint 14.\nSarah: Certainly Marcus. Our Planned Value was 2.8 million dollars, Earned Value stands at 2.65 million dollars, and Actual Cost has reached 3.1 million dollars. That gives us an SPI of 0.95 and a CPI of 0.85.\nMarcus: Our cost efficiency is flashing amber. What is the root cause of this 450,000-dollar budget overrun?\nSarah: The primary driver was retaining specialized senior external cloud architects six weeks longer than budgeted to resolve legacy ERP data schema mismatches.\nMarcus: To recover our margins, we are transitioning oversight to internal global delivery center leads, reducing our monthly blended rate by 28%.\nSarah: Additionally, the client steering committee approved a 150,000-dollar formal budget adjustment under Change Request 12 to fund the additional ERP transformation.",
+      "questions": [
+        {
+          "id": "mock-07-list-q01",
+          "prompt": "What were the calculated SPI and CPI metrics reported by Marcus Vance for Sprint 14?",
+          "options": [
+            "SPI of 1.20 and CPI of 1.15",
+            "SPI of 0.70 and CPI of 0.60",
+            "SPI of 0.95 and CPI of 0.85",
+            "SPI of 1.00 and CPI of 1.00"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"SPI of 0.95 and CPI of 0.85\") is correct. Marcus Vance states: 'Translating these figures into our primary EVM metrics yields a Schedule Performance Index of 0.95 and a Cost Performance Index of 0.85.'"
+        },
+        {
+          "id": "mock-07-list-q02",
+          "prompt": "What was identified as the primary driver behind the $450,000 budget overrun?",
+          "options": [
+            "Purchasing expensive enterprise hardware servers that were never deployed in production.",
+            "Paying excessive legal settlement penalties due to customer intellectual property disputes.",
+            "Providing all program team members with unauthorized luxury corporate travel accommodations.",
+            "Retaining specialized senior external cloud architects six weeks longer than planned for legacy ERP issues."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"Retaining specialized senior external cloud architects six weeks longer than planned for legacy ERP issues.\") is correct. Marcus states: 'The primary driver of this 450,000-dollar cost overrun is our reliance on specialized senior external cloud architects who were retained six weeks longer than budgeted to resolve legacy ERP data schema mismatches.'"
+        },
+        {
+          "id": "mock-07-list-q03",
+          "prompt": "By what percentage will the monthly blended rate decrease after transitioning to internal global delivery center leads?",
+          "options": [
+            "28%",
+            "10%",
+            "45%",
+            "65%"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"28%\") is correct. The speaker confirms: 'reducing our monthly blended rate by 28%.'"
+        },
+        {
+          "id": "mock-07-list-q04",
+          "prompt": "What amount was approved by the client under Change Request 12 to cover ERP data transformation?",
+          "options": [
+            "$50,000",
+            "$150,000",
+            "$300,000",
+            "$450,000"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"$150,000\") is correct. Marcus clarifies: 'the client has approved a 150,000-dollar formal budget adjustment under Change Request 12 to fund the additional ERP data transformation.'"
+        }
+      ]
+    },
+    "speaking": [
+      {
+        "id": "mock-07-spk-01",
+        "type": "speaking",
+        "prompt": "Explain to a client executive why unexpected regulatory changes necessitate a formal Change Request and budget realignment, rather than being absorbed into current sprint capacity.",
+        "context": "Maintain a respectful, collaborative tone while clearly defining contractual boundaries, delivery quality risks, and long-term project viability.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Validating the importance of regulatory compliance",
+          "Explaining capacity constraints and iron triangle trade-offs",
+          "Preserving quality and avoiding engineer burnout",
+          "Framing Change Requests as collaborative risk management"
+        ],
+        "modelTranscript": "We fully recognize that adhering to these newly introduced data privacy regulations is absolutely mission-critical for your organization's legal standing and customer trust. Because these mandates were introduced after our initial project baseline was finalized, accommodating them requires substantial cryptographic engineering, architectural re-validation, and dedicated compliance auditing. If we attempted to absorb these complex tasks into our current sprint capacity without adjusting scope or resources, we would inevitably compromise code quality, induce severe team burnout, and jeopardize our scheduled delivery dates. A formal Change Request is not a roadblock; rather, it is a transparent governance tool that ensures these essential regulatory features are properly resourced, thoroughly tested, and delivered without sacrificing the integrity of your core platform."
+      },
+      {
+        "id": "mock-07-spk-02",
+        "type": "speaking",
+        "prompt": "Describe how you would handle a scenario where two senior executives have completely conflicting visions for a digital product's upcoming roadmap.",
+        "context": "Scenario: The Chief Marketing Officer wants rapid customer-facing UI features; the Chief Information Security Officer demands complete backend architectural hardening.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Objective stakeholder facilitation",
+          "Aligning on shared business objectives & risk tolerance",
+          "Data-driven prioritization framework (WSJF / MoSCoW)",
+          "Synthesizing a balanced, phased roadmap"
+        ],
+        "modelTranscript": "When senior executives hold conflicting priorities, the role of a consultant is to facilitate objective alignment rather than taking sides. In this scenario, both the CMO's desire for revenue-generating customer features and the CISO's mandate for enterprise security hardening represent valid, critical business imperatives. I would convene a structured workshop using an objective prioritization framework, such as Weighted Shortest Job First. By evaluating each feature against business value, time criticality, and risk reduction, we can quantify trade-offs transparently. I would propose a phased hybrid roadmap where foundational security enhancements are paired with high-impact, visible user interface improvements in parallel tracks. This balanced approach protects enterprise compliance while continuing to demonstrate demonstrable commercial progress to the market."
+      }
+    ]
+  }
+}

@@ -1,0 +1,503 @@
+{
+  "id": "mock-12",
+  "testNumber": 12,
+  "title": "Mock Test 12: Executive Board Briefing & Crisis Response",
+  "difficulty": "Advanced",
+  "durationMinutes": 60,
+  "description": "Crisis communications, fiduciary executive governance, regulatory disclosure protocols, and investor relations crisis management.",
+  "sectionTimers": {
+    "grammar": 12,
+    "writing": 10,
+    "situational": 10,
+    "reading": 10,
+    "listening": 8,
+    "speaking": 10
+  },
+  "sections": {
+    "grammar": [
+      {
+        "id": "mock-12-gram-01",
+        "type": "grammar",
+        "prompt": "Neither the Chief Information Security Officer nor the general counsel _____ willing to endorse the preliminary disclosure statement.",
+        "options": [
+          "were",
+          "was",
+          "are",
+          "have been"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"was\") is correct. In 'neither... nor' constructions, the verb agrees with the closer singular subject ('general counsel' -> 'was').",
+        "topic": "Subject-Verb Agreement",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-12-gram-02",
+        "type": "grammar",
+        "prompt": "Before the emergency board convening commenced, the forensic cybersecurity investigators _____ the exfiltration vector.",
+        "options": [
+          "has identified",
+          "identifying",
+          "had identified",
+          "identifies"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"had identified\") is correct. Past perfect ('had identified') indicates an action completed before the past start of the emergency board meeting.",
+        "topic": "Tenses",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-12-gram-03",
+        "type": "grammar",
+        "prompt": "The executive board demanded _____ exhaustive forensic accounting investigation into the reported discrepancy.",
+        "options": [
+          "a",
+          "the",
+          "no article needed",
+          "an"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"an\") is correct. 'Exhaustive' begins with a vowel sound (/ɪɡˈzɔːstɪv/), requiring indefinite article 'an'.",
+        "topic": "Articles",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-12-gram-04",
+        "type": "grammar",
+        "prompt": "The corporate crisis response protocol adheres strictly _____ statutory SEC disclosure timelines.",
+        "options": [
+          "to",
+          "with",
+          "in",
+          "by"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"to\") is correct. The verb 'adheres' pairs with the preposition 'to'.",
+        "topic": "Prepositions",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-12-gram-05",
+        "type": "grammar",
+        "prompt": "Had external forensic auditors _____ the anomaly forty-eight hours earlier, the public regulatory disclosure would have been orderly.",
+        "options": [
+          "flag",
+          "flagged",
+          "flagging",
+          "has flagged"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"flagged\") is correct. Inverted third conditional ('Had [subject] [past participle]') requires 'flagged'.",
+        "topic": "Conditionals",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-12-gram-06",
+        "type": "grammar",
+        "prompt": "The board voted to suspend dividend payments, _____ maintaining liquidity during the global supply chain crisis was paramount.",
+        "options": [
+          "although",
+          "despite",
+          "inasmuch as",
+          "whereas"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"inasmuch as\") is correct. Causal conjunction phrase 'inasmuch as' (meaning since or because) justifies the board's liquidity decision.",
+        "topic": "Conjunctions",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-12-gram-07",
+        "type": "grammar",
+        "prompt": "Among all four legal remediation strategies submitted by external counsel, Option C presented the _____ legal exposure.",
+        "options": [
+          "less",
+          "lesser",
+          "little",
+          "least"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"least\") is correct. Superlative form 'least' is required when evaluating among all four options.",
+        "topic": "Adjectives & Adverbs",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-12-gram-08",
+        "type": "grammar",
+        "prompt": "Comprehensive forensic dossiers and media response drafts _____ by the crisis committee by midnight.",
+        "options": [
+          "were finalized",
+          "was finalized",
+          "finalizing",
+          "finalized"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"were finalized\") is correct. Passive voice past simple plural ('were finalized') correctly matches plural subject 'dossiers and drafts'.",
+        "topic": "Voice & Modals",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-12-gram-09",
+        "type": "grammar",
+        "prompt": "The Audit Committee Chair, _____ rigorous questioning uncovered the off-balance-sheet liability, maintained uncompromising oversight.",
+        "options": [
+          "who",
+          "whose",
+          "whom",
+          "which"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"whose\") is correct. Possessive relative pronoun 'whose' describes the rigorous questioning belonging to the Audit Committee Chair.",
+        "topic": "Pronouns & Relative Clauses",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-12-gram-10",
+        "type": "grammar",
+        "prompt": "The corporate communications office sought to _____ public anxiety by issuing transparent, verified hourly incident bulletins.",
+        "options": [
+          "allaying",
+          "allayed",
+          "allay",
+          "allayment"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"allay\") is correct. Infinitive particle 'to' followed by base verb 'allay' (meaning to diminish or calm).",
+        "topic": "Business Vocabulary",
+        "difficulty": "hard"
+      }
+    ],
+    "writing": [
+      {
+        "id": "mock-12-wri-01",
+        "type": "writing",
+        "prompt": "Write an urgent, highly confidential executive briefing memo to the Board of Directors regarding a confirmed cybersecurity intrusion into customer data archives, detailing immediate containment actions, legal disclosures, and strategic remediation.",
+        "scenario": "Intrusion detected at 02:00 UTC affecting 45,000 legacy records. Forensic containment complete. Zero active exfiltration ongoing. Mandatory 72-hour regulatory disclosure window active. Press release drafted.",
+        "expectedFormat": "professional_email",
+        "recommendedWordCount": {
+          "min": 90,
+          "max": 160
+        },
+        "evaluationCriteria": [
+          "Rigorous executive gravitas",
+          "Transparent, objective crisis quantification",
+          "Clear regulatory compliance timeline",
+          "Structured strategic remediation roadmap"
+        ],
+        "modelResponse": "Confidential Memorandum to the Board of Directors\n\nSubject: Critical Incident Briefing: Containment and Disclosure Protocol for Data Incident\n\nMembers of the Board,\n\nAt 02:00 UTC this morning, our SecOps monitoring detected unauthorized credential usage accessing an isolated archive containing approximately 45,000 legacy customer records. We immediately initiated our Tier-1 Crisis Management Protocol.\n\nActions Taken:\n1. Operational Containment: Compromised service credentials were revoked within twelve minutes, and forensic network isolation was executed. Mandiant forensic leads confirm zero active persistence or active exfiltration.\n2. Regulatory Adherence: General Counsel has mobilized statutory notification workflows to satisfy GDPR and SEC 72-hour notification requirements.\n3. Governance & Comms: A holding press statement has been prepared. We are actively provisioning 24 months of complimentary credit monitoring for affected customers.\n\nAn emergency board executive session will convene at 18:00 UTC today to review the comprehensive forensic dossier and approve external disclosures.\n\nRespectfully submitted,\nChief Executive Officer & Chief Legal Officer",
+        "keyPoints": [
+          "Rigorous executive gravitas",
+          "Transparent, objective crisis quantification",
+          "Clear regulatory compliance timeline",
+          "Structured strategic remediation roadmap"
+        ]
+      },
+      {
+        "id": "mock-12-wri-02",
+        "type": "writing",
+        "prompt": "Summarize the fiduciary responsibilities of corporate directors during an enterprise crisis and explain why transparent, verified disclosure protects shareholder value better than minimization or delay.",
+        "scenario": "Focus on duty of care, duty of loyalty, regulatory penalties for delayed disclosure, brand equity erosion, and investor trust restoration.",
+        "expectedFormat": "formal_memo",
+        "recommendedWordCount": {
+          "min": 75,
+          "max": 130
+        },
+        "evaluationCriteria": [
+          "Deep legal-corporate governance understanding",
+          "Concise synthesis of fiduciary duties",
+          "Compelling argumentation for transparency",
+          "Flawless formal prose"
+        ],
+        "modelResponse": "Corporate directors bear strict fiduciary obligations—principally the Duty of Care and the Duty of Loyalty—requiring informed, diligent oversight, especially during enterprise crises. When organizations confront catastrophic disruptions, leadership is often tempted to minimize disclosures or delay notification hoping for internal resolution. However, modern corporate governance demonstrates that obfuscation inflicts catastrophic reputational and financial damage. Delayed disclosure invites punitive regulatory penalties, shareholder derivative lawsuits, and severe stock valuation collapse once concealed facts inevitably emerge. Conversely, proactive, verified transparency demonstrates operational control, restores investor confidence, and preserves institutional brand equity. By confronting crises forthrightly, boards fulfill their fiduciary mandates and protect sustainable long-term enterprise valuation.",
+        "keyPoints": [
+          "Deep legal-corporate governance understanding",
+          "Concise synthesis of fiduciary duties",
+          "Compelling argumentation for transparency",
+          "Flawless formal prose"
+        ]
+      }
+    ],
+    "situational": [
+      {
+        "id": "mock-12-sit-01",
+        "type": "situational",
+        "context": "An aggressive investigative reporter calls your personal mobile phone at 9:00 PM claiming they have leaked internal documents proving your client's core software platform has a massive security backdoor, demanding an immediate comment.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Panic and confirm that the reporter's allegations are 100% true while begging them not to write the article.",
+          "Threaten the reporter with physical violence and shout profanities into the telephone receiver.",
+          "Answer all of the reporter's questions in detail and email them internal confidential architectural diagrams.",
+          "Politely state that you cannot comment on unverified inquiries, refer the reporter to the official corporate media relations office, immediately notify your legal and communications leadership, and refrain from discussing any proprietary details."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Strict adherence to corporate media referral protocols prevents unauthorized leaks while alerting legal and crisis communications leadership immediately.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Politely state that you cannot comment on unverified inquiries, refer the reporter to the official corporate media relations office, immediately notify your legal and communications leadership, and refrain from discussing any proprietary details."
+      },
+      {
+        "id": "mock-12-sit-02",
+        "type": "situational",
+        "context": "During an emergency board meeting regarding a major compliance breach, a board member aggressively demands to know which specific software engineer wrote the flawed code line so they can be fired publicly.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Intervene calmly and diplomatically, explain that individual code contributions undergo multi-stage peer reviews and automated testing pipelines, and refocus the board's attention on systemic governance and architectural safeguards.",
+          "Shout out the junior developer's home address and telephone number to the angry board member.",
+          "Accuse the board member of being a tyrant and storm out of the boardroom slammering the door.",
+          "Fabricate a story blaming an offshore employee who recently resigned to protect your onshore team."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Protecting individuals from scapegoating while diplomatically guiding executive attention to systemic verification pipelines upholds professional ethics and corporate governance.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Intervene calmly and diplomatically, explain that individual code contributions undergo multi-stage peer reviews and automated testing pipelines, and refocus the board's attention on systemic governance and architectural safeguards."
+      },
+      {
+        "id": "mock-12-sit-03",
+        "type": "situational",
+        "context": "You discover that a senior executive sold $500,000 worth of company stock two hours after being briefed in private on an unreleased critical cybersecurity vulnerability.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Blackmail the senior executive for half of their profits in exchange for keeping their secret.",
+          "Immediately report the transaction to your enterprise ethics hotline, Chief Compliance Officer, and General Counsel for urgent legal evaluation under federal insider trading regulations.",
+          "Log into your personal stock trading account and sell all of your own shares immediately.",
+          "Ignore the transaction completely because executive personal finances are none of your business."
+        ],
+        "bestOption": 1,
+        "bestOptionRationale": "Option B is the optimal professional strategy. Reporting potential insider trading immediately through formal compliance and general counsel channels fulfills mandatory legal and ethical obligations.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Immediately report the transaction to your enterprise ethics hotline, Chief Compliance Officer, and General Counsel for urgent legal evaluation under federal insider trading regulations."
+      },
+      {
+        "id": "mock-12-sit-04",
+        "type": "situational",
+        "context": "The client CEO asks you to present an overly optimistic project health status report to the board of directors, intentionally concealing a $2 million financial deficit.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Agree to falsify the report, alter the financial spreadsheets, and present the fictional numbers with a smile.",
+          "Secretly tape the conversation with the CEO and post the audio recording on public YouTube channels.",
+          "Respectfully refuse to misrepresent project status, explain the severe fiduciary and legal consequences of presenting fraudulent figures to the board, and offer to assist the CEO in presenting an honest turnaround plan.",
+          "Call the police and claim that the CEO attempted to physically rob you in the office."
+        ],
+        "bestOption": 2,
+        "bestOptionRationale": "Option C is the optimal professional strategy. Refusing to participate in fraudulent financial reporting while constructively assisting leadership in presenting a transparent remediation plan upholds professional integrity.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Respectfully refuse to misrepresent project status, explain the severe fiduciary and legal consequences of presenting fraudulent figures to the board, and offer to assist the CEO in presenting an honest turnaround plan."
+      },
+      {
+        "id": "mock-12-sit-05",
+        "type": "situational",
+        "context": "A sudden power outage and backup generator failure takes down the enterprise primary data center, and the automated disaster recovery failover to the secondary site fails to trigger.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Abandon the data center entirely, turn off your mobile phone, and go home to watch television.",
+          "Post on social media that the company is permanently ruined and that all user data is gone forever.",
+          "Randomly pull out power cables from server racks to see if the machines restart on their own.",
+          "Mobilize the incident command team immediately, execute manual disaster recovery failover runbooks step-by-step, establish an hourly status bridge for executive leadership, and initiate root cause logging."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Disciplined execution of manual disaster recovery runbooks paired with reliable executive communications restores critical operations during catastrophic infrastructure failures.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Mobilize the incident command team immediately, execute manual disaster recovery failover runbooks step-by-step, establish an hourly status bridge for executive leadership, and initiate root cause logging."
+      },
+      {
+        "id": "mock-12-sit-06",
+        "type": "situational",
+        "context": "During a live televised press conference following a corporate crisis, a spokesperson inadvertently states an unverified factual inaccuracy regarding customer compensation.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Convene an immediate huddle with the communications lead and legal counsel as soon as the press conference concludes, draft a swift and transparent clarification release, and issue it to media outlets within the hour.",
+          "Pretend the spokesperson never said it and delete the video broadcast from the internet completely.",
+          "Fire the spokesperson on the spot in front of the television cameras and insult them publicly.",
+          "Double down on the inaccuracy by manufacturing forged corporate compensation vouchers."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Issuing a prompt, transparent factual clarification through formal media channels corrects the record rapidly before false claims compound legal liabilities.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Convene an immediate huddle with the communications lead and legal counsel as soon as the press conference concludes, draft a swift and transparent clarification release, and issue it to media outlets within the hour."
+      }
+    ],
+    "reading": {
+      "id": "mock-12-read",
+      "type": "reading",
+      "passageTitle": "Executive Fiduciary Governance and Crisis Leadership: Safeguarding Resilience in the C-Suite",
+      "passageTopic": "Executive Board Briefing & Crisis Response",
+      "wordCount": 370,
+      "passageContent": "In contemporary corporate governance, the boardroom is no longer an ivory tower insulated from operational realities. Increasing geopolitical volatility, sophisticated state-sponsored cyber warfare, disruptive technological inflection points, and instant global social media scrutiny have converged to make corporate crises both more frequent and vastly more catastrophic. When an enterprise confronts a systemic crisis—whether a critical data breach, an environmental catastrophe, or an accounting fraud disclosure—the strategic response orchestrated by executive leadership and the Board of Directors determines whether the enterprise survives with brand integrity intact or faces terminal decline.\n\nAt the core of board governance during a crisis lie the foundational legal doctrines of fiduciary duty: the Duty of Care and the Duty of Loyalty. Under the Duty of Care, directors are legally bound to act on an informed basis, exercising the diligence, critical inquiry, and prudence that a reasonably competent person would employ under similar circumstances. In a modern crisis context, this precludes passive reliance on filtered executive summaries. Directors must demand direct access to frontline forensic specialists, external risk advisors, and unredacted telemetry. The Duty of Loyalty mandates that directors prioritize the long-term well-being of the corporation and its stakeholders above personal self-interest, executive friendships, or short-term share price preservation.\n\nA recurring operational failure in corporate crisis response is the phenomenon known as 'information suppression disease.' In hierarchical organizations, bad news travels at glacial speeds, as successive layers of management sanitize unfavorable metrics to avoid angering superiors. By the time a crisis breaches C-suite awareness, operational containment windows have often closed. High-performing boards combat this through institutionalized crisis governance. They establish standing Special Litigation and Risk Committees, mandate unmediated reporting pathways for Chief Compliance and Information Security Officers, and conduct bi-annual unscripted crisis simulation war games.\n\nFurthermore, modern crisis leadership demands a radical commitment to transparency. Decades of public relations scholarship confirm that attempts to minimize operational culpability, delay regulatory disclosures, or deflect blame onto rogue subordinates uniformly backfire. Public stakeholders and regulatory bodies reward organizations that exhibit prompt, empathetic, and verifiable accountability. By disclosing known facts with precision, delineating what remains unconfirmed, providing actionable support to affected parties, and outlining structural preventive remediations, executive leaders transform moments of acute institutional vulnerability into enduring testaments to corporate integrity.",
+      "questions": [
+        {
+          "id": "mock-12-read-q01",
+          "prompt": "Under the legal Duty of Care, what are corporate directors required to do during an enterprise crisis?",
+          "options": [
+            "Accept all verbal executive assertions without requesting supporting data or proof.",
+            "Act on an informed basis with diligence, critical inquiry, and direct access to forensic specialists.",
+            "Immediately liquidate all corporate assets and distribute cash to overseas bank accounts.",
+            "Resign from the board of directors immediately to escape any legal responsibilities."
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"Act on an informed basis with diligence, critical inquiry, and direct access to forensic specialists.\") is correct. The passage explains: 'Under the Duty of Care, directors are legally bound to act on an informed basis, exercising the diligence, critical inquiry, and prudence that a reasonably competent person would employ... demand direct access to frontline forensic specialists.'",
+          "questionType": "factual"
+        },
+        {
+          "id": "mock-12-read-q02",
+          "prompt": "What organizational dysfunction does the author describe as 'information suppression disease'?",
+          "options": [
+            "A biological medical virus that attacks computer hard drives in corporate headquarters.",
+            "A mandatory government tax placed on unread electronic mail messages.",
+            "Successive management layers sanitizing and delaying unfavorable news to avoid angering superiors.",
+            "The deliberate deletion of spam marketing messages from corporate email accounts."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"Successive management layers sanitizing and delaying unfavorable news to avoid angering superiors.\") is correct. The text highlights: 'the phenomenon known as \"information suppression disease.\" In hierarchical organizations, bad news travels at glacial speeds, as successive layers of management sanitize unfavorable metrics to avoid angering superiors.'",
+          "questionType": "inference"
+        },
+        {
+          "id": "mock-12-read-q03",
+          "prompt": "How do high-performing corporate boards institutionalize proactive crisis governance?",
+          "options": [
+            "By refusing to speak to corporate lawyers or auditors under any circumstances.",
+            "By prohibiting the use of computers and smartphones across all executive offices.",
+            "By meeting only once every five years to sign pre-printed financial statements.",
+            "By establishing standing Risk Committees, unmediated reporting paths, and bi-annual unscripted war games."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"By establishing standing Risk Committees, unmediated reporting paths, and bi-annual unscripted war games.\") is correct. The author notes: 'They establish standing Special Litigation and Risk Committees, mandate unmediated reporting pathways for Chief Compliance and Information Security Officers, and conduct bi-annual unscripted crisis simulation war games.'",
+          "questionType": "vocabulary"
+        },
+        {
+          "id": "mock-12-read-q04",
+          "prompt": "According to public relations scholarship cited in the text, how should executive leaders communicate during a crisis?",
+          "options": [
+            "By exhibiting prompt, empathetic, and verifiable accountability with precision and structural remediations.",
+            "By completely denying all facts and blaming low-level interns publicly.",
+            "By holding secret closed-door meetings and refusing all regulatory disclosures.",
+            "By issuing contradictory statements across different television news channels."
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"By exhibiting prompt, empathetic, and verifiable accountability with precision and structural remediations.\") is correct. The final paragraph states: 'Public stakeholders and regulatory bodies reward organizations that exhibit prompt, empathetic, and verifiable accountability. By disclosing known facts with precision... executive leaders transform moments of acute vulnerability into enduring testaments to corporate integrity.'",
+          "questionType": "main-idea"
+        }
+      ]
+    },
+    "listening": {
+      "id": "mock-12-list",
+      "type": "listening",
+      "title": "Audio Executive Session: Emergency Board Briefing on Cyber Breach Containment",
+      "context": "Emergency board of directors briefing on cybersecurity breach containment, forensic timeline, and regulatory compliance.",
+      "dialogue": [
+        {
+          "speaker": "Jonathan",
+          "text": "Members of the Board, thank you for convening. Dr. Elena, please deliver the forensic status update on this morning's security incident."
+        },
+        {
+          "speaker": "Elena",
+          "text": "Thank you Mr. Chairman. At 01:28 UTC—precisely 14 minutes post-detection—our security response squad severed network routing to the legacy cluster, isolating the infected subnet."
+        },
+        {
+          "speaker": "Jonathan",
+          "text": "What customer data was compromised, and what was secured?"
+        },
+        {
+          "speaker": "Elena",
+          "text": "Names, hashed passwords, and emails for 52,000 accounts were exposed. Crucially, credit card numbers, national identification tokens, and transactional histories were housed in our hardened AWS cluster and were completely uncompromised."
+        },
+        {
+          "speaker": "Sarah",
+          "text": "From a regulatory perspective, our GDPR statutory clock requires notification by 01:14 UTC on Thursday (within 72 hours). Our plan also provides affected customers twelve months of complimentary identity monitoring."
+        },
+        {
+          "speaker": "Jonathan",
+          "text": "Our commitment to total transparency and prompt customer support remains absolute."
+        }
+      ],
+      "fullScriptText": "Jonathan: Members of the Board, thank you for convening. Dr. Elena, please deliver the forensic status update on this morning's security incident.\nElena: Thank you Mr. Chairman. At 01:28 UTC—precisely 14 minutes post-detection—our security response squad severed network routing to the legacy cluster, isolating the infected subnet.\nJonathan: What customer data was compromised, and what was secured?\nElena: Names, hashed passwords, and emails for 52,000 accounts were exposed. Crucially, credit card numbers, national identification tokens, and transactional histories were housed in our hardened AWS cluster and were completely uncompromised.\nSarah: From a regulatory perspective, our GDPR statutory clock requires notification by 01:14 UTC on Thursday (within 72 hours). Our plan also provides affected customers twelve months of complimentary identity monitoring.\nJonathan: Our commitment to total transparency and prompt customer support remains absolute.",
+      "questions": [
+        {
+          "id": "mock-12-list-q01",
+          "prompt": "How many minutes elapsed between the initial detection and the total network isolation of the infected subnet?",
+          "options": [
+            "Exactly 2 minutes",
+            "Nearly 3 hours",
+            "Precisely 14 minutes",
+            "Over 24 hours"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"Precisely 14 minutes\") is correct. Dr. Rostova reports: 'At 01:28 UTC—precisely fourteen minutes post-detection—our security response squad severed network routing to the legacy cluster, isolating the infected subnet.'"
+        },
+        {
+          "id": "mock-12-list-q02",
+          "prompt": "What sensitive data categories were confirmed to be completely uncompromised during the breach?",
+          "options": [
+            "Customer names and email addresses only.",
+            "The corporate executive payroll records.",
+            "All server operating system source codes.",
+            "Credit card numbers, national identification tokens, and transactional histories."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"Credit card numbers, national identification tokens, and transactional histories.\") is correct. Dr. Rostova states: 'Crucially, credit card numbers, national identification tokens, and transactional histories were housed in our hardened AWS cluster and were completely uncompromised.'"
+        },
+        {
+          "id": "mock-12-list-q03",
+          "prompt": "What is the statutory deadline for the GDPR regulatory disclosure cited by Sarah Jenkins?",
+          "options": [
+            "01:14 UTC on Thursday (within 72 hours)",
+            "By 5:00 PM today",
+            "Within thirty calendar days",
+            "Only after the annual shareholder meeting"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"01:14 UTC on Thursday (within 72 hours)\") is correct. Sarah Jenkins states: 'the European Union General Data Protection Regulation mandates formal regulatory disclosure within seventy-two hours of confirmation. Our statutory clock expires at 01:14 UTC on Thursday.'"
+        },
+        {
+          "id": "mock-12-list-q04",
+          "prompt": "What customer compensation measure was prepared as part of the transparent communication plan?",
+          "options": [
+            "A free $5 corporate gift card",
+            "Twelve months of complimentary identity monitoring",
+            "Full cash reimbursement for all historical purchases",
+            "A handwritten letter from the company founder"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"Twelve months of complimentary identity monitoring\") is correct. Sarah clarifies: 'prepared a transparent customer communication plan offering twelve months of complimentary identity monitoring.'"
+        }
+      ]
+    },
+    "speaking": [
+      {
+        "id": "mock-12-spk-01",
+        "type": "speaking",
+        "prompt": "Deliver a calm, authoritative, and legally precise 90-second opening statement at a televised press conference regarding a major corporate data breach.",
+        "context": "Acknowledge the breach with genuine empathy, delineate what data was affected and what was protected, outline immediate remediation actions, and commit to transparent updates.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Executive poise and empathetic accountability",
+          "Clear delineation of affected vs secured data",
+          "Immediate concrete containment and remediation steps",
+          "Commitment to ongoing stakeholder transparency"
+        ],
+        "modelTranscript": "Good morning. I am here today to deliver a direct, transparent update regarding a cybersecurity incident impacting our customer data archives. First and foremost, to our customers, partners, and shareholders: we deeply regret the concern and disruption this event causes, and we take complete institutional responsibility for safeguarding your data. At 01:14 UTC this morning, our security operations detected unauthorized access to an isolated database containing names, email addresses, and encrypted passwords for approximately 52,000 accounts. We severed network connections within fourteen minutes, fully containing the intrusion. Most importantly, our core financial clusters, payment credentials, and government identification numbers remain completely secure and uncompromised. We have notified national regulatory authorities, engaged premier independent forensic specialists, and are providing twelve months of comprehensive identity protection services to all impacted individuals at zero cost. We will publish hourly status bulletins on our dedicated security portal. Our dedication to your trust remains unconditional."
+      },
+      {
+        "id": "mock-12-spk-02",
+        "type": "speaking",
+        "prompt": "Explain how an executive board maintains effective fiduciary oversight of emerging technological risks, such as generative AI and quantum encryption, without micromanaging technical engineering teams.",
+        "context": "Contrast strategic governance, risk tolerance boundaries, and independent auditing against low-level operational micromanagement.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Distinguishing strategic governance from operational micromanagement",
+          "Establishing clear enterprise risk tolerance boundaries",
+          "Leveraging independent third-party technical audits",
+          "Continuous board education on exponential technologies"
+        ],
+        "modelTranscript": "An effective board of directors governs emerging technological frontiers by setting clear strategic boundaries and risk tolerances, rather than attempting to micromanage daily engineering choices. For exponential domains like generative AI and quantum encryption, directors do not need to audit algorithm lines or neural network weights. Instead, fiduciary oversight requires asking the right structural questions: Do we have an ethical AI framework governing algorithmic bias and customer privacy? What is our cryptographic migration roadmap before post-quantum decryption arrives? Boards enforce accountability by mandating independent third-party audits, establishing unmediated reporting channels for chief risk officers, and linking executive compensation to cybersecurity posture. Furthermore, forward-looking boards actively educate themselves by appointing technology advisory councils and conducting regular deep-dive briefings with external technical experts. This maintains uncompromising institutional vigilance while empowering engineering leadership to innovate rapidly."
+      }
+    ]
+  }
+}

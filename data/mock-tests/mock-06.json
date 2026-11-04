@@ -1,0 +1,503 @@
+{
+  "id": "mock-06",
+  "testNumber": 6,
+  "title": "Mock Test 06: Enterprise Cloud Migration & Architecture",
+  "difficulty": "Intermediate",
+  "durationMinutes": 60,
+  "description": "Cloud modernization terminology, architectural decision frameworks, cross-functional risk communication, and technical client briefings.",
+  "sectionTimers": {
+    "grammar": 12,
+    "writing": 10,
+    "situational": 10,
+    "reading": 10,
+    "listening": 8,
+    "speaking": 10
+  },
+  "sections": {
+    "grammar": [
+      {
+        "id": "mock-06-gram-01",
+        "type": "grammar",
+        "prompt": "Neither the cloud architects nor the database administrator _____ in favor of a lift-and-shift approach.",
+        "options": [
+          "were",
+          "was",
+          "are",
+          "have been"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"was\") is correct. In 'neither... nor' constructions, the verb agrees in number with the closer subject ('database administrator', singular -> 'was').",
+        "topic": "Subject-Verb Agreement",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-06-gram-02",
+        "type": "grammar",
+        "prompt": "By the time the enterprise cutover window began, the DevOps leads _____ three dry runs in staging.",
+        "options": [
+          "already executed",
+          "have already executed",
+          "had already executed",
+          "will have already executed"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"had already executed\") is correct. Past perfect ('had already executed') is required for an action completed prior to another past event ('cutover window began').",
+        "topic": "Tenses",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-06-gram-03",
+        "type": "grammar",
+        "prompt": "Migrating legacy workloads to Kubernetes requires _____ comprehensive audit of containerized dependencies.",
+        "options": [
+          "an",
+          "the",
+          "no article needed",
+          "a"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"a\") is correct. 'Comprehensive' starts with a consonant sound (/k/), requiring indefinite article 'a'.",
+        "topic": "Articles",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-06-gram-04",
+        "type": "grammar",
+        "prompt": "The infrastructure lead insisted _____ conducting canary deployments before opening ingress traffic to end users.",
+        "options": [
+          "on",
+          "in",
+          "to",
+          "at"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"on\") is correct. The standard prepositional collocation with 'insisted' in this context is 'on' (or 'upon').",
+        "topic": "Prepositions",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-06-gram-05",
+        "type": "grammar",
+        "prompt": "Had the client _____ us earlier regarding their strict EU data residency requirements, we would have provisioned Frankfurt clusters.",
+        "options": [
+          "notify",
+          "notified",
+          "notifying",
+          "has notified"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"notified\") is correct. Inverted third conditional ('Had [subject] [past participle]') requires 'notified' to express hypothetical past condition.",
+        "topic": "Conditionals",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-06-gram-06",
+        "type": "grammar",
+        "prompt": "The microservice architecture was chosen _____ it provides independent scalability and fault isolation across domains.",
+        "options": [
+          "although",
+          "despite",
+          "because",
+          "unless"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"because\") is correct. 'Because' establishes the logical causal rationale for selecting microservices.",
+        "topic": "Conjunctions",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-06-gram-07",
+        "type": "grammar",
+        "prompt": "After re-evaluating our compute options, the serverless paradigm proved to be _____ cost-effective than continuous virtual instances.",
+        "options": [
+          "most",
+          "as",
+          "much",
+          "more"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"more\") is correct. Comparative adjective 'more cost-effective' is required when contrasting two options accompanied by 'than'.",
+        "topic": "Adjectives & Adverbs",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-06-gram-08",
+        "type": "grammar",
+        "prompt": "All infrastructure changes _____ through automated terraform validation pipelines before merging into main.",
+        "options": [
+          "must be routed",
+          "must routed",
+          "is routed",
+          "routing"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"must be routed\") is correct. Passive modal construction 'must be routed' correctly reflects mandatory policy applied to plural 'changes'.",
+        "topic": "Voice & Modals",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-06-gram-09",
+        "type": "grammar",
+        "prompt": "The legacy mainframe, _____ processing capacity was capped at 10,000 TPS, could not handle peak holiday transaction spikes.",
+        "options": [
+          "which",
+          "whose",
+          "who",
+          "whom"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"whose\") is correct. Possessive relative pronoun 'whose' is correctly used to describe the processing capacity belonging to the legacy mainframe.",
+        "topic": "Pronouns & Relative Clauses",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-06-gram-10",
+        "type": "grammar",
+        "prompt": "Our primary objective during Phase 2 is to _____ data synchronization lag between the on-premise oracle cluster and cloud storage.",
+        "options": [
+          "mitigating",
+          "mitigation",
+          "mitigate",
+          "mitigated"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"mitigate\") is correct. Infinitive particle 'to' followed by base verb form 'mitigate'.",
+        "topic": "Business Vocabulary",
+        "difficulty": "medium"
+      }
+    ],
+    "writing": [
+      {
+        "id": "mock-06-wri-01",
+        "type": "writing",
+        "prompt": "Write an email to the client VP of Engineering summarizing the outcomes of the Stage 2 Cloud Migration pilot, outlining two resolved latency challenges, and requesting sign-off for Phase 3 enterprise cutover.",
+        "scenario": "Your team completed the cloud migration pilot with 99.98% uptime. Latency spikes in the payment gateway were eliminated using redis caching. Phase 3 cutover is scheduled for next Saturday.",
+        "expectedFormat": "professional_email",
+        "recommendedWordCount": {
+          "min": 90,
+          "max": 160
+        },
+        "evaluationCriteria": [
+          "Professional executive tone",
+          "Clear explanation of latency resolution",
+          "Specific mention of metrics & validation",
+          "Decisive call to action for Phase 3 sign-off"
+        ],
+        "modelResponse": "Dear Ms. Sterling,\n\nI am pleased to report that our engineering squad has successfully concluded the Stage 2 Cloud Migration pilot with 99.98% platform availability across peak business hours.\n\nDuring initial stress tests, our observability tooling detected transient latency spikes in the legacy relational database and payment microservice. We addressed this by deploying a distributed Redis caching layer and fine-tuning connection pooling thresholds, bringing median response times down from 420ms to 48ms.\n\nWith data integrity checks showing zero parity discrepancies, we are on track for the Phase 3 enterprise cutover scheduled for Saturday, November 14, at 01:00 UTC. Could you please review the attached verification audit and provide your formal sign-off by Thursday close of business?\n\nSincerely,\nLead Cloud Architect",
+        "keyPoints": [
+          "Professional executive tone",
+          "Clear explanation of latency resolution",
+          "Specific mention of metrics & validation",
+          "Decisive call to action for Phase 3 sign-off"
+        ]
+      },
+      {
+        "id": "mock-06-wri-02",
+        "type": "writing",
+        "prompt": "Summarize the architectural advantages of adopting an event-driven serverless design over a monolithic container deployment in high-volume enterprise environments.",
+        "scenario": "Focus on operational cost elasticity, decoupled failure domains, horizontal scalability, and engineering delivery velocity.",
+        "expectedFormat": "formal_memo",
+        "recommendedWordCount": {
+          "min": 75,
+          "max": 130
+        },
+        "evaluationCriteria": [
+          "Concise conceptual clarity",
+          "Accurate technical trade-off articulation",
+          "Structured professional prose",
+          "No grammatical or mechanical errors"
+        ],
+        "modelResponse": "Adopting an event-driven serverless architecture offers distinct operational and economic advantages over monolithic container deployments in high-throughput environments. First, serverless models enable granular elasticity, auto-scaling compute resources dynamically in response to incoming message volume while reducing idle operational expenditures to zero. Second, asynchronous event streaming completely decouples system domains; a degradation in one downstream consumer does not cascade across upstream ingestion points. Finally, modular event schemas allow cross-functional squads to develop, test, and deploy microservices independently, accelerating overall feature delivery velocity while maintaining system-wide fault tolerance.",
+        "keyPoints": [
+          "Concise conceptual clarity",
+          "Accurate technical trade-off articulation",
+          "Structured professional prose",
+          "No grammatical or mechanical errors"
+        ]
+      }
+    ],
+    "situational": [
+      {
+        "id": "mock-06-sit-01",
+        "type": "situational",
+        "context": "During a cloud migration progress meeting, the client's Security Director raises an unexpected objection about token encryption standards, threatening to halt the deployment scheduled for tomorrow.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Ignore the objection because the client project manager already signed off on the technical specifications last month.",
+          "Immediately postpone the entire cloud migration by six weeks without analyzing whether our current deployment already meets their criteria.",
+          "Argue openly during the call that security reviews should have been completed weeks ago and that the director is creating unnecessary bureaucracy.",
+          "Listen attentively to the Director's specific encryption requirements, validate that our KMS architecture supports AES-256 and envelope encryption, and offer a same-day joint security audit with the cloud SecOps lead to resolve all compliance concerns before cutover."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Addressing security objections collaboratively with technical validation and a same-day joint audit preserves schedule integrity while rigorously satisfying compliance.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Listen attentively to the Director's specific encryption requirements, validate that our KMS architecture supports AES-256 and envelope encryption, and offer a same-day joint security audit with the cloud SecOps lead to resolve all compliance concerns before cutover."
+      },
+      {
+        "id": "mock-06-sit-02",
+        "type": "situational",
+        "context": "Your database engineer informs you at 4:00 PM that the staging database schema migration took 35% longer than planned, which could breach the production maintenance window if not optimized.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Convene an immediate technical review with the database lead to identify query bottlenecks, index creation order, or batching strategies, and establish a clear go/no-go checkpoint with the client prior to commencing production cutover.",
+          "Proceed with the production migration as scheduled and hope that production storage speeds will make up the 35% delay.",
+          "Cancel the client's maintenance window unilaterally via a short text message without providing technical diagnostic details.",
+          "Disable database transaction logging and backup verification during cutover to artificially accelerate the process."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Evaluating optimization strategies collaboratively and setting definitive go/no-go gates ensures operational reliability without taking unwarranted production risks.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Convene an immediate technical review with the database lead to identify query bottlenecks, index creation order, or batching strategies, and establish a clear go/no-go checkpoint with the client prior to commencing production cutover."
+      },
+      {
+        "id": "mock-06-sit-03",
+        "type": "situational",
+        "context": "A mid-level engineer on your migration squad confesses that they mistakenly deleted a non-critical staging bucket containing synthetic testing data.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Publicly reprimand the engineer on the team Slack channel to set an example regarding operational discipline.",
+          "Acknowledge the engineer's honesty, confirm that no production or client PII was impacted, leverage Terraform scripts to automatically reprovision the bucket, and conduct a blame-free post-mortem to tighten IAM delete permissions.",
+          "Conceal the mistake from the staging team and advise the engineer to blame a cloud provider network glitch.",
+          "Remove the engineer from the project immediately and request human resources disciplinary proceedings."
+        ],
+        "bestOption": 1,
+        "bestOptionRationale": "Option B is the optimal professional strategy. Psychological safety and automated infrastructure-as-code allow teams to recover rapidly and systematically address root causes through improved IAM policies.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Acknowledge the engineer's honesty, confirm that no production or client PII was impacted, leverage Terraform scripts to automatically reprovision the bucket, and conduct a blame-free post-mortem to tighten IAM delete permissions."
+      },
+      {
+        "id": "mock-06-sit-04",
+        "type": "situational",
+        "context": "The client product owner repeatedly asks the engineering team to add new microservice endpoints that were not included in the signed Statement of Work.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Silently incorporate the new endpoints by making the engineering squad work double shifts over the weekend without compensation.",
+          "Refuse outright with a blunt email stating that our team strictly does not entertain new client suggestions.",
+          "Politely inform the product owner that the requested endpoints represent scope expansion, document their business value, and present a formal Change Request detailing schedule and budget implications for their approval.",
+          "Implement half of the endpoints informally without updating documentation, architectural diagrams, or testing suites."
+        ],
+        "bestOption": 2,
+        "bestOptionRationale": "Option C is the optimal professional strategy. Formal change control manages scope creep transparently while honoring the client's evolving requirements with clear resource and timeline visibility.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Politely inform the product owner that the requested endpoints represent scope expansion, document their business value, and present a formal Change Request detailing schedule and budget implications for their approval."
+      },
+      {
+        "id": "mock-06-sit-05",
+        "type": "situational",
+        "context": "During load testing, your monitoring dashboard reports a 2% packet loss between on-premise VPN gateways and the cloud VPC, causing occasional API timeouts.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Dismiss the 2% packet loss as normal background internet noise and proceed to sign off on production readiness.",
+          "Blame the cloud provider on social media and advise the client to switch providers immediately.",
+          "Alter the load testing thresholds so that 5% packet loss is considered acceptable in the executive summary.",
+          "Gather telemetry logs, notify the client networking team with traceroute diagnostics, and evaluate whether provisioning a dedicated Direct Connect or ExpressRoute circuit is warranted for guaranteed SLA throughput."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Data-driven network diagnosis paired with strategic infrastructure recommendations protects production SLAs from avoidable network degradation.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Gather telemetry logs, notify the client networking team with traceroute diagnostics, and evaluate whether provisioning a dedicated Direct Connect or ExpressRoute circuit is warranted for guaranteed SLA throughput."
+      },
+      {
+        "id": "mock-06-sit-06",
+        "type": "situational",
+        "context": "You notice that two junior developers on the cloud team are hesitant to speak up during architecture review calls because senior consultants dominate the conversation.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Actively facilitate the architecture sessions by specifically inviting input from junior members on assigned modules, creating dedicated breakout reviews, and mentoring them privately to build their technical confidence.",
+          "Assume that junior engineers have nothing valuable to contribute to architectural discussions and maintain status quo.",
+          "Publicly scold the senior consultants during client meetings for talking too much.",
+          "Instruct the junior developers to submit their thoughts only in private emails to you rather than speaking in meetings."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Inclusive facilitation empowers newer team members, enriches technical discussions, and fosters psychological safety within engineering squads.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Actively facilitate the architecture sessions by specifically inviting input from junior members on assigned modules, creating dedicated breakout reviews, and mentoring them privately to build their technical confidence."
+      }
+    ],
+    "reading": {
+      "id": "mock-06-read",
+      "type": "reading",
+      "passageTitle": "Architecture Strategy: Zero-Trust Security in Modern Cloud Ecosystems",
+      "passageTopic": "Enterprise Cloud Migration & Architecture",
+      "wordCount": 360,
+      "passageContent": "In traditional enterprise networking, security architectures operated on a perimeter-centric model, commonly termed the 'castle-and-moat' paradigm. Organizations established formidable external firewalls, intrusion detection appliances, and VPN concentrators to repel external threats. However, once a user or service successfully authenticated past this boundary, the internal corporate network was treated with implicit, ubiquitous trust. Packets flowed freely across VLANs, and credentials frequently possessed unrestricted lateral reach.\n\nThe widespread migration of enterprise workloads to public multi-cloud environments—accelerated by hybrid workforces and distributed SaaS platforms—has rendered perimeter-based security fundamentally obsolete. In response, modern engineering organizations are aggressively transitioning to a Zero-Trust Architecture (ZTA). Founded on the foundational maxim 'never trust, always verify,' Zero Trust mandates that every single access request, whether originating from outside the organization or from an internal cluster node, must be explicitly authenticated, authorized according to the principle of least privilege, and continuously encrypted in transit.\n\nAt the technical layer, implementing Zero Trust within cloud-native environments requires three core capabilities. First, enterprise identity and access management (IAM) must transition from static passwords to context-aware, risk-based multifactor authentication. Telemetry including device health status, IP geographical anomalies, and user behavioral heuristics is evaluated in real time prior to granting microservice access. Second, organizations must replace open network topologies with software-defined microsegmentation. By deploying service meshes such as Istio or Linkerd, teams enforce mutual Transport Layer Security (mTLS) with cryptographic identity tokens issued by ephemeral certificate authorities, ensuring that inter-service communication cannot be intercepted or spoofed even if an adjacent pod is compromised. Third, continuous automated telemetry and behavioral anomaly detection must ingest telemetry logs into centralized security information and event management (SIEM) systems.\n\nWhile the security benefits of Zero Trust are incontrovertible, enterprise adoption introduces non-trivial organizational and operational hurdles. Chief among these is the friction introduced to developer experience and legacy application compatibility. Monolithic legacy systems built a decade ago often rely on hardcoded credentials and open database connections; retrofitting these systems with ephemeral mTLS sidecars frequently causes latency penalties and intermittent connectivity faults. Consequently, leading consultancy practices advise a phased migration: cataloging critical data assets, establishing strict identity boundaries around high-value microservices, and gradually decommissioning perimeter-only assumptions over iterative delivery cycles.",
+      "questions": [
+        {
+          "id": "mock-06-read-q01",
+          "prompt": "What fundamental architectural assumption characterized the traditional 'castle-and-moat' security model?",
+          "options": [
+            "All internal data packets were required to be encrypted with ephemeral mTLS sidecars.",
+            "Internal network traffic and authenticated users within the perimeter were granted implicit trust.",
+            "Zero authentication was permitted without third-party external hardware security modules.",
+            "Perimeter firewalls were deemed unnecessary due to strict device health telemetries."
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"Internal network traffic and authenticated users within the perimeter were granted implicit trust.\") is correct. The text states: 'once a user or service successfully authenticated past this boundary, the internal corporate network was treated with implicit, ubiquitous trust.'",
+          "questionType": "factual"
+        },
+        {
+          "id": "mock-06-read-q02",
+          "prompt": "How does a cloud-native service mesh enforce secure inter-service communication under Zero Trust?",
+          "options": [
+            "By opening unrestricted VLAN routing across all containerized workloads.",
+            "By relying solely on static hardcoded passwords stored in source code repositories.",
+            "By utilizing mutual TLS (mTLS) with cryptographic identity tokens issued by ephemeral certificate authorities.",
+            "By disabling real-time continuous behavioral telemetry across internal pod nodes."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"By utilizing mutual TLS (mTLS) with cryptographic identity tokens issued by ephemeral certificate authorities.\") is correct. The passage highlights: 'By deploying service meshes... teams enforce mutual Transport Layer Security (mTLS) with cryptographic identity tokens issued by ephemeral certificate authorities.'",
+          "questionType": "inference"
+        },
+        {
+          "id": "mock-06-read-q03",
+          "prompt": "According to the text, what is a primary operational hurdle when retrofitting legacy applications for Zero Trust?",
+          "options": [
+            "Modern cloud providers refuse to host legacy software that lacks serverless integration.",
+            "Developers refuse to use multifactor authentication due to hardware incompatibilities.",
+            "Intrusion detection appliances cannot operate on public multi-cloud cloud infrastructures.",
+            "Monolithic legacy systems may suffer latency penalties and connectivity faults when wrapped with ephemeral mTLS sidecars."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"Monolithic legacy systems may suffer latency penalties and connectivity faults when wrapped with ephemeral mTLS sidecars.\") is correct. The text explains that legacy systems built decades ago rely on open connections, so 'retrofitting these systems with ephemeral mTLS sidecars frequently causes latency penalties and intermittent connectivity faults.'",
+          "questionType": "vocabulary"
+        },
+        {
+          "id": "mock-06-read-q04",
+          "prompt": "What phased approach do leading consultancy practices recommend for organizations adopting Zero Trust?",
+          "options": [
+            "Catalog critical data assets, establish strict identity boundaries around high-value microservices, and decommission perimeter assumptions iteratively.",
+            "Instantly shut down all legacy applications until modern microservices are fully rewritten.",
+            "Eliminate all centralized SIEM telemetry pipelines to reduce developer operational friction.",
+            "Revert to on-premise physical data centers to preserve perimeter hardware appliances."
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"Catalog critical data assets, establish strict identity boundaries around high-value microservices, and decommission perimeter assumptions iteratively.\") is correct. The final paragraph states consultants recommend: 'cataloging critical data assets, establishing strict identity boundaries around high-value microservices, and gradually decommissioning perimeter-only assumptions over iterative delivery cycles.'",
+          "questionType": "main-idea"
+        }
+      ]
+    },
+    "listening": {
+      "id": "mock-06-list",
+      "type": "listening",
+      "title": "Audio Briefing: Cloud Financial Operations (FinOps) Steering Committee",
+      "context": "Cloud FinOps Steering Committee discussing Q3 compute savings, cross-region egress cost spikes, and remediation guardrails.",
+      "dialogue": [
+        {
+          "speaker": "Priya",
+          "text": "Good morning David. Thanks for joining our monthly Cloud FinOps review. I want to highlight that our non-production compute spend dropped by 22% over the last sixty days, thanks to automated cluster shutdowns and 3-year Savings Plans."
+        },
+        {
+          "speaker": "David",
+          "text": "That is great news, Priya. However, our monitoring flagged a 35% cost spike in multi-region data egress. What is driving that increase?"
+        },
+        {
+          "speaker": "Priya",
+          "text": "Our database team discovered that cross-region analytical replication between Virginia and Frankfurt was streaming raw, uncompressed snapshots every fifteen minutes, alongside unaggregated debug log transfers."
+        },
+        {
+          "speaker": "David",
+          "text": "Understood. How will we bring those egress costs back within our board-approved budget ceiling of 1.4 million dollars?"
+        },
+        {
+          "speaker": "Priya",
+          "text": "Starting Friday, we are deploying gzip compression gateways which will slash bandwidth by approximately 65%, and local vector collectors to filter logs before transit."
+        },
+        {
+          "speaker": "David",
+          "text": "Excellent plan. That will stabilize our quarterly spend comfortably within target."
+        }
+      ],
+      "fullScriptText": "Priya: Good morning David. Thanks for joining our monthly Cloud FinOps review. I want to highlight that our non-production compute spend dropped by 22% over the last sixty days, thanks to automated cluster shutdowns and 3-year Savings Plans.\nDavid: That is great news, Priya. However, our monitoring flagged a 35% cost spike in multi-region data egress. What is driving that increase?\nPriya: Our database team discovered that cross-region analytical replication between Virginia and Frankfurt was streaming raw, uncompressed snapshots every fifteen minutes, alongside unaggregated debug log transfers.\nDavid: Understood. How will we bring those egress costs back within our board-approved budget ceiling of 1.4 million dollars?\nPriya: Starting Friday, we are deploying gzip compression gateways which will slash bandwidth by approximately 65%, and local vector collectors to filter logs before transit.\nDavid: Excellent plan. That will stabilize our quarterly spend comfortably within target.",
+      "questions": [
+        {
+          "id": "mock-06-list-q01",
+          "prompt": "What primary action contributed to the 22% cost reduction in development and staging compute spend?",
+          "options": [
+            "Terminating all staging environments and moving testing workloads to local developer laptops.",
+            "Switching from serverless microservices back to physical bare-metal on-premise servers.",
+            "Automating shutdown policies for idle non-production clusters and procuring 3-year Savings Plans.",
+            "Doubling the compute memory allocation across all staging Kubernetes worker nodes."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"Automating shutdown policies for idle non-production clusters and procuring 3-year Savings Plans.\") is correct. Priya Vance states the 22% drop was due to 'automated shutdown policies our DevOps squad instituted for idle non-production clusters, along with our strategic shift from on-demand compute instances to 3-year Savings Plans.'"
+        },
+        {
+          "id": "mock-06-list-q02",
+          "prompt": "What root cause was identified for the unexpected 35% surge in cloud data egress costs?",
+          "options": [
+            "A major distributed denial of service attack that overwhelmed the public payment gateway.",
+            "Excessive licensing fees paid to third-party commercial database software vendors.",
+            "Developers accidentally leaving high-performance GPU instances running over the weekend.",
+            "Uncompressed snapshot replication and raw debug log streaming across regional cloud boundaries."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"Uncompressed snapshot replication and raw debug log streaming across regional cloud boundaries.\") is correct. Priya notes that 'cross-region analytical replication... was executing raw, uncompressed snapshot streaming every fifteen minutes' along with verbose unaggregated debug log transfers."
+        },
+        {
+          "id": "mock-06-list-q03",
+          "prompt": "By what percentage is cross-region bandwidth projected to decrease after implementing gzip compression gateways?",
+          "options": [
+            "Approximately 65%",
+            "Exactly 15%",
+            "Around 22%",
+            "Nearly 90%"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"Approximately 65%\") is correct. The speaker clearly mentions: 'which our simulations indicate will slash data egress bandwidth by approximately 65%.'"
+        },
+        {
+          "id": "mock-06-list-q04",
+          "prompt": "What is the total board-approved quarterly cloud budget ceiling cited by Priya Vance?",
+          "options": [
+            "$750,000",
+            "$1.4 million",
+            "$3.5 million",
+            "$5.2 million"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"$1.4 million\") is correct. Priya states the remediations will stabilize quarterly spend 'comfortably within our board-approved budget ceiling of 1.4 million dollars.'"
+        }
+      ]
+    },
+    "speaking": [
+      {
+        "id": "mock-06-spk-01",
+        "type": "speaking",
+        "prompt": "Explain the business and operational advantages of cloud modernization to a non-technical client executive who is reluctant to decommission their legacy on-premise servers.",
+        "context": "Address concerns about upfront migration costs, emphasize operational resilience, scalability during seasonal peaks, and continuous security compliance.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Empathizing with executive capital expenditure concerns",
+          "Operational resilience & automated disaster recovery",
+          "Elastic scaling for peak business cycles",
+          "Modern security governance & continuous patching"
+        ],
+        "modelTranscript": "I completely understand your hesitation regarding upfront migration investments, especially when your existing on-premise infrastructure has served your enterprise reliably for years. However, maintaining aging hardware introduces compounding operational risks, from supply chain delays for spare parts to escalating physical data center maintenance costs. Cloud modernization transforms these fixed capital liabilities into flexible, operational investments. During high-demand seasonal peaks, your digital services can scale dynamically to support surging customer transactions without costly over-provisioning, and scale back down instantly when traffic normalizes. Furthermore, cloud platforms provide automated disaster recovery and continuous security compliance updates that protect your corporate reputation far more robustly than isolated legacy data centers."
+      },
+      {
+        "id": "mock-06-spk-02",
+        "type": "speaking",
+        "prompt": "Describe an incident where a technical deployment encountered an unexpected roadblock, and detail the structured steps you would take to diagnose the problem and align stakeholders.",
+        "context": "Scenario: A deployment causes latency degradation. Walk through triage, root cause analysis, mitigation, and transparent stakeholder communication.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Immediate triage & rollback/mitigation protocol",
+          "Telemetry data collection & root cause identification",
+          "Transparent stakeholder status cadence",
+          "Post-incident review and preventive hardening"
+        ],
+        "modelTranscript": "When a technical deployment hits an unexpected obstacle, a disciplined, transparent approach is critical. My immediate priority is operational containment: if production latency breaches our defined service level threshold, I initiate an immediate rollback to the previous stable release artifact to restore normal user experience without delay. Simultaneously, I establish an active war room, bringing together lead engineers to inspect observability dashboards, APM traces, and database connection pools to isolate the exact bottleneck. Throughout this process, I maintain an hourly status briefing for client stakeholders, communicating the immediate mitigation, root cause findings, and preventive measures. Finally, we conduct a blameless post-mortem to incorporate automated regression tests into our CI/CD pipeline, ensuring the issue cannot recur in future releases."
+      }
+    ]
+  }
+}

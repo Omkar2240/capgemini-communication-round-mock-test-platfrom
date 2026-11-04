@@ -1,0 +1,503 @@
+{
+  "id": "mock-09",
+  "testNumber": 9,
+  "title": "Mock Test 09: Third-Party Vendor & Partner Negotiation",
+  "difficulty": "Intermediate",
+  "durationMinutes": 60,
+  "description": "Service Level Agreement (SLA) governance, procurement dispute mediation, vendor compliance audits, and strategic partnership alignment.",
+  "sectionTimers": {
+    "grammar": 12,
+    "writing": 10,
+    "situational": 10,
+    "reading": 10,
+    "listening": 8,
+    "speaking": 10
+  },
+  "sections": {
+    "grammar": [
+      {
+        "id": "mock-09-gram-01",
+        "type": "grammar",
+        "prompt": "Neither the primary SaaS vendor nor their cloud hosting partners _____ willing to assume liability for the data outage.",
+        "options": [
+          "was",
+          "were",
+          "is",
+          "has been"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"were\") is correct. In 'neither... nor' constructions, the verb agrees with the closer plural subject ('partners' -> 'were').",
+        "topic": "Subject-Verb Agreement",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-09-gram-02",
+        "type": "grammar",
+        "prompt": "Prior to entering contractual negotiations, our strategic sourcing team _____ benchmark rate cards from three competitors.",
+        "options": [
+          "has compiled",
+          "compiling",
+          "had compiled",
+          "compiles"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"had compiled\") is correct. Past perfect ('had compiled') denotes compilation completed before the past negotiation phase.",
+        "topic": "Tenses",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-09-gram-03",
+        "type": "grammar",
+        "prompt": "The vendor provided _____ comprehensive breakdown of their offshore labor rates and enterprise licensing tiers.",
+        "options": [
+          "an",
+          "the",
+          "no article needed",
+          "a"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"a\") is correct. 'Comprehensive' begins with a consonant sound (/k/), requiring indefinite article 'a'.",
+        "topic": "Articles",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-09-gram-04",
+        "type": "grammar",
+        "prompt": "The software licensing agreement conforms strictly _____ the intellectual property standards established by corporate legal.",
+        "options": [
+          "to",
+          "with",
+          "in",
+          "for"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"to\") is correct. The verb 'conform' standardly pairs with the preposition 'to' (or occasionally 'with').",
+        "topic": "Prepositions",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-09-gram-05",
+        "type": "grammar",
+        "prompt": "If the software vendor _____ to remediate the critical vulnerability within ten business days, the contract will be terminated.",
+        "options": [
+          "failed",
+          "fails",
+          "will fail",
+          "has failed"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"fails\") is correct. First conditional clause (If + present simple, will + verb) requires 'fails' for the singular subject 'vendor'.",
+        "topic": "Conditionals",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-09-gram-06",
+        "type": "grammar",
+        "prompt": "The vendor met all core deliverables on schedule, _____ their technical documentation required extensive revisions.",
+        "options": [
+          "because",
+          "therefore",
+          "although",
+          "since"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"although\") is correct. Concessive conjunction 'although' introduces the contrast between on-time delivery and flawed documentation.",
+        "topic": "Conjunctions",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-09-gram-07",
+        "type": "grammar",
+        "prompt": "Among all four software integration partners reviewed, CloudWave offered the _____ favorable indemnification terms.",
+        "options": [
+          "more",
+          "much",
+          "as",
+          "most"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"most\") is correct. Superlative form 'most favorable' is required when comparing more than two vendor partners.",
+        "topic": "Adjectives & Adverbs",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-09-gram-08",
+        "type": "grammar",
+        "prompt": "Detailed monthly SLA performance credits _____ automatically against subsequent subscription invoices.",
+        "options": [
+          "are applied",
+          "is applied",
+          "applying",
+          "applied"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"are applied\") is correct. Passive voice present simple plural ('are applied') correctly matches the plural subject 'performance credits'.",
+        "topic": "Voice & Modals",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-09-gram-09",
+        "type": "grammar",
+        "prompt": "The procurement director, _____ astute negotiation saved the enterprise $200,000, was praised by the executive committee.",
+        "options": [
+          "who",
+          "whose",
+          "whom",
+          "which"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"whose\") is correct. Possessive relative pronoun 'whose' attributes the astute negotiation to the procurement director.",
+        "topic": "Pronouns & Relative Clauses",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-09-gram-10",
+        "type": "grammar",
+        "prompt": "Our legal counsel advises us to _____ the liability limitation clause before finalizing the master services agreement.",
+        "options": [
+          "amending",
+          "amendment",
+          "amend",
+          "amended"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"amend\") is correct. Infinitive particle 'to' followed by base verb 'amend' (meaning to modify or alter).",
+        "topic": "Business Vocabulary",
+        "difficulty": "medium"
+      }
+    ],
+    "writing": [
+      {
+        "id": "mock-09-wri-01",
+        "type": "writing",
+        "prompt": "Write a formal contractual notice email to a third-party software vendor addressing repeated Service Level Agreement (SLA) breaches, requesting an operational remediation plan, and reserving the client's right to claim financial SLA penalty credits.",
+        "scenario": "Vendor's API uptime dropped to 97.4% against a contracted 99.9% monthly SLA. Two major business interruptions occurred during month-end financial processing. Formal remediation plan due within 5 business days.",
+        "expectedFormat": "professional_email",
+        "recommendedWordCount": {
+          "min": 90,
+          "max": 160
+        },
+        "evaluationCriteria": [
+          "Formal, legally assertive tone",
+          "Specific citation of contractual breaches",
+          "Clear deadline for corrective remediation",
+          "Explicit reservation of contractual rights"
+        ],
+        "modelResponse": "Dear Mr. Gallagher,\n\nRe: Formal Notice of Service Level Agreement (SLA) Non-Compliance\n\nI am writing to formally notify SaaS Corp of a material breach of our Master Services Agreement regarding platform availability for the month of October. Under Section 4.2 of Schedule B, your organization is contractually committed to maintaining a monthly API availability threshold of 99.9%.\n\nDuring October, our automated monitoring recorded actual uptime of only 97.4%, attributable to two severe outages during our peak month-end financial reconciliation window on October 28 and 29. These disruptions severely impacted our corporate reporting workflows.\n\nPursuant to our agreement, we request a formal Corrective Action Plan detailing root causes and engineering remediations within five business days (by Friday, November 12). Furthermore, please be advised that we formally reserve all contractual rights to apply corresponding SLA penalty service credits against our upcoming Q4 invoice.\n\nSincerely,\nDirector of Strategic Procurement",
+        "keyPoints": [
+          "Formal, legally assertive tone",
+          "Specific citation of contractual breaches",
+          "Clear deadline for corrective remediation",
+          "Explicit reservation of contractual rights"
+        ]
+      },
+      {
+        "id": "mock-09-wri-02",
+        "type": "writing",
+        "prompt": "Summarize the critical components of a balanced Master Services Agreement (MSA) and explain how clear liability caps and intellectual property clauses protect both enterprise clients and technology vendors.",
+        "scenario": "Focus on scope definitions, intellectual property ownership, limitation of liability, indemnification, and dispute resolution mechanisms.",
+        "expectedFormat": "formal_memo",
+        "recommendedWordCount": {
+          "min": 75,
+          "max": 130
+        },
+        "evaluationCriteria": [
+          "Rigorous legal/commercial terminology",
+          "Objective balance of vendor vs client interests",
+          "Clear synthesis",
+          "Grammatical precision"
+        ],
+        "modelResponse": "A well-structured Master Services Agreement (MSA) establishes the governing legal framework for commercial technology partnerships, balancing risk distribution between client and vendor. Central to this balance are Intellectual Property (IP) covenants, which demarcate pre-existing background IP while unambiguously vesting ownership of custom deliverables with the client. Equally pivotal are Limitation of Liability clauses, which typically cap aggregate financial damages at a multiple of fees paid over a twelve-month period, thereby protecting vendors from disproportionate catastrophic financial ruin while ensuring clients have meaningful financial recourse for gross negligence. By complementing these clauses with robust indemnification protections and structured escalation procedures for dispute resolution, an MSA creates commercial predictability and operational alignment.",
+        "keyPoints": [
+          "Rigorous legal/commercial terminology",
+          "Objective balance of vendor vs client interests",
+          "Clear synthesis",
+          "Grammatical precision"
+        ]
+      }
+    ],
+    "situational": [
+      {
+        "id": "mock-09-sit-01",
+        "type": "situational",
+        "context": "During a contract negotiation call, a software vendor salesperson attempts to rush your procurement team into signing a three-year contract by claiming the 30% discount expires at 5:00 PM today.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Panic and sign the three-year contract immediately on your personal credit card to secure the discount.",
+          "Insult the salesperson using unprofessional profanity and report their company to the federal trade commission.",
+          "Sign the contract secretly without letting your enterprise legal team review the terms.",
+          "Remain completely unpressured, explain that enterprise contract execution requires thorough legal and security review, and state that if the discount cannot be honored through standard governance, we will evaluate other market options."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Professional procurement discipline resists artificial artificial vendor sales pressure, insisting on diligent legal and security review before contractual execution.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Remain completely unpressured, explain that enterprise contract execution requires thorough legal and security review, and state that if the discount cannot be honored through standard governance, we will evaluate other market options."
+      },
+      {
+        "id": "mock-09-sit-02",
+        "type": "situational",
+        "context": "A third-party software vendor informs you that due to unexpected inflation and cloud infrastructure costs, they are raising their API subscription fees by 40% starting next month.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Review the existing contract to verify whether unilateral price increases are permitted, engage the vendor's commercial director to dispute the hike, and initiate market benchmarking to evaluate alternative providers if negotiations stall.",
+          "Accept the 40% price increase immediately without checking the contract terms or consulting client leadership.",
+          "Threaten to physically boycott the vendor's corporate headquarters with a protest banner.",
+          "Stop paying all vendor invoices entirely and instruct developers to pirate the software illegally."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Verifying contractual price adjustment protections and exploring competitive alternatives provides leverage to resist unjustified vendor fee hikes.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Review the existing contract to verify whether unilateral price increases are permitted, engage the vendor's commercial director to dispute the hike, and initiate market benchmarking to evaluate alternative providers if negotiations stall."
+      },
+      {
+        "id": "mock-09-sit-03",
+        "type": "situational",
+        "context": "During an audit of vendor access credentials, your security team discovers that five former vendor contractors who left the project two months ago still possess active production database credentials.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Leave the credentials active because removing them might inconvenience the vendor if they ever return.",
+          "Revoke the former contractors' access tokens immediately, initiate an urgent forensic audit to verify whether any data was accessed, and enforce strict automated offboarding protocols with the vendor's account lead.",
+          "Cover up the finding to avoid embarrassing the vendor account manager during the next quarterly review.",
+          "Email the former contractors politely asking them to voluntarily delete their own database passwords."
+        ],
+        "bestOption": 1,
+        "bestOptionRationale": "Option B is the optimal professional strategy. Immediate access revocation combined with forensic audit and vendor accountability mitigates enterprise insider threat and maintains strict compliance.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Revoke the former contractors' access tokens immediately, initiate an urgent forensic audit to verify whether any data was accessed, and enforce strict automated offboarding protocols with the vendor's account lead."
+      },
+      {
+        "id": "mock-09-sit-04",
+        "type": "situational",
+        "context": "A strategic vendor partner delivers a critical software component two weeks late, causing your team to miss a major milestone for your client.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Forgive the vendor completely and falsely tell the client that your own Capgemini engineering team was responsible for the delay.",
+          "Terminate the vendor contract instantly without having a backup solution, bringing the entire project to a permanent halt.",
+          "Hold a formal vendor review meeting, document the exact milestone delay and financial impact, enforce contractual delay penalties if applicable, and establish daily progress checkpoints for remaining deliverables.",
+          "Refuse to speak to the vendor ever again and abandon the integration codebase entirely."
+        ],
+        "bestOption": 2,
+        "bestOptionRationale": "Option C is the optimal professional strategy. Documenting delay impacts, enforcing contractual remedy provisions, and increasing delivery checkpoint cadence maintains vendor accountability without abandoning project goals.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Hold a formal vendor review meeting, document the exact milestone delay and financial impact, enforce contractual delay penalties if applicable, and establish daily progress checkpoints for remaining deliverables."
+      },
+      {
+        "id": "mock-09-sit-05",
+        "type": "situational",
+        "context": "A vendor account executive offers you personal gift cards and expensive conference tickets during an ongoing competitive tender evaluation.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Accept the gifts quietly and award the contract to that vendor regardless of their technical scores.",
+          "Ask the vendor if they can double the value of the gift cards before you agree to sign.",
+          "Take the gift cards but give them away to your family members so nobody at work finds out.",
+          "Politely and firmly decline the gifts, explain that company ethics and anti-bribery policies strictly prohibit accepting personal benefits during active procurement tenders, and notify your compliance officer."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Strict adherence to anti-bribery and corporate ethics policies preserves procurement integrity and protects against severe legal and reputational liabilities.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Politely and firmly decline the gifts, explain that company ethics and anti-bribery policies strictly prohibit accepting personal benefits during active procurement tenders, and notify your compliance officer."
+      },
+      {
+        "id": "mock-09-sit-06",
+        "type": "situational",
+        "context": "Your integration engineers report that a third-party vendor's software documentation is completely outdated, containing broken code examples and inaccurate API endpoints.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Organize a joint working session with the vendor's developer relations and product engineering teams, share an audited list of documentation errors, and establish a dedicated shared Slack/Teams channel for real-time technical clarification.",
+          "Tell your integration engineers to guess how the API works through trial and error over several months.",
+          "Publicly ridicule the vendor's developers on social media to shame them into writing better documentation.",
+          "Rewrite the entire third-party commercial platform from scratch internally without budget approval."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Collaborative technical working sessions and audited feedback channels accelerate API integration while prompting the vendor to update documentation.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Organize a joint working session with the vendor's developer relations and product engineering teams, share an audited list of documentation errors, and establish a dedicated shared Slack/Teams channel for real-time technical clarification."
+      }
+    ],
+    "reading": {
+      "id": "mock-09-read",
+      "type": "reading",
+      "passageTitle": "Strategic Vendor Management: Mitigating Third-Party Risk in the Enterprise Digital Supply Chain",
+      "passageTopic": "Third-Party Vendor & Partner Negotiation",
+      "wordCount": 317,
+      "passageContent": "In the contemporary enterprise technology landscape, no corporation builds its digital infrastructure in isolation. Modern applications rely on an intricate ecosystem of third-party software vendors, SaaS platforms, cloud infrastructure providers, and specialized systems integrators. While this digital supply chain accelerates time-to-market and provides access to world-class technical capabilities, it simultaneously introduces profound third-party risk. A failure, breach, or contractual delinquency originating in an external vendor can paralyze an enterprise's operations and inflict severe reputational damage.\n\nTo govern these complex external dependencies, enterprise procurement and technology leadership must implement a structured Vendor Relationship Management (VRM) framework across three lifecycle stages: selection, contracting, and ongoing performance monitoring. During the selection phase, due diligence must extend far beyond feature checklists and commercial pricing. Organizations must rigorously evaluate a prospective vendor's financial stability, SOC 2 Type II compliance, data encryption standards, disaster recovery recovery time objectives (RTO), and operational business continuity plans.\n\nThe contracting phase represents the primary legal and operational safeguard. A robust Master Services Agreement (MSA) accompanied by a granular Service Level Agreement (SLA) establishes enforceable expectations. Effective SLAs move beyond simplistic annual uptime guarantees—such as 99%—which could permit over three days of continuous downtime within a single year without breaching terms. Instead, best practices require monthly availability metrics (e.g., 99.95%), stringent latency thresholds measured at the 99th percentile, and defined recovery windows for varying severity classifications. Crucially, contracts must incorporate 'remedy with teeth': progressive financial service credits automatically deducted from subsequent invoices upon SLA breaches, along with termination for cause clauses if degradation persists.\n\nFinally, ongoing governance mandates continuous risk monitoring rather than passive annual reviews. Enterprise vendor management offices deploy automated security scorecards to monitor vendor digital attack surfaces, track real-time API uptime telemetry, and enforce annual third-party penetration audits. By viewing vendor relationships not as static transactional purchases but as dynamic strategic partnerships governed by measurable performance indicators, organizations harness external innovation while safeguarding enterprise resilience.",
+      "questions": [
+        {
+          "id": "mock-09-read-q01",
+          "prompt": "Why is an annual uptime metric of 99% considered insufficient in enterprise technology SLAs?",
+          "options": [
+            "Because 99% uptime is illegal under international European Union data directives.",
+            "Because an annual metric could permit more than three consecutive days of downtime without breaching contract terms.",
+            "Because cloud service providers are incapable of calculating annual availability averages.",
+            "Because annual metrics require daily manual paperwork submissions by project managers."
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"Because an annual metric could permit more than three consecutive days of downtime without breaching contract terms.\") is correct. The text explains that annual metrics are flawed because an annual uptime guarantee 'could permit over three days of continuous downtime within a single year without breaching terms.'",
+          "questionType": "factual"
+        },
+        {
+          "id": "mock-09-read-q02",
+          "prompt": "What contractual mechanism does the author describe as providing 'remedy with teeth' for SLA breaches?",
+          "options": [
+            "Sending polite handwritten thank-you letters to vendor account representatives.",
+            "Allowing the vendor to increase their subscription fees by 10% each quarter.",
+            "Progressive financial service credits automatically deducted from subsequent invoices.",
+            "Requiring the vendor's chief executive to post a public apology video on social media."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"Progressive financial service credits automatically deducted from subsequent invoices.\") is correct. The passage explicitly highlights: 'Crucially, contracts must incorporate \"remedy with teeth\": progressive financial service credits automatically deducted from subsequent invoices upon SLA breaches.'",
+          "questionType": "inference"
+        },
+        {
+          "id": "mock-09-read-q03",
+          "prompt": "What should due diligence evaluate during vendor selection beyond features and commercial pricing?",
+          "options": [
+            "The brand of coffee machines utilized in the vendor's headquarters cafeteria.",
+            "The personal political affiliations of the vendor's junior marketing interns.",
+            "The total square footage of the vendor's corporate executive gymnasium.",
+            "Financial stability, SOC 2 compliance, encryption standards, and disaster recovery RTOs."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"Financial stability, SOC 2 compliance, encryption standards, and disaster recovery RTOs.\") is correct. The author specifies that organizations must evaluate 'financial stability, SOC 2 Type II compliance, data encryption standards, disaster recovery recovery time objectives (RTO), and operational business continuity plans.'",
+          "questionType": "vocabulary"
+        },
+        {
+          "id": "mock-09-read-q04",
+          "prompt": "How do modern enterprise vendor management offices conduct ongoing risk governance?",
+          "options": [
+            "By deploying automated security scorecards, tracking real-time API telemetry, and enforcing annual penetration audits.",
+            "By assuming that all vendors remain completely secure without any ongoing monitoring.",
+            "By terminating all third-party software contracts every six months to change vendors.",
+            "By replacing all automated software testing with manual annual phone calls."
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"By deploying automated security scorecards, tracking real-time API telemetry, and enforcing annual penetration audits.\") is correct. The text states that mature offices 'deploy automated security scorecards to monitor vendor digital attack surfaces, track real-time API uptime telemetry, and enforce annual third-party penetration audits.'",
+          "questionType": "main-idea"
+        }
+      ]
+    },
+    "listening": {
+      "id": "mock-09-list",
+      "type": "listening",
+      "title": "Audio Negotiation: Vendor Master Services Agreement Steering Session",
+      "context": "Master Services Agreement contract negotiation between procurement leadership and software vendor executives.",
+      "dialogue": [
+        {
+          "speaker": "Rachel",
+          "text": "Good morning Patrick. We need to finalize the unresolved risk clauses in our enterprise identity integration contract before execution."
+        },
+        {
+          "speaker": "Patrick",
+          "text": "Welcome Rachel. Our draft proposed capping aggregate liability at twelve months of recurring software fees, which is approximately 480,000 dollars."
+        },
+        {
+          "speaker": "Rachel",
+          "text": "Given that this platform authenticates over 50,000 corporate employees, that cap is insufficient. We counter-propose a super-cap of 5 million dollars specifically for data breach indemnification and gross negligence."
+        },
+        {
+          "speaker": "Patrick",
+          "text": "What about the service credit schedule under Schedule C?"
+        },
+        {
+          "speaker": "Rachel",
+          "text": "We require a 25% invoice credit if availability plunges below 99.0% in any calendar month, with contractual termination rights if breaches occur across three consecutive months."
+        },
+        {
+          "speaker": "Patrick",
+          "text": "Those terms are acceptable given the mission-critical scale of the deployment. We will update the contract draft accordingly."
+        }
+      ],
+      "fullScriptText": "Rachel: Good morning Patrick. We need to finalize the unresolved risk clauses in our enterprise identity integration contract before execution.\nPatrick: Welcome Rachel. Our draft proposed capping aggregate liability at twelve months of recurring software fees, which is approximately 480,000 dollars.\nRachel: Given that this platform authenticates over 50,000 corporate employees, that cap is insufficient. We counter-propose a super-cap of 5 million dollars specifically for data breach indemnification and gross negligence.\nPatrick: What about the service credit schedule under Schedule C?\nRachel: We require a 25% invoice credit if availability plunges below 99.0% in any calendar month, with contractual termination rights if breaches occur across three consecutive months.\nPatrick: Those terms are acceptable given the mission-critical scale of the deployment. We will update the contract draft accordingly.",
+      "questions": [
+        {
+          "id": "mock-09-list-q01",
+          "prompt": "What super-cap does Rachel Chen counter-propose specifically for data breach indemnification and gross negligence?",
+          "options": [
+            "A cap of $100,000",
+            "A super-cap of $500,000",
+            "A super-cap of $5 million",
+            "An unlimited cap of $50 million"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"A super-cap of $5 million\") is correct. Rachel Chen explicitly counter-proposes: 'a super-cap of 5 million dollars specifically for data breach indemnification and gross negligence.'"
+        },
+        {
+          "id": "mock-09-list-q02",
+          "prompt": "What SLA financial service credit does Rachel propose if availability plunges below 99.0% in any calendar month?",
+          "options": [
+            "A 5% invoice credit",
+            "A 10% invoice credit",
+            "A 100% full refund",
+            "A 25% invoice credit"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"A 25% invoice credit\") is correct. Rachel states: 'and a 25% invoice credit if availability plunges below 99.0% in any calendar month.'"
+        },
+        {
+          "id": "mock-09-list-q03",
+          "prompt": "How many corporate employees will rely on the identity integration platform according to the briefing?",
+          "options": [
+            "Over 50,000 corporate employees",
+            "Around 500 employees",
+            "Approximately 5,000 employees",
+            "Nearly 500,000 employees"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"Over 50,000 corporate employees\") is correct. The speaker clearly states: 'Given that this identity platform will authenticate over 50,000 corporate employees and handle sensitive internal tokens.'"
+        },
+        {
+          "id": "mock-09-list-q04",
+          "prompt": "Under what consecutive breach condition does Rachel specify the client must retain contractual termination rights?",
+          "options": [
+            "If a single breach lasts longer than five minutes",
+            "If breaches occur across three consecutive months",
+            "Only if the vendor goes into bankruptcy liquidation",
+            "If breaches occur across ten consecutive years"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"If breaches occur across three consecutive months\") is correct. Rachel specifies: 'with termination rights if breaches occur across three consecutive months.'"
+        }
+      ]
+    },
+    "speaking": [
+      {
+        "id": "mock-09-spk-01",
+        "type": "speaking",
+        "prompt": "Roleplay a negotiation with a software vendor account representative who is refusing to offer SLA service credits for a severe weekend platform outage.",
+        "context": "Firmly assert contractual commitments, explain the tangible business disruption experienced by your organization, and negotiate a professional commercial resolution.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Professional, assertive negotiation tone",
+          "Citing contractual SLA clauses and commitments",
+          "Articulating tangible business disruption",
+          "Seeking win-win commercial resolution"
+        ],
+        "modelTranscript": "I understand your perspective that the outage occurred over the weekend, but from an operational and contractual standpoint, our agreement does not differentiate between business hours and weekend maintenance windows for platform availability. Section 5 of our Service Level Agreement explicitly guarantees 99.9% continuous monthly uptime across all seven days of the week. This weekend disruption halted our end-of-month batch data processing, requiring fifteen of our senior engineers to work overtime to manually reconcile customer records. Claiming that weekend downtime is exempt from standard service credits contradicts our signed agreement and undermines the trust we have built. We value our ongoing partnership with your firm, but we must adhere to our governance framework. We expect the standard fifteen percent SLA credit applied to our upcoming invoice, alongside a documented engineering remediation plan by Friday."
+      },
+      {
+        "id": "mock-09-spk-02",
+        "type": "speaking",
+        "prompt": "Explain how organizations balance the benefits of multi-vendor best-of-breed software architectures against the increased complexity of managing multiple third-party integration points.",
+        "context": "Contrast best-of-breed flexibility and innovation against vendor lock-in, integration overhead, support finger-pointing, and governance overhead.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Benefits of best-of-breed specialized tooling",
+          "Risks of monolithic single-vendor lock-in",
+          "Challenges of integration overhead & multi-vendor finger-pointing",
+          "Unified governance frameworks and API standardization"
+        ],
+        "modelTranscript": "Adopting a best-of-breed software strategy allows an enterprise to select the absolute highest-performing solution for each specific capability—such as choosing a specialized search engine, a dedicated CRM, and a premier data warehouse. This prevents vendor lock-in, spurs rapid innovation, and ensures squads have access to top-tier capabilities. However, this diversity introduces substantial operational complexity: engineering teams must build and maintain brittle integration pipelines, manage disparate security frameworks, and handle multi-vendor contract lifecycles. Furthermore, when an outage occurs, vendors frequently engage in finger-pointing, blaming each other's APIs for latency bottlenecks. To balance these trade-offs, mature enterprises establish standardized API gateway contracts, enforce unified observability tooling across all vendors, and implement strict joint operating agreements that clearly define support escalation paths across the entire partner ecosystem."
+      }
+    ]
+  }
+}

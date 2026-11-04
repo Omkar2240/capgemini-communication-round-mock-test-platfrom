@@ -1,0 +1,503 @@
+{
+  "id": "mock-05",
+  "testNumber": 5,
+  "title": "Mock Test 05: Workplace Policy & Remote Operations",
+  "difficulty": "Foundation",
+  "durationMinutes": 60,
+  "description": "Hybrid work norms, asynchronous etiquette, data security hygiene, and clear workplace inquiries.",
+  "sectionTimers": {
+    "grammar": 12,
+    "writing": 10,
+    "situational": 10,
+    "reading": 10,
+    "listening": 8,
+    "speaking": 10
+  },
+  "sections": {
+    "grammar": [
+      {
+        "id": "mock-05-gram-01",
+        "type": "grammar",
+        "prompt": "The corporate information security policy _____ all employees to utilize multi-factor authentication on remote workstations.",
+        "options": [
+          "require",
+          "requires",
+          "are requiring",
+          "have required"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"requires\") is correct. The singular subject 'policy' requires the third-person singular present verb 'requires'.",
+        "topic": "Subject-Verb Agreement",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-05-gram-02",
+        "type": "grammar",
+        "prompt": "By the end of the current fiscal quarter, our infrastructure team _____ all legacy VPN gateways to the new zero-trust architecture.",
+        "options": [
+          "migrated",
+          "is migrating",
+          "will have migrated",
+          "would migrate"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"will have migrated\") is correct. Future perfect ('will have migrated') expresses an action that will be completed by a future milestone ('By the end of...').",
+        "topic": "Tenses",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-05-gram-03",
+        "type": "grammar",
+        "prompt": "Every remote employee received _____ encrypted laptop configured with enterprise endpoint protection.",
+        "options": [
+          "a",
+          "the",
+          "no article needed",
+          "an"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"an\") is correct. 'Encrypted' begins with a vowel sound (/ɪnˈkrɪp.tɪd/), requiring the indefinite article 'an'.",
+        "topic": "Articles",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-05-gram-04",
+        "type": "grammar",
+        "prompt": "Employees are strictly prohibited _____ storing unencrypted client credentials on local machine drives.",
+        "options": [
+          "from",
+          "to",
+          "with",
+          "against"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"from\") is correct. 'Prohibited' conventionally takes the preposition 'from' followed by a gerund ('prohibited from storing').",
+        "topic": "Prepositions",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-05-gram-05",
+        "type": "grammar",
+        "prompt": "Please direct any workplace ergonomic equipment inquiries to Sarah or _____ before Friday afternoon.",
+        "options": [
+          "I",
+          "me",
+          "myself",
+          "mine"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"me\") is correct. The preposition 'to' governs objects in the objective case ('to Sarah or me').",
+        "topic": "Pronouns",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-05-gram-06",
+        "type": "grammar",
+        "prompt": "Remote work offers substantial scheduling flexibility, _____ it requires rigorous individual time management and communication discipline.",
+        "options": [
+          "because",
+          "so",
+          "yet",
+          "unless"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"yet\") is correct. 'Yet' acts as an adversative conjunction highlighting the trade-off between flexibility and discipline.",
+        "topic": "Conjunctions",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-05-gram-07",
+        "type": "grammar",
+        "prompt": "Identify the correct passive voice sentence: 'The IT compliance department audited all remote access logs.'",
+        "options": [
+          "All remote access logs have been audited by the IT compliance department.",
+          "All remote access logs was audited by the IT compliance department.",
+          "The IT compliance department was audited by all remote access logs.",
+          "All remote access logs were audited by the IT compliance department."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"All remote access logs were audited by the IT compliance department.\") is correct. Past simple passive: 'All remote access logs were audited by the IT compliance department.'",
+        "topic": "Active and Passive Voice",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-05-gram-08",
+        "type": "grammar",
+        "prompt": "Change to indirect speech: The IT administrator said, 'Never share your hardware security tokens with anyone.'",
+        "options": [
+          "The IT administrator instructed employees never to share their hardware security tokens with anyone.",
+          "The IT administrator said that never share your hardware security tokens with anyone.",
+          "The IT administrator told that employees will never share hardware security tokens.",
+          "The IT administrator advised that you cannot share your hardware security tokens."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"The IT administrator instructed employees never to share their hardware security tokens with anyone.\") is correct. Imperative prohibitions shift cleanly to infinitive reporting verbs ('instructed employees never to share...').",
+        "topic": "Direct and Indirect Speech",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-05-gram-09",
+        "type": "grammar",
+        "prompt": "Identify the sentence that observes correct grammatical agreement regarding remote policy notifications:",
+        "options": [
+          "Neither the regional directors nor the human resources lead were aware of the remote stipend policy change.",
+          "Neither the regional directors nor the human resources lead was aware of the remote stipend policy change.",
+          "Neither the regional directors or the human resources lead was aware of the remote stipend policy change.",
+          "Neither the regional directors nor the human resources lead have been aware of the remote stipend policy change."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"Neither the regional directors nor the human resources lead was aware of the remote stipend policy change.\") is correct. When subjects are connected by 'neither... nor', the verb agrees with the singular subject closer to it ('lead' -> 'was').",
+        "topic": "Sentence Correction",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-05-gram-10",
+        "type": "grammar",
+        "prompt": "Choose the word closest in meaning to 'STRINGENT' as used in: 'The financial client enforces stringent data retention requirements.'",
+        "options": [
+          "flexible and relaxed",
+          "temporary and informal",
+          "strict and rigorous",
+          "optional"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"strict and rigorous\") is correct. 'Stringent' denotes strict, precise, and rigorously enforced standards or regulations.",
+        "topic": "Vocabulary in Context",
+        "difficulty": "easy"
+      }
+    ],
+    "writing": [
+      {
+        "id": "mock-05-wri-01",
+        "type": "writing",
+        "prompt": "Draft a formal email to your People Operations (HR) business partner requesting permission to work remotely from another state for three weeks due to family commitments.",
+        "scenario": "You are a full-time employee seeking temporary remote approval. You need to outline your work schedule, confirm that client deliverables will not be impacted, and verify data security compliance.",
+        "expectedFormat": "professional_email",
+        "recommendedWordCount": {
+          "min": 110,
+          "max": 160
+        },
+        "evaluationCriteria": [
+          "Professional corporate salutation and tone",
+          "Clear travel dates and reason",
+          "Commitment to uninterrupted delivery and client hours",
+          "Information security and network assurance"
+        ],
+        "modelResponse": "Dear Ms. Jenkins,\n\nI hope your week is going well. I am writing to formally request approval for a temporary three-week remote work arrangement from Austin, Texas, between December 1st and December 19th, due to personal family commitments.\n\nDuring this interval, I will maintain my standard working hours (9:00 AM – 6:00 PM EST) and remain fully accessible via Slack and Microsoft Teams. I have reviewed our upcoming sprint deliverables with my engineering lead, and all milestones remain on track with zero impact on our client commitments.\n\nFurthermore, I will connect strictly through our encrypted corporate VPN and adhere to all corporate data security protocols from a private, secure home workspace. Please let me know if you require any additional documentation to process this request.\n\nThank you for your consideration and support.\n\nWarm regards,\nDaniel Evans\nSoftware Engineer",
+        "keyPoints": [
+          "specific dates and location",
+          "uninterrupted core hours",
+          "client delivery assurance",
+          "security and VPN compliance"
+        ]
+      },
+      {
+        "id": "mock-05-wri-02",
+        "type": "writing",
+        "prompt": "Draft an internal corporate policy memo announcing the rollout of mandatory annual cybersecurity awareness training for all hybrid and remote staff.",
+        "scenario": "All employees must complete a 45-minute interactive security module by the end of the month to maintain client compliance attestations.",
+        "expectedFormat": "formal_memo",
+        "recommendedWordCount": {
+          "min": 100,
+          "max": 150
+        },
+        "evaluationCriteria": [
+          "Standard memorandum format",
+          "Clear completion deadline",
+          "Business and client compliance rationale",
+          "Support and portal login instructions"
+        ],
+        "modelResponse": "MEMORANDUM\n\nTO: All Global & Remote Personnel\nFROM: Chief Information Security Office\nDATE: November 4, 2026\nSUBJECT: Mandatory Annual Cybersecurity Training - 2026 Completion Deadline\n\nTo uphold our international ISO 27001 compliance standards and protect client data integrity, all full-time and contract employees must complete the 2026 Cybersecurity Training module.\n\n1. Deadline: Friday, November 28th, at 5:00 PM EST.\n2. Duration: Approximately 45 minutes, self-paced.\n3. Access Portal: Navigate to our internal learning portal at learn.commprep.internal under 'Mandatory Compliance'.\n\nCompletion is tracked automatically. Employees failing to complete the module by the deadline will experience temporary revocation of external VPN access.\n\nThank you for safeguarding our enterprise and client data.",
+        "keyPoints": [
+          "completion deadline",
+          "duration and self-paced nature",
+          "access link/instructions",
+          "compliance consequence"
+        ]
+      }
+    ],
+    "situational": [
+      {
+        "id": "sit-abmrxea9t",
+        "type": "situational",
+        "context": "You notice that a colleague is working from a public coffee shop with a laptop screen clearly visible to patrons while reviewing confidential client financial statements.",
+        "challenge": "You want to protect corporate data privacy without alienating your teammate.",
+        "options": [
+          "Take a photo of them and post it on public LinkedIn to shame them.",
+          "Ignore it completely because cybersecurity is only IT's problem.",
+          "Walk up to their laptop and pour coffee on the keyboard to stop the leak.",
+          "Send them a private, friendly message pointing out the privacy risk: 'Hey Alex, just a heads-up that public coffee shops pose visual snooping risks; please consider attaching a privacy screen filter or reviewing client financials from a private space.'"
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Friendly, private intervention protects client data confidentiality while preserving supportive peer relationships.",
+        "writtenPrompt": "Write a private 1-sentence Slack message to your colleague.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Hey Alex, just a quick reminder that client financial sheets require privacy filters in public spaces to stay compliant with our security policy."
+      },
+      {
+        "id": "sit-0jczgjmmg",
+        "type": "situational",
+        "context": "Your home internet connection fails completely during an active enterprise client presentation where you are the primary speaker.",
+        "challenge": "You need to recover rapidly without leaving the client waiting in confusion.",
+        "options": [
+          "Immediately enable your mobile cellular hotspot to reconnect to the meeting audio, send a quick text to your co-presenter to advance the slide deck, and continue your presentation calmly.",
+          "Give up and go to sleep for the rest of the day.",
+          "Send an angry email to your internet service provider blaming them for destroying your career.",
+          "Pretend you were kidnapped by hackers."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Quick contingency mobilization (cellular hotspot + co-presenter backup) demonstrates professional poise and resilience under pressure.",
+        "writtenPrompt": "Write a quick text to your co-presenter requesting backup.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Priya, my home fiber just dropped; I'm dialing in via mobile hotspot right now, please take over slide 5 while I reconnect."
+      },
+      {
+        "id": "sit-btoe8ytpw",
+        "type": "situational",
+        "context": "A teammate regularly messages you on Slack at 11:30 PM with urgent-sounding requests for non-critical routine tasks.",
+        "challenge": "You want to establish healthy work-life boundaries without appearing uncooperative.",
+        "options": [
+          "Wake up at 2:00 AM and do the work while crying in frustration.",
+          "Maintain healthy boundaries by setting Slack notifications to 'Do Not Disturb' during off-hours, and respond during morning business hours: 'Hi Jordan, reviewing this now—for future reference, I am offline after 6 PM, but will gladly tackle urgent morning priorities.'",
+          "Send a furious message at midnight insulting their work habits.",
+          "Block your teammate permanently on all company channels."
+        ],
+        "bestOption": 1,
+        "bestOptionRationale": "Option B is the optimal professional strategy. Clear, consistent communication of operational boundaries preserves well-being while modeling mature professional etiquette.",
+        "writtenPrompt": "Write a polite morning response to an off-hours message.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Good morning Jordan, reviewing this ticket now; I keep notifications silenced after 6 PM, but I will make this my first priority today."
+      },
+      {
+        "id": "sit-89ngrrn2j",
+        "type": "situational",
+        "context": "An employee receives a suspicious email from someone claiming to be the CEO asking for urgent wire transfers of client gift cards.",
+        "challenge": "You must handle this phishing simulation or actual threat in accordance with corporate security hygiene.",
+        "options": [
+          "Immediately purchase $5,000 in gift cards with your own credit card and email the codes.",
+          "Reply to the scammer asking if they want to be friends.",
+          "Do not click any links or reply; immediately report the email using the corporate 'Report Phishing' tool and notify the security operations center.",
+          "Forward the email to all employees in the company asking what to do."
+        ],
+        "bestOption": 2,
+        "bestOptionRationale": "Option C is the optimal professional strategy. Immediate reporting of phishing threats to the security operations center protects the entire enterprise attack surface.",
+        "writtenPrompt": "Write a 1-sentence alert message to your team lead.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Heads-up team: I just received a CEO impersonation phishing email regarding gift cards and have reported it directly to our InfoSec queue."
+      },
+      {
+        "id": "sit-s1wu5e50p",
+        "type": "situational",
+        "context": "A remote colleague appears noticeably disengaged, missing standups, and missing deadlines over two consecutive weeks.",
+        "challenge": "You want to check in on their well-being while supporting team delivery accountability.",
+        "options": [
+          "Publicly mock them in the team channel for being unproductive.",
+          "Immediately file a disciplinary complaint with Human Resources without speaking to them.",
+          "Ignore them and do all their work yourself silently.",
+          "Reach out in a private, compassionate 1-on-1 message: 'Hey Chris, I noticed you have seemed under pressure lately; I wanted to check in and see how you are doing, and if there is anything I can do to help with sprint tasks.'"
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Empathetic, private peer inquiry identifies personal or technical blockers early and builds deep team trust.",
+        "writtenPrompt": "Write a supportive 1-sentence check-in message to your colleague.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Hey Chris, just wanted to check in and see how you are doing this week—let me know if I can help unblock any of your sprint tickets today."
+      },
+      {
+        "id": "sit-5q3q8f2uc",
+        "type": "situational",
+        "context": "Your company introduces a new camera-on policy for all internal meetings, but a junior colleague expresses extreme anxiety about turning their camera on due to personal living conditions.",
+        "challenge": "As a team lead, you want to uphold company expectations while providing supportive, inclusive accommodation.",
+        "options": [
+          "Listen with empathy, explain that professional virtual backgrounds or avatar mode are acceptable options, and reassure them that their comfort and contribution matter most.",
+          "Tell the colleague that they must turn their camera on or be terminated immediately.",
+          "Force them to turn their camera on and show their entire room to the team.",
+          "Tell the colleague to stop working at the company if they have anxiety."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Compassionate accommodation combined with practical technical solutions (virtual backgrounds) balances policy with inclusion.",
+        "writtenPrompt": "Write a 2-sentence supportive private note to your colleague.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "We want everyone to feel comfortable participating; please feel free to use our standardized corporate blurred or virtual background anytime, or leave camera off when you need to focus on audio."
+      }
+    ],
+    "reading": {
+      "id": "mock-05-read",
+      "type": "reading",
+      "passageTitle": "The Borderless Enterprise: Information Security in Hybrid Operations",
+      "passageTopic": "Information Security & Hybrid Work",
+      "wordCount": 385,
+      "passageContent": "The accelerated dissolution of the traditional corporate perimeter has permanently redefined the discipline of enterprise cybersecurity. For decades, organizations operated under an architectural paradigm analogous to a medieval castle: internal networks were deemed inherently trustworthy, while external traffic was subjected to rigorous inspection at the gateway firewall. However, the dispersion of the global knowledge workforce across decentralized home networks, cellular hotspots, and co-working spaces has rendered the castle-and-moat security model obsolete.\n\nIn its place, modern enterprises are standardizing upon Zero Trust Architecture (ZTA). Governed by the maxim 'never trust, always verify,' Zero Trust mandates that every access request—regardless of whether it originates from a senior executive's home workstation or an internal server rack—must be authenticated, authorized, and continuously encrypted before access is granted. This architectural transition shifts security enforcement from static network boundaries to identity and endpoint telemetry. Under Zero Trust, contextual variables such as device encryption health, geographic anomaly detection, and biometric multi-factor authentication become the primary arbiters of data access.\n\nNevertheless, cybersecurity resilience cannot be achieved solely through computational firewalls and cryptographic protocols. Sociotechnical research demonstrates that human behavior remains the primary attack vector exploited by adversarial actors. Sophisticated spear-phishing campaigns, credential stuffing attacks, and social engineering ploys target human cognitive heuristics rather than software vulnerabilities. Consequently, forward-looking enterprises cultivate 'security culture' as an active operational discipline. Rather than imposing draconian, friction-heavy restrictions that incentivize employees to circumvent safeguards, resilient organizations design intuitive security tools, conduct blameless phishing simulations, and empower staff to view themselves as active defenders of enterprise and client data integrity.",
+      "questions": [
+        {
+          "id": "mock-05-read-q01",
+          "prompt": "According to paragraph 1, what made the traditional 'castle-and-moat' cybersecurity model obsolete?",
+          "options": [
+            "The complete replacement of all human software engineers by robotic automation.",
+            "The dispersion of the knowledge workforce across decentralized remote networks and home environments.",
+            "The invention of the mouse and graphical user interfaces.",
+            "A dramatic decrease in the price of corporate laptop computers."
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"The dispersion of the knowledge workforce across decentralized remote networks and home environments.\") is correct. Paragraph 1 notes that workforce dispersion across decentralized networks 'has rendered the castle-and-moat security model obsolete.'",
+          "questionType": "factual"
+        },
+        {
+          "id": "mock-05-read-q02",
+          "prompt": "What is the foundational guiding maxim of Zero Trust Architecture according to paragraph 2?",
+          "options": [
+            "'Trust everyone inside the building unconditionally.'",
+            "'Security is purely an administrative burden.'",
+            "'Never trust, always verify.'",
+            "'Passwords should never be changed.'"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"'Never trust, always verify.'\") is correct. Paragraph 2 states: 'Governed by the maxim 'never trust, always verify,' Zero Trust mandates that every access request... must be authenticated.'",
+          "questionType": "factual"
+        },
+        {
+          "id": "mock-05-read-q03",
+          "prompt": "What does sociotechnical research reveal about adversarial cyber attack vectors in paragraph 3?",
+          "options": [
+            "Adversaries only attack physical electrical wires in corporate data centers.",
+            "Software algorithms can never be breached by malicious actors.",
+            "Zero Trust completely eliminates the need for human security training.",
+            "Human behavioral heuristics remain the primary target exploited by phishing and social engineering."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"Human behavioral heuristics remain the primary target exploited by phishing and social engineering.\") is correct. Paragraph 3 emphasizes that 'human behavior remains the primary attack vector... sophisticated spear-phishing campaigns... target human cognitive heuristics rather than software vulnerabilities.'",
+          "questionType": "inference"
+        },
+        {
+          "id": "mock-05-read-q04",
+          "prompt": "As used in paragraph 2, what does the term 'ARBITER' most closely mean?",
+          "options": [
+            "An authoritative deciding factor or judge",
+            "A temporary hardware cable",
+            "A minor cosmetic bug",
+            "An optional computer accessory"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"An authoritative deciding factor or judge\") is correct. 'Arbiter' denotes an entity, factor, or judge with the ultimate power to decide or determine an outcome.",
+          "questionType": "vocabulary"
+        }
+      ]
+    },
+    "listening": {
+      "id": "mock-05-list",
+      "type": "listening",
+      "title": "Hybrid Work Security Briefing",
+      "context": "Karen (Chief Information Security Officer) and Tyler (DevOps Infrastructure Engineer) discuss employee compliance with remote zero-trust guidelines.",
+      "dialogue": [
+        {
+          "speaker": "Karen",
+          "text": "Tyler, how is our migration to the new zero-trust identity provider progressing across our remote engineering hubs?"
+        },
+        {
+          "speaker": "Tyler",
+          "text": "We have successfully enrolled eighty-eight percent of our remote employees, Karen. The remaining twelve percent are scheduled for migration by this Thursday."
+        },
+        {
+          "speaker": "Karen",
+          "text": "What seems to be the primary friction point for that remaining twelve percent?"
+        },
+        {
+          "speaker": "Tyler",
+          "text": "Most of them needed hardware security keys shipped to their home residences for physical multi-factor authentication. Operations shipped the final batch of thirty FIDO2 tokens yesterday."
+        },
+        {
+          "speaker": "Karen",
+          "text": "Good. Please ensure that our help desk provides a dedicated thirty-minute onboarding slot for each recipient so access disruptions are minimized."
+        },
+        {
+          "speaker": "Tyler",
+          "text": "Will do, Karen. I've already briefed the support team to prioritize those setup tickets."
+        }
+      ],
+      "fullScriptText": "Karen: Tyler, how is our migration to the new zero-trust identity provider progressing across our remote engineering hubs?\nTyler: We have successfully enrolled eighty-eight percent of our remote employees, Karen. The remaining twelve percent are scheduled for migration by this Thursday.\nKaren: What seems to be the primary friction point for that remaining twelve percent?\nTyler: Most of them needed hardware security keys shipped to their home residences for physical multi-factor authentication. Operations shipped the final batch of thirty FIDO2 tokens yesterday.\nKaren: Good. Please ensure that our help desk provides a dedicated thirty-minute onboarding slot for each recipient so access disruptions are minimized.\nTyler: Will do, Karen. I've already briefed the support team to prioritize those setup tickets.",
+      "questions": [
+        {
+          "id": "mock-05-list-q01",
+          "prompt": "What percentage of remote employees have already been enrolled in the zero-trust identity provider?",
+          "options": [
+            "Fifty percent",
+            "Twelve percent",
+            "Eighty-eight percent",
+            "One hundred percent"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"Eighty-eight percent\") is correct. Tyler confirms: 'We have successfully enrolled eighty-eight percent of our remote employees, Karen.'"
+        },
+        {
+          "id": "mock-05-list-q02",
+          "prompt": "How many physical FIDO2 hardware security tokens did Operations ship in the final batch yesterday?",
+          "options": [
+            "Ten tokens",
+            "One hundred tokens",
+            "Fifty tokens",
+            "Thirty tokens"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"Thirty tokens\") is correct. Tyler states: 'Operations shipped the final batch of thirty FIDO2 tokens yesterday.'"
+        },
+        {
+          "id": "mock-05-list-q03",
+          "prompt": "By what day does Tyler expect the remaining twelve percent of employees to complete migration?",
+          "options": [
+            "By this Thursday",
+            "By next month",
+            "By Friday midnight",
+            "By next year"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"By this Thursday\") is correct. Tyler explains: 'The remaining twelve percent are scheduled for migration by this Thursday.'"
+        },
+        {
+          "id": "mock-05-list-q04",
+          "prompt": "What duration did Karen specify for the dedicated help desk onboarding support slots?",
+          "options": [
+            "Five minutes",
+            "Thirty minutes",
+            "Two hours",
+            "All day"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"Thirty minutes\") is correct. Karen directs: 'Please ensure that our help desk provides a dedicated thirty-minute onboarding slot for each recipient.'"
+        }
+      ]
+    },
+    "speaking": [
+      {
+        "id": "mock-05-spk-01",
+        "type": "speaking",
+        "prompt": "Explain how you structure your daily routine to maintain high productivity, mental focus, and professional boundaries while working in a remote or hybrid environment.",
+        "context": "Self-discipline, asynchronous etiquette, and professional routine in remote work environments.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Daily morning preparation routine",
+          "Structuring deep focus blocks vs communication intervals",
+          "Clear end-of-day boundary rituals",
+          "Proactive asynchronous updates to teammates"
+        ],
+        "modelTranscript": "Working remotely requires deliberate self-discipline and structural boundary management. I begin each morning with a focused routine that simulates a traditional commute, stepping into a designated workspace free from domestic distractions. I structure my workday into ninety-minute deep work intervals dedicated to technical problem-solving, interspersed with focused blocks for reviewing pull requests and responding to Slack messages. To maintain team alignment, I broadcast concise asynchronous updates at the beginning and end of each day. When the workday concludes, I formally power down my workstation and step away, ensuring sustainable focus, high productivity, and long-term mental well-being."
+      },
+      {
+        "id": "mock-05-spk-02",
+        "type": "speaking",
+        "prompt": "Discuss why information security and data confidentiality hygiene are the personal responsibility of every corporate employee, not just the IT security department.",
+        "context": "Security consciousness as an organizational culture. Explain human threat vectors, social engineering, and client trust.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Security as an all-hands discipline",
+          "Vulnerability of human cognitive heuristics (phishing)",
+          "Protecting client trust and company reputation",
+          "Personal security hygiene practices"
+        ],
+        "modelTranscript": "In today's interconnected digital landscape, an enterprise's cybersecurity posture is only as resilient as its least vigilant employee. While IT departments configure sophisticated firewalls and endpoint detection, adversarial hackers predominantly exploit human habits through spear-phishing, credential theft, and social engineering. A single careless click on an unverified link or pasting sensitive client tokens into unauthorized tools can breach an entire network. Therefore, security hygiene is a foundational professional duty. By rigorously verifying sender identities, using password managers, and promptly reporting suspicious communications, every professional acts as a vital frontline guardian of organizational and client trust."
+      }
+    ]
+  }
+}

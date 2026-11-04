@@ -1,0 +1,499 @@
+{
+  "id": "mock-01",
+  "testNumber": 1,
+  "title": "Mock Test 01: Client Onboarding & Project Kickoff",
+  "difficulty": "Foundation",
+  "durationMinutes": 60,
+  "description": "Foundational business English, team orientation, kickoff correspondence, and initial project coordination.",
+  "sectionTimers": {
+    "grammar": 12,
+    "writing": 10,
+    "situational": 10,
+    "reading": 10,
+    "listening": 8,
+    "speaking": 10
+  },
+  "sections": {
+    "grammar": [
+      {
+        "id": "mock-01-gram-01",
+        "type": "grammar",
+        "prompt": "Neither of the two new account managers _____ arrived for the client orientation session.",
+        "options": [
+          "have",
+          "has",
+          "are",
+          "were"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"has\") is correct. 'Neither' takes a singular verb ('has') when referring to each individual unit separately in formal English.",
+        "topic": "Subject-Verb Agreement",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-01-gram-02",
+        "type": "grammar",
+        "prompt": "The engineering team _____ the initial demo environment before the client joined the conference call.",
+        "options": [
+          "already provisioned",
+          "has already provisioned",
+          "had already provisioned",
+          "was already provisioning"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"had already provisioned\") is correct. Past perfect ('had already provisioned') is required for an event completed before another past reference event ('joined').",
+        "topic": "Tenses",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-01-gram-03",
+        "type": "grammar",
+        "prompt": "Our team delivered _____ customized onboarding dashboard for the new corporate partner.",
+        "options": [
+          "an",
+          "the",
+          "no article needed",
+          "a"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"a\") is correct. The word 'customized' begins with a consonant sound (/k/), requiring the indefinite article 'a'.",
+        "topic": "Articles",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-01-gram-04",
+        "type": "grammar",
+        "prompt": "All new implementation workflows must comply _____ our client's internal data protection policies.",
+        "options": [
+          "with",
+          "to",
+          "for",
+          "against"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"with\") is correct. The verb 'comply' is conventionally paired with the preposition 'with'.",
+        "topic": "Prepositions",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-01-gram-05",
+        "type": "grammar",
+        "prompt": "The orientation materials were divided equally between Sarah and _____.",
+        "options": [
+          "I",
+          "me",
+          "myself",
+          "mine"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"me\") is correct. 'Between' is a preposition, so pronouns following it must be in the objective case ('me').",
+        "topic": "Pronouns",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-01-gram-06",
+        "type": "grammar",
+        "prompt": "The kickoff meeting concluded ahead of schedule, _____ the team agreed to review the project charter immediately.",
+        "options": [
+          "although",
+          "whereas",
+          "so",
+          "unless"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"so\") is correct. 'So' indicates a logical consequence or cause-and-effect relationship.",
+        "topic": "Conjunctions",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-01-gram-07",
+        "type": "grammar",
+        "prompt": "Select the sentence written in correct passive voice: 'The project director approved the implementation charter.'",
+        "options": [
+          "The implementation charter has approved by the project director.",
+          "The implementation charter is being approved by the project director.",
+          "The project director was approved the implementation charter.",
+          "The implementation charter was approved by the project director."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"The implementation charter was approved by the project director.\") is correct. In simple past passive voice, the object becomes the subject followed by 'was/were' + past participle.",
+        "topic": "Active and Passive Voice",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-01-gram-08",
+        "type": "grammar",
+        "prompt": "Change to indirect speech: The client said, 'We will confirm the kickoff date tomorrow.'",
+        "options": [
+          "The client said that they would confirm the kickoff date the following day.",
+          "The client said that they will confirm the kickoff date tomorrow.",
+          "The client told that we would confirm the kickoff date tomorrow.",
+          "The client says that they will confirm the kickoff date the following day."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"The client said that they would confirm the kickoff date the following day.\") is correct. In reported speech, 'will' shifts to 'would', pronouns adjust to third person ('they'), and 'tomorrow' shifts to 'the following day'.",
+        "topic": "Direct and Indirect Speech",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-01-gram-09",
+        "type": "grammar",
+        "prompt": "Identify the grammatically correct sentence:",
+        "options": [
+          "The onboarding checklist requires that each employees verifies their corporate login credentials.",
+          "The onboarding checklist requires that each employee verify their corporate login credentials.",
+          "The onboarding checklist require that each employee verifies their corporate login credentials.",
+          "The onboarding checklist requires each employee to be verifying their corporate login credentials."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"The onboarding checklist requires that each employee verify their corporate login credentials.\") is correct. The sentence correctly pairs the singular subject 'checklist' with 'requires' and uses proper subjunctive verb structure.",
+        "topic": "Sentence Correction",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-01-gram-10",
+        "type": "grammar",
+        "prompt": "Choose the word closest in meaning to 'EXPEDITE' as used in: 'We requested urgent vendor support to expedite the access provisioning.'",
+        "options": [
+          "delay or postpone",
+          "cancel or withdraw",
+          "accelerate or hasten",
+          "observe and record"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"accelerate or hasten\") is correct. 'Expedite' means to speed up the progress or execution of a task.",
+        "topic": "Vocabulary in Context",
+        "difficulty": "easy"
+      }
+    ],
+    "writing": [
+      {
+        "id": "mock-01-wri-01",
+        "type": "writing",
+        "prompt": "Draft a formal email welcoming a new enterprise client and scheduling the official project kickoff call for next Tuesday.",
+        "scenario": "You have just been assigned as the client relationship manager. The contract is signed, and you need to introduce yourself, outline the kickoff agenda, and propose a calendar invitation.",
+        "expectedFormat": "professional_email",
+        "recommendedWordCount": {
+          "min": 100,
+          "max": 150
+        },
+        "evaluationCriteria": [
+          "Professional greeting & warm welcome",
+          "Clear meeting agenda topics",
+          "Proposed timeline & next steps",
+          "Courteous corporate sign-off"
+        ],
+        "modelResponse": "Dear Mr. Davis,\n\nWelcome to our technology consulting family! It is a distinct privilege to partner with Global Retail Solutions on your supply chain transformation initiative.\n\nI am writing to schedule our formal project kickoff meeting for next Tuesday, November 12th, at 10:00 AM EST via Microsoft Teams. During this 45-minute session, we will introduce our core implementation team, review key project milestones, and establish our weekly governance cadence.\n\nPlease let me know if this time aligns with your schedule, or if you prefer an alternative window. Attached is the preliminary kickoff agenda for your review.\n\nWarm regards,\nJordan Lee\nClient Delivery Manager",
+        "keyPoints": [
+          "welcome message",
+          "proposed date and time",
+          "kickoff agenda items",
+          "polite request for confirmation"
+        ]
+      },
+      {
+        "id": "mock-01-wri-02",
+        "type": "writing",
+        "prompt": "Draft an internal orientation memo to the incoming project team members summarizing account background and team communication norms.",
+        "scenario": "You need to align 5 cross-functional team members (analysts, QA, developers) on communication channels, daily standup timing, and timesheet logging guidelines.",
+        "expectedFormat": "formal_memo",
+        "recommendedWordCount": {
+          "min": 110,
+          "max": 160
+        },
+        "evaluationCriteria": [
+          "Standard corporate memo formatting",
+          "Clear operational expectations",
+          "Contact points for questions",
+          "Professional tone"
+        ],
+        "modelResponse": "MEMORANDUM\n\nTO: Phoenix Onboarding Delivery Team\nFROM: Project Management Office\nDATE: November 4, 2026\nSUBJECT: Account Orientation & Operating Guidelines\n\nWelcome to the Phoenix Account. As we commence kickoff preparations, please note the following operational guidelines:\n\n1. Daily Standups: Daily syncs will take place Monday through Friday at 9:30 AM EST on the Project Phoenix Slack huddle.\n2. Primary Channels: All client-related documentation must reside in the shared SharePoint repository under confidential permissions.\n3. Timesheet Compliance: Please submit billable weekly timesheets every Friday by 4:00 PM EST.\n\nIf you encounter any tooling or credential access blockers, please reach out to our team lead immediately.\n\nThank you for your dedication to delivery excellence.",
+        "keyPoints": [
+          "daily sync timing",
+          "documentation repository",
+          "timesheet submission deadline",
+          "support escalation contact"
+        ]
+      }
+    ],
+    "situational": [
+      {
+        "id": "sit-974jarul0",
+        "type": "situational",
+        "context": "The client lead arrives at the kickoff meeting 15 minutes late due to an urgent internal escalation and appears visibly stressed.",
+        "challenge": "You need to adjust the meeting agenda gracefully without running over the allotted 45-minute window or making the client feel rushed.",
+        "options": [
+          "Politely scold the client for being late and insist on covering every single slide even if the meeting runs 30 minutes over.",
+          "Cancel the meeting immediately and tell the client to reschedule when they have more time.",
+          "Rush through all 30 slides at double speed without allowing any client questions or discussion.",
+          "Acknowledge their busy schedule with empathy, quickly adjust the agenda to focus strictly on essential decision points, and offer to share informational slides asynchronously."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Demonstrating empathy, agile prioritization, and respecting executive time constraints preserves rapport while achieving core alignment.",
+        "writtenPrompt": "Write a 1-sentence opening remark welcoming the client into the room with professional empathy.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Welcome, Ms. Vance; we completely understand urgent priorities arise, so we have streamlined today's agenda to focus directly on key milestones and decisions."
+      },
+      {
+        "id": "sit-qo9yynhnr",
+        "type": "situational",
+        "context": "During the kickoff call, the client asks about a reporting feature that is not in the signed scope of work for Phase 1.",
+        "challenge": "You want to maintain a positive commercial relationship without accepting scope creep that jeopardizes the delivery timeline.",
+        "options": [
+          "Validate the strategic importance of the feature, explain the current Phase 1 scope boundary, and propose capturing it as a high-priority enhancement for Phase 2 assessment.",
+          "Immediately promise the client that your team will build it in Phase 1 for free to make a good impression.",
+          "Bluntly state that they failed to read the contract terms and that you cannot help them.",
+          "Avoid answering the question and change the topic to the weather."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Consultative account management balances client enthusiasm with contractual discipline through transparent scope control.",
+        "writtenPrompt": "Draft a 2-sentence follow-up email confirming how the feature request will be handled.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Thank you for highlighting the automated analytics feature during today's call. Our team will prepare a formal scope impact assessment for Phase 2 inclusion and share it alongside next week's status report."
+      },
+      {
+        "id": "sit-oqm23k5zn",
+        "type": "situational",
+        "context": "A junior team member accidentally shares an internal draft document with cost margin estimates on the shared client screen.",
+        "challenge": "You need to handle the slip-up smoothly during the live call without drawing undue attention, then address it with the team afterward.",
+        "options": [
+          "Yell at the junior employee on the live call so the client knows it was not your personal fault.",
+          "Calmly switch the presentation window back to the client slide deck without reacting dramatically, conclude the call professionally, and conduct a blameless security coaching session afterward.",
+          "Panic, apologize profusely for 10 minutes, and ask the client to promise they did not read the numbers.",
+          "Immediately disconnect the internet cable to terminate the video call abruptly."
+        ],
+        "bestOption": 1,
+        "bestOptionRationale": "Option B is the optimal professional strategy. Composure during inadvertent disclosures prevents magnifying the error, while post-meeting blameless coaching ensures procedural remediation.",
+        "writtenPrompt": "Write a private 2-sentence Slack message to support your junior colleague after the call.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Great job presenting the functional flows today, David. Let's do a quick 5-minute debrief this afternoon to review screen-sharing privacy best practices."
+      },
+      {
+        "id": "sit-8pq77zv54",
+        "type": "situational",
+        "context": "The client point of contact does not respond to two consecutive emails requesting required API sandbox access credentials.",
+        "challenge": "Project kickoff activities are scheduled to begin in three business days, and the team cannot start without sandbox access.",
+        "options": [
+          "Escalate immediately to the client's Chief Technology Officer with an aggressive demand for accountability.",
+          "Halt all work and send no further reminders until the client eventually remembers to reply.",
+          "Send a courteous follow-up email clearly stating the dependency and milestone impact, and offer a quick 5-minute phone alignment with their technical administrator.",
+          "Attempt to guess the sandbox passwords or bypass security protocols to proceed without them."
+        ],
+        "bestOption": 2,
+        "bestOptionRationale": "Option C is the optimal professional strategy. Diplomatic persistence highlighting milestone dependencies provides stakeholders with clarity without appearing accusatory.",
+        "writtenPrompt": "Write a courteous 2-sentence email follow-up regarding the access credentials.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Hi David, to ensure our engineers can begin sandbox validation on schedule next Monday, could you kindly confirm credential access today? If preferred, we would be delighted to hop on a 5-minute call with your security admin."
+      },
+      {
+        "id": "sit-xh63izccw",
+        "type": "situational",
+        "context": "Two senior stakeholders on the client team give mutually conflicting requirements regarding user role permissions during the kickoff session.",
+        "challenge": "You need to align on a single requirements baseline without embarrassing either stakeholder in the meeting.",
+        "options": [
+          "Take the side of the more vocal stakeholder and ignore the other stakeholder's input completely.",
+          "Tell both stakeholders that they need to stop arguing and figure out their own internal company problems.",
+          "Build both contradictory permission models into the code secretly and let the system crash in production.",
+          "Document both perspectives neutrally in the meeting minutes, outline the architectural trade-offs of each approach, and facilitate a dedicated 20-minute alignment session to reach consensus."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Neutral documentation of trade-offs and structured facilitation empowers client stakeholders to make informed consensus decisions.",
+        "writtenPrompt": "Write a 1-sentence summary note for the meeting minutes regarding the permissions discussion.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Permission Architecture Note: Both role-based and attribute-based workflows were captured; our team will distribute an impact matrix for final stakeholder sign-off by Thursday."
+      },
+      {
+        "id": "sit-p3fhn920c",
+        "type": "situational",
+        "context": "The client expresses deep apprehension about the proposed project go-live date, citing bad experiences with past consulting vendors.",
+        "challenge": "You need to build confidence in your team's capability and process without making unrealistic delivery promises.",
+        "options": [
+          "Acknowledge their past frustrations empathetically, walk through your team's proactive milestone tracking and automated quality checkpoints, and commit to transparent weekly risk registers.",
+          "Guarantee with 100% certainty that your team never makes mistakes and that projects always finish weeks early.",
+          "Dismiss their concerns as irrelevant and tell them that your company is much better than their previous vendors.",
+          "Agree that software projects always fail and advise them to lower their expectations."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Empathetic listening backed by concrete governance frameworks and transparent reporting transforms stakeholder skepticism into trust.",
+        "writtenPrompt": "Write a 2-sentence reassurance email to the client sponsor.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "We understand how critical schedule predictability is for your organization, and we take that responsibility seriously. Our governance framework incorporates bi-weekly milestone checkpoints and an open risk register so you always have full visibility into delivery health."
+      }
+    ],
+    "reading": {
+      "id": "mock-01-read",
+      "type": "reading",
+      "passageTitle": "The Anatomy of High-Trust Corporate Kickoffs",
+      "passageTopic": "Client Services & Engagement",
+      "wordCount": 360,
+      "passageContent": "In enterprise software delivery, the initial kickoff phase establishes the psychological and communicative foundation for the entire engagement. While commercial contracts delineate financial scope, service level agreements, and intellectual property terms, they cannot substitute for interpersonal alignment. Industry research demonstrates that over sixty percent of mid-flight consulting disputes stem not from computational deficiencies, but from unexamined divergence in expectations established during the first two weeks of project commencement.\n\nA common organizational vulnerability during kickoff is the 'assumptive delivery trap'—the tendency of technical leads to assume that standard industry terminology carries identical operational meaning for the client organization. For instance, a vendor might define 'staging deployment' as code ready for internal automated testing, whereas a client sponsor may anticipate that a staging deployment represents a user-ready product available for executive demonstration. When such discrepancies remain unaddressed, early status reports generate confusion rather than confidence.\n\nTo inoculate engagements against early friction, mature consultative organizations implement transparent governance rituals from day one. These include establishing joint decision logs, publishing bi-directional communication protocols, and defining unambiguous exit criteria for each project phase. Rather than treating the kickoff as a ceremonial presentation, high-performing teams treat it as an intensive operational dialogue designed to illuminate hidden dependencies, align communication cadences, and foster mutual accountability.",
+      "questions": [
+        {
+          "id": "mock-01-read-q01",
+          "prompt": "According to the passage, what accounts for over sixty percent of mid-flight consulting disputes?",
+          "options": [
+            "Computational defects and severe hardware processing constraints.",
+            "Unexamined divergence in expectations established during the initial two weeks.",
+            "Disagreements over intellectual property and copyright ownership terms.",
+            "Inadequate financial investment from corporate venture sponsors."
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"Unexamined divergence in expectations established during the initial two weeks.\") is correct. Paragraph 1 explicitly notes that disputes stem from 'unexamined divergence in expectations established during the first two weeks of project commencement.'",
+          "questionType": "factual"
+        },
+        {
+          "id": "mock-01-read-q02",
+          "prompt": "What is the primary danger associated with the 'assumptive delivery trap' described in paragraph 2?",
+          "options": [
+            "Failing to purchase sufficient commercial software licenses.",
+            "Requiring too many automated unit tests during regression cycles.",
+            "Assuming that common industry terminology carries identical operational meaning for both parties.",
+            "Relying entirely on remote video calls instead of face-to-face meetings."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"Assuming that common industry terminology carries identical operational meaning for both parties.\") is correct. Paragraph 2 describes this trap as the tendency to assume that standard terminology carries identical operational meaning across both organizations.",
+          "questionType": "factual"
+        },
+        {
+          "id": "mock-01-read-q03",
+          "prompt": "What can be inferred from the author's characterization of mature consultative governance rituals?",
+          "options": [
+            "Client kickoff meetings should be abolished in favor of email memos.",
+            "Technical teams should never explain technical jargon to client sponsors.",
+            "Legal contracts are entirely useless in corporate software engagements.",
+            "Operational transparency and shared decision logs establish mutual accountability and mitigate misunderstandings."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"Operational transparency and shared decision logs establish mutual accountability and mitigate misunderstandings.\") is correct. Paragraph 3 concludes that structured transparent rituals illuminate hidden dependencies and foster mutual accountability.",
+          "questionType": "inference"
+        },
+        {
+          "id": "mock-01-read-q04",
+          "prompt": "As used in paragraph 3, what does the word 'INOCULATE' most closely mean in this business context?",
+          "options": [
+            "Protect or safeguard against future vulnerabilities",
+            "Completely eliminate financial expenses",
+            "Deliberately delay project milestones",
+            "Formally terminate commercial negotiations"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"Protect or safeguard against future vulnerabilities\") is correct. In this figurative context, to 'inoculate against friction' means to protect or safeguard the project from potential misunderstandings.",
+          "questionType": "vocabulary"
+        }
+      ]
+    },
+    "listening": {
+      "id": "mock-01-list",
+      "type": "listening",
+      "title": "Kickoff Call Alignment: Retail Solutions Engagement",
+      "context": "Marcus (Delivery Lead) and Rachel (Client Relationship Partner) conduct a pre-kickoff sync to finalize expectations before meeting the corporate sponsor.",
+      "dialogue": [
+        {
+          "speaker": "Marcus",
+          "text": "Rachel, thanks for meeting. I just reviewed the retail client's initial architecture document. Their core database team works on Pacific Standard Time, so we need to adjust our daily standup."
+        },
+        {
+          "speaker": "Rachel",
+          "text": "Good catch, Marcus. Let's schedule the daily sync for 11:30 AM EST, which gives their California engineers a reasonable start to their morning."
+        },
+        {
+          "speaker": "Marcus",
+          "text": "Agreed. Also, their VP requested that we demonstrate the preliminary data pipeline prototype by the third week of the sprint."
+        },
+        {
+          "speaker": "Rachel",
+          "text": "That is feasible, provided their network security team grants our VPN certificates by this Friday at 5:00 PM. Let's make sure that milestone dependency is clearly highlighted in tomorrow's kickoff deck."
+        },
+        {
+          "speaker": "Marcus",
+          "text": "I'll update slide four right now to reflect the Friday VPN milestone and our adjusted 11:30 AM sync."
+        }
+      ],
+      "fullScriptText": "Marcus: Rachel, thanks for meeting. I just reviewed the retail client's initial architecture document. Their core database team works on Pacific Standard Time, so we need to adjust our daily standup.\nRachel: Good catch, Marcus. Let's schedule the daily sync for 11:30 AM EST, which gives their California engineers a reasonable start to their morning.\nMarcus: Agreed. Also, their VP requested that we demonstrate the preliminary data pipeline prototype by the third week of the sprint.\nRachel: That is feasible, provided their network security team grants our VPN certificates by this Friday at 5:00 PM. Let's make sure that milestone dependency is clearly highlighted in tomorrow's kickoff deck.\nMarcus: I'll update slide four right now to reflect the Friday VPN milestone and our adjusted 11:30 AM sync.",
+      "questions": [
+        {
+          "id": "mock-01-list-q01",
+          "prompt": "What time did Marcus and Rachel agree upon for the daily standup meeting?",
+          "options": [
+            "9:00 AM EST",
+            "2:00 PM EST",
+            "11:30 AM EST",
+            "4:30 PM PST"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"11:30 AM EST\") is correct. Rachel explicitly recommends: 'Let's schedule the daily sync for 11:30 AM EST, which gives their California engineers a reasonable start.'"
+        },
+        {
+          "id": "mock-01-list-q02",
+          "prompt": "What critical dependency must be met before the team can demonstrate the prototype by week three?",
+          "options": [
+            "The client must double their upfront consulting deposit.",
+            "All engineers must complete mandatory in-person training.",
+            "The primary database must be migrated to an on-premise mainframe.",
+            "The client's network security team must grant VPN certificates by Friday at 5:00 PM."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"The client's network security team must grant VPN certificates by Friday at 5:00 PM.\") is correct. Rachel notes: 'That is feasible, provided their network security team grants our VPN certificates by this Friday at 5:00 PM.'"
+        },
+        {
+          "id": "mock-01-list-q03",
+          "prompt": "Why did the team need to adjust their daily standup time in the first place?",
+          "options": [
+            "The client's core database engineers operate across Pacific Standard Time.",
+            "The consulting team wanted to avoid morning traffic.",
+            "The client VP refuses to attend meetings before 3:00 PM.",
+            "The video conferencing software was under scheduled server maintenance."
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"The client's core database engineers operate across Pacific Standard Time.\") is correct. Marcus points out: 'Their core database team works on Pacific Standard Time, so we need to adjust our daily standup.'"
+        },
+        {
+          "id": "mock-01-list-q04",
+          "prompt": "Which specific slide in the kickoff presentation deck did Marcus agree to update immediately?",
+          "options": [
+            "Slide one",
+            "Slide four",
+            "Slide ten",
+            "The closing appendix slide"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"Slide four\") is correct. Marcus confirms: 'I'll update slide four right now to reflect the Friday VPN milestone.'"
+        }
+      ]
+    },
+    "speaking": [
+      {
+        "id": "mock-01-spk-01",
+        "type": "speaking",
+        "prompt": "Introduce yourself professionally, summarizing your academic and technical background, and explain how you ensure clear communication when joining a new project team.",
+        "context": "First impressions on a new consulting engagement. Demonstrate poise, structured flow, concise self-articulation, and practical teamwork principles.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Clear professional introduction",
+          "Key technical and problem-solving skills",
+          "Proactive communication philosophy",
+          "Strong forward-looking closing"
+        ],
+        "modelTranscript": "Hello everyone, my name is Alex Chen. Over the past three years, I have specialized in full-stack web engineering, building responsive cloud applications and collaborating closely in agile sprints. When joining a new team, I believe proactive communication is just as vital as code quality. I prioritize understanding shared requirements, actively clarifying dependencies during daily standups, and documenting architectural decisions transparently. I look forward to contributing my technical skills and collaborative energy to our shared project milestones."
+      },
+      {
+        "id": "mock-01-spk-02",
+        "type": "speaking",
+        "prompt": "Describe an experience where you had to adapt quickly to an unexpected project change or technical blocker. What steps did you take, and what was the outcome?",
+        "context": "Problem-solving adaptability. Use the STAR methodology (Situation, Task, Action, Result) to convey resilience and structured thinking.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Context and challenge (Situation/Task)",
+          "Specific step-by-step methodology (Action)",
+          "Measurable outcome and lesson (Result)",
+          "Reflective business maturity"
+        ],
+        "modelTranscript": "In my final-year software capstone, our team faced a critical obstacle when an external authentication API we relied upon was deprecated two weeks before client deployment. As the technical lead, I quickly convened an emergency 20-minute triage session to assess our remaining sprint hours. Rather than panicking, I broke the challenge into micro-tasks: I researched an open-source OAuth2 alternative, delegated schema updates to our backend team, and took charge of testing the token workflow myself. Through structured collaboration and daily status updates, we successfully integrated the new protocol 48 hours ahead of our final presentation, earning top marks from our corporate mentors."
+      }
+    ]
+  }
+}

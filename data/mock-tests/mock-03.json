@@ -1,0 +1,507 @@
+{
+  "id": "mock-03",
+  "testNumber": 3,
+  "title": "Mock Test 03: Customer Escalation & Service Delivery",
+  "difficulty": "Foundation",
+  "durationMinutes": 60,
+  "description": "Diplomatic response to service hiccups, empathetic client messaging, and professional SLA updates.",
+  "sectionTimers": {
+    "grammar": 12,
+    "writing": 10,
+    "situational": 10,
+    "reading": 10,
+    "listening": 8,
+    "speaking": 10
+  },
+  "sections": {
+    "grammar": [
+      {
+        "id": "mock-03-gram-01",
+        "type": "grammar",
+        "prompt": "Neither the customer service supervisor nor the regional account managers _____ notified about the unplanned outage.",
+        "options": [
+          "was",
+          "were",
+          "is",
+          "has been"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"were\") is correct. When subjects are joined by 'neither... nor', the verb agrees with the subject closer to it ('managers' is plural -> 'were').",
+        "topic": "Subject-Verb Agreement",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-03-gram-02",
+        "type": "grammar",
+        "prompt": "By the time the enterprise client submitted their formal ticket, the incident response team _____ the root cause.",
+        "options": [
+          "already identified",
+          "has already identified",
+          "had already identified",
+          "was already identifying"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"had already identified\") is correct. Past perfect ('had already identified') is used for an action completed before another past event ('submitted').",
+        "topic": "Tenses",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-03-gram-03",
+        "type": "grammar",
+        "prompt": "The client submitted _____ urgent escalation request following the database latency spike.",
+        "options": [
+          "a",
+          "the",
+          "no article needed",
+          "an"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"an\") is correct. 'Urgent' begins with a vowel sound (/ˈɜː.dʒənt/), requiring the indefinite article 'an'.",
+        "topic": "Articles",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-03-gram-04",
+        "type": "grammar",
+        "prompt": "The service level agreement guarantees that all critical tickets will be responded _____ within thirty minutes.",
+        "options": [
+          "to",
+          "at",
+          "with",
+          "for"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"to\") is correct. The passive phrase 'responded to' correctly retains its preposition.",
+        "topic": "Prepositions",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-03-gram-05",
+        "type": "grammar",
+        "prompt": "The client requested that the incident post-mortem be delivered directly to their executive team and _____.",
+        "options": [
+          "we",
+          "us",
+          "ourself",
+          "ours"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"us\") is correct. The preposition 'to' requires objective case pronouns ('to their executive team and us').",
+        "topic": "Pronouns",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-03-gram-06",
+        "type": "grammar",
+        "prompt": "The service was fully restored within forty minutes, _____ our engineering team will continue monitoring traffic through midnight.",
+        "options": [
+          "because",
+          "unless",
+          "yet",
+          "since"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"yet\") is correct. 'Yet' introduces a contrastive clause emphasizing ongoing vigilance despite restoration.",
+        "topic": "Conjunctions",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-03-gram-07",
+        "type": "grammar",
+        "prompt": "Convert to passive voice: 'The site reliability engineer restored the primary gateway at 03:15 UTC.'",
+        "options": [
+          "The primary gateway has been restored by the engineer at 03:15 UTC.",
+          "The primary gateway is restored at 03:15 UTC by the site reliability engineer.",
+          "At 03:15 UTC, the site reliability engineer has restored the primary gateway.",
+          "The primary gateway was restored by the site reliability engineer at 03:15 UTC."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"The primary gateway was restored by the site reliability engineer at 03:15 UTC.\") is correct. Simple past passive: subject + 'was restored' + agent + time prepositional phrase.",
+        "topic": "Active and Passive Voice",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-03-gram-08",
+        "type": "grammar",
+        "prompt": "Change to indirect speech: The account director said, 'We deeply regret the disruption caused to your checkout services.'",
+        "options": [
+          "The account director expressed deep regret for the disruption caused to their checkout services.",
+          "The account director said that we deeply regret the disruption caused to your checkout services.",
+          "The account director says that they regretted the disruption caused to your checkout services.",
+          "The account director told that they are regretting the disruption caused to checkout services."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"The account director expressed deep regret for the disruption caused to their checkout services.\") is correct. Formal indirect speech transforms apologies into professional reporting verbs ('expressed deep regret for...').",
+        "topic": "Direct and Indirect Speech",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-03-gram-09",
+        "type": "grammar",
+        "prompt": "Select the grammatically correct sentence:",
+        "options": [
+          "Neither the customer portal nor the mobile applications was impacted by the database failover.",
+          "Neither the customer portal nor the mobile applications were impacted by the database failover.",
+          "Neither the customer portal or the mobile applications were impacted by the database failover.",
+          "Neither the customer portal nor the mobile applications has been impacted by the database failover."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"Neither the customer portal nor the mobile applications were impacted by the database failover.\") is correct. 'Neither... nor' correctly links the subjects, and the verb agrees with the plural subject closer to it ('were impacted').",
+        "topic": "Sentence Correction",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-03-gram-10",
+        "type": "grammar",
+        "prompt": "Choose the word closest in meaning to 'MITIGATE' as used in: 'We deployed a temporary cache bypass to mitigate customer checkout delays.'",
+        "options": [
+          "worsen or amplify",
+          "ignore or disregard",
+          "alleviate or reduce",
+          "investigate thoroughly"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"alleviate or reduce\") is correct. 'Mitigate' means to make something less severe, harmful, or painful.",
+        "topic": "Vocabulary in Context",
+        "difficulty": "easy"
+      }
+    ],
+    "writing": [
+      {
+        "id": "mock-03-wri-01",
+        "type": "writing",
+        "prompt": "Write a diplomatic email to an enterprise client apologizing for a 25-minute checkout service interruption and explaining the immediate remedial actions taken.",
+        "scenario": "An unexpected database replica desynchronization caused checkout latency during peak business hours. The service is now stable, and you must communicate transparently.",
+        "expectedFormat": "professional_email",
+        "recommendedWordCount": {
+          "min": 110,
+          "max": 160
+        },
+        "evaluationCriteria": [
+          "Empathetic, accountable opening",
+          "Clear factual explanation without technical evasion",
+          "Remedial safeguards implemented",
+          "Commitment to a full post-mortem"
+        ],
+        "modelResponse": "Dear Mr. Sterling,\n\nI am writing to formally address the checkout service interruption experienced by your customers today between 14:10 and 14:35 EST. We sincerely apologize for the disruption this caused to your peak trading operations.\n\nOur site reliability engineering team identified the root cause as an intermittent replica desynchronization in our primary database cluster. Within twenty-five minutes, traffic was rerouted to our high-availability failover cluster, fully restoring transaction processing speeds to normal baselines.\n\nTo prevent recurrence, we have adjusted automated health-check thresholds and provisioned additional memory buffers. Our team is finalizing a comprehensive Root Cause Analysis (RCA) report, which I will deliver to your executive team by tomorrow at 10:00 AM EST.\n\nWe deeply value our partnership and remain committed to your platform's reliability.\n\nSincerely,\nElena Rostova\nHead of Client Operations",
+        "keyPoints": [
+          "sincere apology",
+          "duration and root cause",
+          "mitigation and restoration",
+          "promise of formal RCA by tomorrow"
+        ]
+      },
+      {
+        "id": "mock-03-wri-02",
+        "type": "writing",
+        "prompt": "Draft an internal incident advisory memo to the customer support team summarizing customer-facing messaging guidelines following today's service restoration.",
+        "scenario": "Support agents need uniform, professional talking points to handle incoming customer inquiries regarding the outage.",
+        "expectedFormat": "formal_memo",
+        "recommendedWordCount": {
+          "min": 100,
+          "max": 150
+        },
+        "evaluationCriteria": [
+          "Structured internal memo formatting",
+          "Clear customer-facing talking points",
+          "Guidance on handling refund inquiries",
+          "Support escalation paths"
+        ],
+        "modelResponse": "MEMORANDUM\n\nTO: Tier 1 & Tier 2 Customer Support Teams\nFROM: Incident Communications Lead\nDATE: November 4, 2026\nSUBJECT: Customer Messaging Guidelines - Checkout Disruption Resolution\n\nFollowing the full restoration of checkout processing at 14:35 EST, please adhere to these communication guidelines when responding to customer tickets:\n\n1. Current Status: Confirm that all checkout and payment processing services are fully operational and monitored.\n2. Incomplete Orders: Advise customers that unconfirmed transactions were automatically voided and no duplicate charges will post to their accounts.\n3. Escalations: Direct enterprise tier inquiries demanding written SLAs to the Account Management queue under tag #IncidentNov4.\n\nThank you for providing calm, empathetic support to our users.\n\nBest regards,\nOperations Desk",
+        "keyPoints": [
+          "confirmation of full restoration",
+          "guidelines on unconfirmed orders",
+          "escalation tag for SLA inquiries",
+          "empathetic tone"
+        ]
+      }
+    ],
+    "situational": [
+      {
+        "id": "sit-zyzpnkqnc",
+        "type": "situational",
+        "context": "An enterprise customer calls in furious because their shopping cart was temporarily offline during a flash sale, demanding immediate financial compensation.",
+        "challenge": "You need to de-escalate the client's frustration empathetically while adhering to company commercial compensation policies.",
+        "options": [
+          "Interrupt them and tell them that computer servers fail all the time and they should get over it.",
+          "Promise a $50,000 cash refund immediately on the phone without consulting your management.",
+          "Hang up the phone immediately and block their number.",
+          "Listen attentively without interrupting, validate their commercial frustration with genuine empathy, confirm that services are restored, and explain that you will initiate a formal SLA credit review with their account director."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Active listening combined with empathetic de-escalation and following formal commercial procedures preserves client trust.",
+        "writtenPrompt": "Write a 1-sentence de-escalation response on the phone.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "I completely understand how critical this flash sale is for your revenue, and I apologize for the disruption; our service is fully restored, and I am personally escalating this to our account director to review SLA credit options."
+      },
+      {
+        "id": "sit-2mlbsu40x",
+        "type": "situational",
+        "context": "A client demands to speak directly to the Chief Executive Officer over a minor two-minute login latency glitch.",
+        "challenge": "You want to respect the client while appropriately triaging executive escalations.",
+        "options": [
+          "Acknowledge the client's priority with seriousness, explain that your senior operations director is actively managing their account, and offer an immediate briefing with the director within thirty minutes.",
+          "Tell the client that they are being ridiculous and that the CEO does not care about them.",
+          "Give the client the CEO's personal home phone number.",
+          "Pretend to be the CEO yourself on the call."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Offering a high-level operational leader provides executive validation while protecting organizational governance hierarchy.",
+        "writtenPrompt": "Write a polite email reply offering the senior operations briefing.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "We treat your account with the utmost importance. Our Senior Director of Operations, Marcus Vance, is reviewing the latency telemetry right now and would welcome the opportunity to connect with you directly on a 15-minute briefing at 3:00 PM."
+      },
+      {
+        "id": "sit-9i5m9xm30",
+        "type": "situational",
+        "context": "Your technical team discovers that an incident was caused by a configuration mistake made by your own team, but the client does not yet know.",
+        "challenge": "You must decide how to frame the root cause analysis report.",
+        "options": [
+          "Blame a fictitious foreign cyberattack to avoid looking bad.",
+          "Maintain complete corporate honesty: disclose the configuration error transparently in the post-mortem, outline the preventive safeguards implemented, and take full accountability.",
+          "Blame the client's own internal developers so the client pays extra fees.",
+          "Refuse to release any post-mortem report and ignore all client inquiries."
+        ],
+        "bestOption": 1,
+        "bestOptionRationale": "Option B is the optimal professional strategy. Transparent accountability builds long-term integrity and enterprise credibility, whereas deceit inevitably destroys client trust.",
+        "writtenPrompt": "Write a 1-sentence statement for the post-mortem acknowledging the internal configuration slip.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Root Cause Summary: The latency was traced to an internal configuration mismatch during cache rebalancing; automated configuration linting has been deployed to prevent recurrence."
+      },
+      {
+        "id": "sit-1llp2isim",
+        "type": "situational",
+        "context": "A client asks you for an estimated resolution time during an ongoing high-severity outage, but the engineers do not yet know how long it will take.",
+        "challenge": "You want to provide comforting communication without giving an inaccurate deadline that causes greater frustration if missed.",
+        "options": [
+          "Promise that the system will be fixed in five minutes just to get them off the phone.",
+          "Tell them that you have no idea and that they should stop asking questions.",
+          "Be transparent about current diagnostic progress, explain that the team is actively validating two specific hypotheses, and commit to providing a fresh status update within twenty minutes regardless of outcome.",
+          "Turn off the incident bridge and go to lunch."
+        ],
+        "bestOption": 2,
+        "bestOptionRationale": "Option C is the optimal professional strategy. Committing to regular communication intervals rather than guessing speculative resolution times maintains stakeholder trust under crisis.",
+        "writtenPrompt": "Write a 2-sentence status update message to the client bridge.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Our diagnostic team has isolated the latency to two replica nodes and is actively testing failover routing. We cannot provide a precise recovery estimate yet, but our next status update will be delivered in 20 minutes at 15:45 UTC."
+      },
+      {
+        "id": "sit-yr3opzfy5",
+        "type": "situational",
+        "context": "After an incident is resolved, a client stakeholder sends an insulting personal email attacking your support team's competence.",
+        "challenge": "You must protect your team's dignity while maintaining strict corporate diplomacy in your written response.",
+        "options": [
+          "Reply with personal insults attacking the client's personal character.",
+          "Forward the email to the client's mother.",
+          "Send an internal blast encouraging everyone in your company to boycott the client.",
+          "Respond calmly and professionally, focusing entirely on objective incident resolution, systemic preventive measures, and offering a formal executive debrief, without validating or mirroring the personal insults."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Unflinching professionalism in the face of hostile rhetoric preserves corporate reputation and de-escalates emotional friction.",
+        "writtenPrompt": "Write a 2-sentence diplomatic email response acknowledging the frustration while steering to facts.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "We understand how stressful today's platform downtime was for your organization, and we deeply regret the impact. Our leadership has finalized our technical prevention roadmap and would welcome the opportunity to review it during your quarterly governance session next week."
+      },
+      {
+        "id": "sit-9qgpfex92",
+        "type": "situational",
+        "context": "An executive sponsor requests that you prioritize their personal pet feature ahead of critical system stability patches that prevent future outages.",
+        "challenge": "You need to balance relationship management with technical fiduciary duty to system uptime.",
+        "options": [
+          "Present a transparent risk assessment comparing the immediate security vulnerability with the feature timeline, and propose scheduling the stability patch in tonight's maintenance window followed immediately by the feature work.",
+          "Agree to skip all security patches and let the system crash again next week.",
+          "Tell the executive that they are technically illiterate.",
+          "Secretly install the security patch without telling anyone and lie about what was deployed."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Risk-based trade-off presentation demonstrates strategic consulting discipline and helps leaders make responsible governance decisions.",
+        "writtenPrompt": "Write a brief email note summarizing the deployment sequence proposal.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "To safeguard customer transaction integrity following today's incident, we recommend applying the critical cluster patch during tonight's 2 AM maintenance window. This ensures a stable foundation for deploying your reporting dashboard updates immediately on Thursday."
+      }
+    ],
+    "reading": {
+      "id": "mock-03-read",
+      "type": "reading",
+      "passageTitle": "The Psychology of Enterprise Incident Communication",
+      "passageTopic": "Crisis Management & Service Delivery",
+      "wordCount": 380,
+      "passageContent": "In the modern digital economy, enterprise software availability is not merely an operational metric; it is an emotional covenant between vendor and consumer. When mission-critical cloud platforms experience unplanned downtime, customer anxiety escalates non-linearly with every minute of silence. Empirical research in customer psychology reveals that client dissatisfaction during outages is driven significantly more by informational ambiguity than by the actual physical duration of the technical disruption.\n\nWhen systems fail, an organization's instinct is frequently defensive—engineering leaders often hesitate to publish external incident advisories until the underlying root cause has been comprehensively diagnosed and verified. However, this diagnostic silence generates a vacuum that customers inevitably populate with worst-case conjectures, including fears of catastrophic data corruption or hostile cybersecurity breaches. Transparent organizations invert this paradigm: they recognize that during an active incident, predictable cadence of communication is far more vital than immediate technical precision.\n\nEffective incident communications adhere to three structural imperatives: acknowledgement, operational transparency, and cadence discipline. Rapid acknowledgement validates the client's lived operational frustration, signaling immediate organizational mobilization. Transparency provides factual updates on what components are impaired and what isolation steps are underway, deliberately avoiding evasive corporate platitudes. Most critically, cadence discipline requires publishing updates at predictable intervals—such as every twenty minutes—even if the only update is that diagnostic testing remains ongoing. By sustaining an unbroken rhythm of communication, enterprises maintain stakeholder trust even while navigating acute technical duress.",
+      "questions": [
+        {
+          "id": "mock-03-read-q01",
+          "prompt": "According to paragraph 1, what drives customer dissatisfaction during service disruptions more than the disruption's physical duration?",
+          "options": [
+            "The financial cost of premium support tiers.",
+            "Informational ambiguity and silence from the service provider.",
+            "The specific brand of computer servers used by the vendor.",
+            "The geographical location of the vendor's headquarters."
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"Informational ambiguity and silence from the service provider.\") is correct. Paragraph 1 notes: 'client dissatisfaction during outages is driven significantly more by informational ambiguity than by the actual physical duration of the technical disruption.'",
+          "questionType": "factual"
+        },
+        {
+          "id": "mock-03-read-q02",
+          "prompt": "What undesirable outcome happens when engineering leaders remain silent during an outage, according to paragraph 2?",
+          "options": [
+            "The database automatically heals itself without human intervention.",
+            "Competitor companies purchase the vendor's corporate assets.",
+            "Customers populate the silence with worst-case conjectures like data loss or cyber breaches.",
+            "Cloud server hosting expenses double every fifteen minutes."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"Customers populate the silence with worst-case conjectures like data loss or cyber breaches.\") is correct. Paragraph 2 states that diagnostic silence creates a vacuum that 'customers inevitably populate with worst-case conjectures, including fears of catastrophic data corruption or hostile cybersecurity breaches.'",
+          "questionType": "factual"
+        },
+        {
+          "id": "mock-03-read-q03",
+          "prompt": "What does the principle of 'cadence discipline' require an organization to do during an active incident?",
+          "options": [
+            "Send promotional marketing discounts to all affected customers.",
+            "Wait until the entire problem is permanently resolved before speaking.",
+            "Force technical engineers to answer customer support phone calls.",
+            "Publish updates at predictable, promised intervals even if diagnostics are still underway."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"Publish updates at predictable, promised intervals even if diagnostics are still underway.\") is correct. Paragraph 3 defines cadence discipline as 'publishing updates at predictable intervals—such as every twenty minutes—even if the only update is that diagnostic testing remains ongoing.'",
+          "questionType": "inference"
+        },
+        {
+          "id": "mock-03-read-q04",
+          "prompt": "As used in paragraph 1, what does the term 'COVENANT' most closely denote?",
+          "options": [
+            "A solemn, binding commitment or promise",
+            "A temporary financial contract",
+            "A minor software update",
+            "A random coincidence"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"A solemn, binding commitment or promise\") is correct. 'Covenant' denotes a formal, deeply binding pledge or solemn relationship between parties.",
+          "questionType": "vocabulary"
+        }
+      ]
+    },
+    "listening": {
+      "id": "mock-03-list",
+      "type": "listening",
+      "title": "Incident Post-Mortem: Payment Gateway Latency",
+      "context": "Samantha (Director of Reliability) and Julian (Lead Site Reliability Engineer) review the timeline and corrective actions of today's payment gateway latency.",
+      "dialogue": [
+        {
+          "speaker": "Samantha",
+          "text": "Julian, let's walk through the chronology for today's incident report. What was the exact timestamp of the initial latency alert?"
+        },
+        {
+          "speaker": "Julian",
+          "text": "The automated Prometheus alert fired at 14:02 UTC when transaction response times exceeded two thousand milliseconds on the EU payment gateway."
+        },
+        {
+          "speaker": "Samantha",
+          "text": "And what was the duration before the on-call engineer initiated traffic diversion to our secondary cluster?"
+        },
+        {
+          "speaker": "Julian",
+          "text": "Traffic rerouting began at 14:14 UTC and completed fully at 14:26 UTC, bringing error rates back down to zero point zero one percent."
+        },
+        {
+          "speaker": "Samantha",
+          "text": "That represents a twenty-four minute total mitigation window. What is the permanent corrective action to prevent memory leakage on the primary cluster?"
+        },
+        {
+          "speaker": "Julian",
+          "text": "We are deploying a connection-pooling patch tonight at 23:00 UTC and increasing container memory limits by fifty percent."
+        },
+        {
+          "speaker": "Samantha",
+          "text": "Excellent. Please document those metrics in the client RCA deck before our 4:00 PM stakeholder review."
+        }
+      ],
+      "fullScriptText": "Samantha: Julian, let's walk through the chronology for today's incident report. What was the exact timestamp of the initial latency alert?\nJulian: The automated Prometheus alert fired at 14:02 UTC when transaction response times exceeded two thousand milliseconds on the EU payment gateway.\nSamantha: And what was the duration before the on-call engineer initiated traffic diversion to our secondary cluster?\nJulian: Traffic rerouting began at 14:14 UTC and completed fully at 14:26 UTC, bringing error rates back down to zero point zero one percent.\nSamantha: That represents a twenty-four minute total mitigation window. What is the permanent corrective action to prevent memory leakage on the primary cluster?\nJulian: We are deploying a connection-pooling patch tonight at 23:00 UTC and increasing container memory limits by fifty percent.\nSamantha: Excellent. Please document those metrics in the client RCA deck before our 4:00 PM stakeholder review.",
+      "questions": [
+        {
+          "id": "mock-03-list-q01",
+          "prompt": "At what exact timestamp did the initial automated latency alert trigger?",
+          "options": [
+            "14:14 UTC",
+            "14:26 UTC",
+            "14:02 UTC",
+            "23:00 UTC"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"14:02 UTC\") is correct. Julian confirms: 'The automated Prometheus alert fired at 14:02 UTC when transaction response times exceeded two thousand milliseconds.'"
+        },
+        {
+          "id": "mock-03-list-q02",
+          "prompt": "What permanent corrective action is scheduled for deployment tonight at 23:00 UTC?",
+          "options": [
+            "Shutting down the EU payment gateway permanently.",
+            "Purchasing new hardware servers from an external vendor.",
+            "Migrating all database transactions to manual paper receipts.",
+            "Deploying a connection-pooling patch and increasing container memory limits by fifty percent."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"Deploying a connection-pooling patch and increasing container memory limits by fifty percent.\") is correct. Julian explains: 'We are deploying a connection-pooling patch tonight at 23:00 UTC and increasing container memory limits by fifty percent.'"
+        },
+        {
+          "id": "mock-03-list-q03",
+          "prompt": "What was the total elapsed duration of the service mitigation window according to Samantha?",
+          "options": [
+            "Twenty-four minutes",
+            "Ten minutes",
+            "Forty-five minutes",
+            "Two hours"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"Twenty-four minutes\") is correct. Samantha observes: 'That represents a twenty-four minute total mitigation window.'"
+        },
+        {
+          "id": "mock-03-list-q04",
+          "prompt": "By what time must Julian document the incident metrics in the client RCA deck?",
+          "options": [
+            "By tomorrow morning at 9:00 AM",
+            "Before the 4:00 PM stakeholder review",
+            "Before midnight tonight",
+            "By Friday noon"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"Before the 4:00 PM stakeholder review\") is correct. Samantha instructs: 'Please document those metrics in the client RCA deck before our 4:00 PM stakeholder review.'"
+        }
+      ]
+    },
+    "speaking": [
+      {
+        "id": "mock-03-spk-01",
+        "type": "speaking",
+        "prompt": "Explain how you maintain composure, clarity, and accountability when communicating with an angry or distressed customer.",
+        "context": "Customer diplomacy under pressure. Describe your interpersonal techniques, active listening approach, and emotional resilience.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Emotional detachment and composure",
+          "Empathetic active listening",
+          "Focusing on solutions over excuses",
+          "Rebuilding stakeholder trust"
+        ],
+        "modelTranscript": "Navigating high-stakes customer distress requires high emotional intelligence and disciplined composure. When a customer is upset, my initial priority is to listen actively without defensive interruption. I validate their frustration with genuine empathy, acknowledging the business impact their team experienced. Once the client feels heard, I transition the dialogue toward actionable solutions—explaining transparently what steps are currently underway and establishing concrete follow-up milestones. By maintaining a calm, reassuring tone and taking personal accountability for the resolution journey, I de-escalate tension and transform acute crisis into long-term partnership trust."
+      },
+      {
+        "id": "mock-03-spk-02",
+        "type": "speaking",
+        "prompt": "Describe the importance of transparent post-incident blameless post-mortems in building a resilient engineering and customer culture.",
+        "context": "Organizational learning culture. Contrast blameless root-cause analysis with punitive fault-finding.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Blameless philosophy vs punitive culture",
+          "Systemic safeguards and automated guardrails",
+          "Client transparency as a differentiator",
+          "Psychological safety for engineers"
+        ],
+        "modelTranscript": "In high-performing software organizations, incidents are viewed not as personal failures, but as invaluable learning opportunities. A blameless post-mortem culture recognizes that human error is inevitable, but catastrophic impact is caused by inadequate systemic safeguards. When teams investigate outages without fear of punishment, engineers share critical details openly, uncovering root causes that punitive cultures conceal. When this blameless transparency is extended to clients through detailed Root Cause Analysis reports, it demonstrates profound operational maturity, proving to customers that their vendor continually evolves to prevent future vulnerabilities."
+      }
+    ]
+  }
+}

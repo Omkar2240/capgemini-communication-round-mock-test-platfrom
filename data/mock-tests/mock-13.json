@@ -1,0 +1,503 @@
+{
+  "id": "mock-13",
+  "testNumber": 13,
+  "title": "Mock Test 13: Enterprise Data Governance, Compliance & Privacy",
+  "difficulty": "Advanced",
+  "durationMinutes": 60,
+  "description": "GDPR/CCPA compliance architectures, data mesh governance, regulatory audit defense, cross-border data residency, and enterprise data lineage.",
+  "sectionTimers": {
+    "grammar": 12,
+    "writing": 10,
+    "situational": 10,
+    "reading": 10,
+    "listening": 8,
+    "speaking": 10
+  },
+  "sections": {
+    "grammar": [
+      {
+        "id": "mock-13-gram-01",
+        "type": "grammar",
+        "prompt": "Neither the global data protection officer nor the enterprise compliance auditors _____ satisfied with the pseudonymization pipeline.",
+        "options": [
+          "was",
+          "were",
+          "is",
+          "has been"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"were\") is correct. In 'neither... nor' constructions, the verb agrees with the closer plural subject ('compliance auditors' -> 'were').",
+        "topic": "Subject-Verb Agreement",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-13-gram-02",
+        "type": "grammar",
+        "prompt": "Before the statutory regulatory audit began, our data governance team _____ automated lineage maps for all PII data lakes.",
+        "options": [
+          "has finalized",
+          "finalizing",
+          "had finalized",
+          "finalizes"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"had finalized\") is correct. Past perfect ('had finalized') is required for an action completed before the past start of the regulatory audit.",
+        "topic": "Tenses",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-13-gram-03",
+        "type": "grammar",
+        "prompt": "Enforcing zero-trust access policies requires _____ unified enterprise identity catalog across multi-cloud regions.",
+        "options": [
+          "an",
+          "the",
+          "no article needed",
+          "a"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"a\") is correct. 'Unified' begins with a consonant semivowel sound (/j/), requiring the indefinite article 'a'.",
+        "topic": "Articles",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-13-gram-04",
+        "type": "grammar",
+        "prompt": "The updated data retention policy complies fully _____ the statutory requirements of the California Consumer Privacy Act.",
+        "options": [
+          "with",
+          "to",
+          "for",
+          "against"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"with\") is correct. The verb 'complies' standardly pairs with the preposition 'with'.",
+        "topic": "Prepositions",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-13-gram-05",
+        "type": "grammar",
+        "prompt": "Should the European Court of Justice _____ cross-border data transfer safe harbors, we would immediately activate local sovereign hosting.",
+        "options": [
+          "invalidates",
+          "invalidate",
+          "invalidated",
+          "will invalidate"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"invalidate\") is correct. Formal inverted conditional ('Should [subject] [base verb]') requires the base form 'invalidate'.",
+        "topic": "Conditionals",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-13-gram-06",
+        "type": "grammar",
+        "prompt": "The data cataloging initiative was accelerated, _____ international regulatory authorities announced surprise statutory compliance audits.",
+        "options": [
+          "although",
+          "despite",
+          "inasmuch as",
+          "whereas"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"inasmuch as\") is correct. Causal conjunction 'inasmuch as' connects the acceleration of cataloging to the announcement of surprise audits.",
+        "topic": "Conjunctions",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-13-gram-07",
+        "type": "grammar",
+        "prompt": "Of all the data tokenization frameworks benchmarked by our architecture council, VaultSecure demonstrated the _____ latency overhead.",
+        "options": [
+          "lower",
+          "low",
+          "more low",
+          "lowest"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"lowest\") is correct. Superlative form 'lowest' is required when comparing among all benchmarked frameworks.",
+        "topic": "Adjectives & Adverbs",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-13-gram-08",
+        "type": "grammar",
+        "prompt": "Mandatory data Subject Access Requests (SAR) _____ by the automated privacy engine within thirty calendar days.",
+        "options": [
+          "are processed",
+          "is processed",
+          "processing",
+          "processed"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"are processed\") is correct. Passive voice present simple plural ('are processed') matches the plural subject 'Requests'.",
+        "topic": "Voice & Modals",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-13-gram-09",
+        "type": "grammar",
+        "prompt": "The Lead Data Architect, _____ distributed data mesh strategy eliminated analytical query bottlenecks, presented at the global summit.",
+        "options": [
+          "who",
+          "whose",
+          "whom",
+          "which"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"whose\") is correct. Possessive relative pronoun 'whose' describes the distributed data mesh strategy belonging to the Lead Data Architect.",
+        "topic": "Pronouns & Relative Clauses",
+        "difficulty": "hard"
+      },
+      {
+        "id": "mock-13-gram-10",
+        "type": "grammar",
+        "prompt": "To satisfy the statutory right to be forgotten, our engineering squad must _____ all customer records from active backup archives.",
+        "options": [
+          "purging",
+          "purged",
+          "purge",
+          "purgation"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"purge\") is correct. Modal auxiliary 'must' takes the base verb 'purge' (meaning to remove completely or delete permanently).",
+        "topic": "Business Vocabulary",
+        "difficulty": "hard"
+      }
+    ],
+    "writing": [
+      {
+        "id": "mock-13-wri-01",
+        "type": "writing",
+        "prompt": "Write a formal regulatory compliance response email to the Data Protection Authority detailing your enterprise's adherence to GDPR Article 30 records of processing activities, outlining automated data lineage tooling, and confirming encryption standards.",
+        "scenario": "Regulatory audit reference: DPA-GDPR-2026-88. Data lineage tracked via automated metadata catalog. All customer PII encrypted at rest using AES-256 and in transit via TLS 1.3.",
+        "expectedFormat": "professional_email",
+        "recommendedWordCount": {
+          "min": 90,
+          "max": 160
+        },
+        "evaluationCriteria": [
+          "Rigorous legal and regulatory compliance tone",
+          "Specific article and standard citations",
+          "Precise technical architecture explanation",
+          "Professional audit cooperation commitment"
+        ],
+        "modelResponse": "Dear Commissioners,\n\nRe: Formal Compliance Response – Audit Reference DPA-GDPR-2026-88\n\nI am writing on behalf of Enterprise Data Solutions to formally submit our compliance documentation in response to your Article 30 inquiry regarding records of processing activities.\n\nOur organization enforces a zero-trust enterprise data governance architecture. In accordance with statutory requirements, our automated data catalog continuously scans and records end-to-end data lineage across all analytical and transactional data pipelines. Every data ingestion, transformation, and storage event is indexed with cryptographic metadata provenance.\n\nFurthermore, all Personally Identifiable Information (PII) is encrypted at rest utilizing AES-256 GCM encryption with envelope key management, and strictly encrypted in transit using TLS 1.3 with enforced mutual authentication. Automated data retention policies execute cryptographic purging upon expiration of statutory retention windows.\n\nPlease find our audited Article 30 registry and SOC 2 Type II certificates attached. We remain entirely available for any technical depositions.\n\nSincerely,\nGlobal Data Protection Officer",
+        "keyPoints": [
+          "Rigorous legal and regulatory compliance tone",
+          "Specific article and standard citations",
+          "Precise technical architecture explanation",
+          "Professional audit cooperation commitment"
+        ]
+      },
+      {
+        "id": "mock-13-wri-02",
+        "type": "writing",
+        "prompt": "Summarize the architectural principles of Data Mesh and explain how federated computational governance balances localized data product autonomy with centralized compliance standards.",
+        "scenario": "Focus on domain-driven ownership, data as a product, self-serve data infrastructure, and federated computational governance.",
+        "expectedFormat": "formal_memo",
+        "recommendedWordCount": {
+          "min": 75,
+          "max": 130
+        },
+        "evaluationCriteria": [
+          "Accurate data mesh conceptual understanding",
+          "Clear architectural synthesis",
+          "Nuanced governance trade-off explanation",
+          "Polished technical prose"
+        ],
+        "modelResponse": "Data Mesh is a decentralized socio-technical paradigm that addresses the scalability limitations of centralized monolithic data lakes. Rather than routing all data through an overburdened central engineering team, Data Mesh organizes analytical data around domain-driven decentralized squads who treat data as a first-class product. The critical mechanism maintaining enterprise coherence within this decentralized model is Federated Computational Governance. This principle establishes an enterprise-wide council of domain leads and compliance officers who define interoperability, security, and privacy standards globally. These standards are not enforced through bureaucratic manual approvals; rather, they are computationally embedded into an automated self-serve platform that automatically enforces tokenization, access policies, and audit logging across all localized data products.",
+        "keyPoints": [
+          "Accurate data mesh conceptual understanding",
+          "Clear architectural synthesis",
+          "Nuanced governance trade-off explanation",
+          "Polished technical prose"
+        ]
+      }
+    ],
+    "situational": [
+      {
+        "id": "mock-13-sit-01",
+        "type": "situational",
+        "context": "A marketing data scientist creates an unauthorized copy of customer behavioral data containing plaintext email addresses on an unencrypted public cloud storage bucket to train a machine learning model.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Ignore the bucket because training machine learning models is more important than data privacy laws.",
+          "Publicly post the customer data on Twitter to demonstrate how useful the machine learning model is.",
+          "Fire the entire marketing department immediately without investigating what happened.",
+          "Isolate and delete the unencrypted cloud bucket immediately, initiate a forensic audit to verify whether any external unauthorized IP addresses accessed the data, notify the Data Protection Officer, and conduct mandatory privacy retraining with the data science team."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Immediate bucket isolation, forensic verification, and formal DPO notification mitigate regulatory liability while reinforcing privacy engineering hygiene.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Isolate and delete the unencrypted cloud bucket immediately, initiate a forensic audit to verify whether any external unauthorized IP addresses accessed the data, notify the Data Protection Officer, and conduct mandatory privacy retraining with the data science team."
+      },
+      {
+        "id": "mock-13-sit-02",
+        "type": "situational",
+        "context": "An enterprise customer submits a formal GDPR 'Right to be Forgotten' request demanding immediate erasure of all their records, but their transaction records must legally be retained for seven years under anti-money laundering tax laws.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Consult legal counsel, inform the customer that their operational marketing and analytics data has been permanently purged, and explain that statutory tax laws require retaining financial transaction records securely in an encrypted, access-restricted regulatory archive.",
+          "Immediately delete all banking and tax records from the database, violating federal tax laws.",
+          "Ignore the customer's GDPR request entirely and continue sending them promotional marketing emails.",
+          "Send an angry letter to the customer accusing them of harassing your company with privacy requests."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Distinguishing GDPR erasure mandates from statutory financial record-retention requirements ensures dual compliance through selective purging and restricted regulatory archiving.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Consult legal counsel, inform the customer that their operational marketing and analytics data has been permanently purged, and explain that statutory tax laws require retaining financial transaction records securely in an encrypted, access-restricted regulatory archive."
+      },
+      {
+        "id": "mock-13-sit-03",
+        "type": "situational",
+        "context": "During a cross-border cloud architecture review, an engineering lead proposes routing all European customer telemetry data through a machine learning pipeline hosted in a non-compliant third country lacking an adequacy decision.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Approve the transfer immediately because cloud compute is 10% cheaper in the non-compliant country.",
+          "Reject the architecture proposal, cite European Union cross-border data transfer statutory restrictions, and mandate that all telemetry processing and model inference remain within approved EU sovereign cloud regions.",
+          "Tell the engineering lead to disguise the data transfer by renaming all database columns into French.",
+          "Resign from your job and move to another country to avoid having to make architectural decisions."
+        ],
+        "bestOption": 1,
+        "bestOptionRationale": "Option B is the optimal professional strategy. Upholding cross-border data residency mandates protects the enterprise from severe regulatory sanctions under international privacy frameworks.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Reject the architecture proposal, cite European Union cross-border data transfer statutory restrictions, and mandate that all telemetry processing and model inference remain within approved EU sovereign cloud regions."
+      },
+      {
+        "id": "mock-13-sit-04",
+        "type": "situational",
+        "context": "A software vendor partner requests access to production customer database snapshots to debug an elusive performance latency issue on your staging environment.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Zip the entire production database and email it to the vendor's personal Gmail account.",
+          "Give the vendor root administrator access to the live production database with zero monitoring.",
+          "Firmly refuse to provide production data snapshots, explain enterprise compliance and privacy covenants, and provide synthetic obfuscated test datasets that simulate latency without exposing real customer PII.",
+          "Tell the vendor that debugging performance is impossible and cancel their contract on the spot."
+        ],
+        "bestOption": 2,
+        "bestOptionRationale": "Option C is the optimal professional strategy. Never exposing real production PII to external vendors and providing synthetic obfuscated data instead upholds security governance while unblocking technical diagnostics.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Firmly refuse to provide production data snapshots, explain enterprise compliance and privacy covenants, and provide synthetic obfuscated test datasets that simulate latency without exposing real customer PII."
+      },
+      {
+        "id": "mock-13-sit-05",
+        "type": "situational",
+        "context": "Your automated compliance audit scanner discovers that a legacy internal employee directory displays employee home addresses and personal telephone numbers without role-based access restrictions.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Leave the directory open to all employees because everyone in the company should know where their colleagues live.",
+          "Delete all employee employment contracts and terminate all human resources staff members.",
+          "Sell the employee contact directory to third-party telemarketing firms for corporate profit.",
+          "Restrict access to the directory immediately to HR personnel, document the vulnerability as a high-severity compliance issue, deploy role-based access controls, and verify that no bulk scraping occurred."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Restricting internal PII access to authorized HR roles and verifying lack of exfiltration resolves privacy exposure and fulfills enterprise duty of care.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Restrict access to the directory immediately to HR personnel, document the vulnerability as a high-severity compliance issue, deploy role-based access controls, and verify that no bulk scraping occurred."
+      },
+      {
+        "id": "mock-13-sit-06",
+        "type": "situational",
+        "context": "A client business unit head insists on purchasing an unapproved third-party SaaS survey tool that stores customer feedback on unvetted servers, bypassing enterprise security review.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Intervene with the business unit head, explain the regulatory and security liabilities of unvetted SaaS tools, and work with procurement to fast-track security vetting or identify an approved enterprise-tier alternative.",
+          "Allow the business head to purchase the unapproved tool using their personal corporate credit card.",
+          "Publicly accuse the business unit head of corporate espionage during an all-hands meeting.",
+          "Shut down the entire corporate internet network to prevent anyone from using SaaS tools."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Guiding business leaders through proper third-party security vetting or providing approved alternatives prevents Shadow IT while fulfilling business objectives.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Intervene with the business unit head, explain the regulatory and security liabilities of unvetted SaaS tools, and work with procurement to fast-track security vetting or identify an approved enterprise-tier alternative."
+      }
+    ],
+    "reading": {
+      "id": "mock-13-read",
+      "type": "reading",
+      "passageTitle": "The Geopolitics of Data Sovereign Governance: Reconciling Privacy Directives with Global Cloud Architectures",
+      "passageTopic": "Enterprise Data Governance, Compliance & Privacy",
+      "wordCount": 390,
+      "passageContent": "In the nascent decades of the internet, enterprise technology operated under the techno-optimist assumption of a borderless global digital commons. Data flowed unimpeded across transatlantic optical cables, and multi-tenant cloud architectures distributed storage blocks across worldwide data centers based purely on compute cost optimization and network latency. Today, this borderless paradigm has been comprehensively dismantled. In its place has emerged a complex, fractured geopolitical landscape defined by 'data sovereignty'—the legal doctrine that digital data is subject to the statutory laws, governance mandates, and national security directives of the geographical nation-state where it is collected or processed.\n\nThis regulatory revolution was inaugurated by the European Union's General Data Protection Regulation (GDPR) in 2018, which established rigorous individual privacy rights, mandated strict lawful bases for processing, and imposed Draconian financial penalties—up to four percent of global annual turnover or twenty million euros—for non-compliance. Crucially, Chapter V of the GDPR placed severe legal encumbrances on cross-border transfers of personal data to 'third countries' lacking an official adequacy decision from the European Commission. This legal barrier was reinforced by landmark European Court of Justice rulings—most notably Schrems II—which invalidated transatlantic privacy safe harbors on the grounds that foreign intelligence surveillance laws infringed upon European fundamental rights.\n\nFor multinational enterprises, data sovereignty creates profound architectural and operational challenges. A global corporation can no longer maintain a single centralized data warehouse in North America ingesting telemetry from European, Asian, and Latin American subsidiaries. Doing so introduces catastrophic regulatory liability. Consequently, leading enterprise consultancies advise clients to adopt a sovereign Data Mesh architecture. Under this model, data storage and analytical computation are localized within sovereign territorial boundaries. Instead of physically transferring raw Personally Identifiable Information (PII) across borders, enterprises employ federated learning and distributed query federation. Algorithms travel to the data, rather than data traveling to the algorithms.\n\nFurthermore, enterprise compliance requires the implementation of automated computational governance. Manual compliance spreadsheets and annual audits are hopelessly inadequate in environments where millions of microservices exchange billions of ephemeral API payloads daily. Organizations must deploy automated data lineage engines that continuously track the cryptographic provenance of every data asset, programmatically enforce pseudonymization and tokenization pipelines, and automate Subject Access Requests (SARs) and erasure workflows. By transforming privacy and sovereignty from a reactive legal burden into an automated architectural guardrail, modern enterprises maintain regulatory resilience across a fragmented digital world.",
+      "questions": [
+        {
+          "id": "mock-13-read-q01",
+          "prompt": "What legal doctrine does the passage define as 'data sovereignty'?",
+          "options": [
+            "The idea that individual computer hackers hold absolute legal ownership over public internet infrastructure.",
+            "The principle that digital data is subject to the laws and governance mandates of the nation where it is collected or processed.",
+            "The international treaty declaring that outer space satellites are exempt from copyright laws.",
+            "The concept that all corporate financial profits must be converted into digital cryptocurrencies."
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"The principle that digital data is subject to the laws and governance mandates of the nation where it is collected or processed.\") is correct. The text defines data sovereignty as: 'the legal doctrine that digital data is subject to the statutory laws, governance mandates, and national security directives of the geographical nation-state where it is collected or processed.'",
+          "questionType": "factual"
+        },
+        {
+          "id": "mock-13-read-q02",
+          "prompt": "What maximum statutory financial penalty can be imposed for non-compliance under the EU GDPR?",
+          "options": [
+            "A flat fifty-dollar administrative court filing fee.",
+            "Up to 90% of total company stock equity shares.",
+            "Up to 4% of global annual turnover or twenty million euros.",
+            "Immediate imprisonment of all corporate shareholders."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"Up to 4% of global annual turnover or twenty million euros.\") is correct. The author explicitly notes: 'imposed Draconian financial penalties—up to four percent of global annual turnover or twenty million euros—for non-compliance.'",
+          "questionType": "inference"
+        },
+        {
+          "id": "mock-13-read-q03",
+          "prompt": "How does a sovereign Data Mesh architecture solve cross-border data transfer restrictions?",
+          "options": [
+            "By printing all customer database records onto physical paper and shipping them via cargo ships.",
+            "By deleting all international business operations and firing all foreign employees.",
+            "By ignoring international courts and hoping regulators never inspect cloud servers.",
+            "By localizing data storage and utilizing federated queries so algorithms travel to data rather than raw PII crossing borders."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"By localizing data storage and utilizing federated queries so algorithms travel to data rather than raw PII crossing borders.\") is correct. The passage explains: 'enterprises employ federated learning and distributed query federation. Algorithms travel to the data, rather than data traveling to the algorithms.'",
+          "questionType": "vocabulary"
+        },
+        {
+          "id": "mock-13-read-q04",
+          "prompt": "Why are manual compliance spreadsheets and annual audits deemed inadequate in modern enterprises?",
+          "options": [
+            "Because millions of microservices exchange billions of ephemeral API payloads daily, requiring automated computational governance.",
+            "Because spreadsheet software is legally prohibited across all European government offices.",
+            "Because paper-based compliance auditors refuse to use computer monitors.",
+            "Because all corporate compliance documents must be carved into physical stone tablets."
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"Because millions of microservices exchange billions of ephemeral API payloads daily, requiring automated computational governance.\") is correct. The final paragraph states: 'Manual compliance spreadsheets and annual audits are hopelessly inadequate in environments where millions of microservices exchange billions of ephemeral API payloads daily. Organizations must deploy automated data lineage engines.'",
+          "questionType": "main-idea"
+        }
+      ]
+    },
+    "listening": {
+      "id": "mock-13-list",
+      "type": "listening",
+      "title": "Audio Executive Briefing: Global Data Protection Officer Steering Committee",
+      "context": "Data Governance and Privacy Steering Council reviewing European sovereign cloud migration and regulatory audit preparedness.",
+      "dialogue": [
+        {
+          "speaker": "Julian",
+          "text": "Good morning Sophie. Let us review our European Sovereign Data Zone roadmap ahead of the French CNIL regulatory audit in November."
+        },
+        {
+          "speaker": "Sophie",
+          "text": "We have made significant progress Julian. Eighty-eight percent of European customer transactional databases are now migrated into dedicated sovereign Frankfurt availability zones with zero data corruption."
+        },
+        {
+          "speaker": "Julian",
+          "text": "However, our automated metadata scanner flagged that sixteen legacy analytics pipelines were transmitting unhashed European IP addresses to Virginia."
+        },
+        {
+          "speaker": "Sophie",
+          "text": "Under EU law, raw IP addresses constitute personal identifiable data. What is our technical remediation?"
+        },
+        {
+          "speaker": "Julian",
+          "text": "Our platform team will deploy edge tokenization proxies by this Friday midnight, replacing raw IPs with cryptographically salted ephemeral tokens before cross-region replication."
+        },
+        {
+          "speaker": "Sophie",
+          "text": "And we will complete the remaining twelve percent of database migrations by October 15 to achieve 100% sovereign isolation."
+        }
+      ],
+      "fullScriptText": "Julian: Good morning Sophie. Let us review our European Sovereign Data Zone roadmap ahead of the French CNIL regulatory audit in November.\nSophie: We have made significant progress Julian. Eighty-eight percent of European customer transactional databases are now migrated into dedicated sovereign Frankfurt availability zones with zero data corruption.\nJulian: However, our automated metadata scanner flagged that sixteen legacy analytics pipelines were transmitting unhashed European IP addresses to Virginia.\nSophie: Under EU law, raw IP addresses constitute personal identifiable data. What is our technical remediation?\nJulian: Our platform team will deploy edge tokenization proxies by this Friday midnight, replacing raw IPs with cryptographically salted ephemeral tokens before cross-region replication.\nSophie: And we will complete the remaining twelve percent of database migrations by October 15 to achieve 100% sovereign isolation.",
+      "questions": [
+        {
+          "id": "mock-13-list-q01",
+          "prompt": "What percentage of European customer transactional databases had already been successfully migrated to Frankfurt?",
+          "options": [
+            "25%",
+            "50%",
+            "88%",
+            "100%"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"88%\") is correct. Julian Mercer states: 'First, we have successfully migrated eighty-eight percent of all European customer transactional databases from our shared multi-tenant cluster into dedicated sovereign Frankfurt AWS availability zones.'"
+        },
+        {
+          "id": "mock-13-list-q02",
+          "prompt": "What critical compliance gap was detected by the automated metadata scanner?",
+          "options": [
+            "The entire corporate intranet was hacked by overseas criminal syndicates.",
+            "All customer credit card numbers were published on an open public website.",
+            "All Frankfurt cloud servers had run out of physical hard drive storage space.",
+            "Sixteen legacy analytics pipelines were transmitting unhashed European IP addresses to Virginia."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"Sixteen legacy analytics pipelines were transmitting unhashed European IP addresses to Virginia.\") is correct. Julian notes: 'It discovered that sixteen legacy marketing analytics pipelines are still transmitting unhashed European IP addresses and session tokens to our analytical data lake in Virginia.'"
+        },
+        {
+          "id": "mock-13-list-q03",
+          "prompt": "What technical solution will the platform team deploy by Friday midnight to remediate the cross-border IP transfer?",
+          "options": [
+            "Edge tokenization proxies that replace raw IPs with cryptographically salted ephemeral tokens.",
+            "Shutting down the entire European sales division permanently.",
+            "Asking European customers to manually delete their own IP addresses.",
+            "Transferring all database storage back to physical magnetic tape backups."
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"Edge tokenization proxies that replace raw IPs with cryptographically salted ephemeral tokens.\") is correct. Julian specifies: 'our platform team will deploy edge tokenization proxies across all European API gateways, replacing raw IP addresses with cryptographically salted ephemeral tokens.'"
+        },
+        {
+          "id": "mock-13-list-q04",
+          "prompt": "By what date will the remaining 12% of database migrations be finalized to ensure 100% sovereign isolation?",
+          "options": [
+            "By tomorrow morning",
+            "October 15",
+            "December 31",
+            "Next summer"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"October 15\") is correct. The speaker confirms: 'Second, we will complete the remaining twelve percent of database migrations by October 15, ensuring 100% sovereign isolation.'"
+        }
+      ]
+    },
+    "speaking": [
+      {
+        "id": "mock-13-spk-01",
+        "type": "speaking",
+        "prompt": "Explain to a client executive why adopting 'Privacy by Design' from the inception of software development is vastly more cost-effective than retrofitting compliance security after platform deployment.",
+        "context": "Contrast the minimal upfront cost of architecture threat modeling, schema tokenization, and automated access controls against the astronomical expense of emergency database refactoring, regulatory fines, and brand damage.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Principles of Privacy by Design",
+          "Upfront threat modeling vs emergency retrofitting",
+          "Comparing financial costs: proactive design vs regulatory fines & refactoring",
+          "Client trust and competitive differentiation"
+        ],
+        "modelTranscript": "Incorporating Privacy by Design into software architecture from day one is not an administrative burden; it is one of the highest-leverage investments an enterprise can make. When engineering teams implement schema-level tokenization, automated access controls, and data minimization upfront during sprint planning, the cost is essentially zero—it is simply standard, disciplined software engineering. Conversely, attempting to retrofit privacy onto an existing production system is extraordinarily painful and expensive. It requires pausing product feature roadmaps, refactoring complex database schemas, retrofitting ephemeral encryption sidecars, and managing massive regression testing. Worse, if privacy vulnerabilities are discovered by regulatory authorities rather than internal tests, the company faces crippling fines of up to four percent of global turnover, mandatory public disclosures, and severe erosion of customer trust. Privacy by Design safeguards your balance sheet, your schedule, and your brand reputation."
+      },
+      {
+        "id": "mock-13-spk-02",
+        "type": "speaking",
+        "prompt": "Describe how a global technology consultancy should guide an enterprise client who is caught between conflicting international data laws (e.g., US discovery subpoenas vs European GDPR data privacy restrictions).",
+        "context": "Scenario: A multinational corporation receives a US civil litigation discovery demand for employee communications that contain European PII protected under GDPR. Detail legal, technical, and governance mitigation steps.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Navigating international legal conflict of laws",
+          "Technical data minimization and anonymization techniques",
+          "Engaging specialized cross-border legal counsel",
+          "Constructing a defensible, legally compliant disclosure protocol"
+        ],
+        "modelTranscript": "Navigating cross-border conflicts of law—such as a US judicial discovery order demanding documents protected under European GDPR directives—requires meticulous coordination between specialized legal counsel and enterprise data architects. Under European law, transferring unredacted employee communications to a foreign court without a valid transfer mechanism constitutes an illegal transfer carrying severe statutory penalties. To resolve this impasse, our consultancy implements a structured three-tier mitigation protocol. First, we engage joint legal counsel to petition the US court for a protective order acknowledging foreign statutory constraints. Second, our data engineering squad executes automated data minimization and cryptographic anonymization within European sovereign territory, stripping out all extraneous PII, sensitive employee metadata, and third-party references. Only the strictly relevant, redacted evidentiary dataset is packaged for legal production. Finally, we document this defensible process with full cryptographic audit lineage, demonstrating rigorous compliance with both judicial discovery and European privacy laws."
+      }
+    ]
+  }
+}

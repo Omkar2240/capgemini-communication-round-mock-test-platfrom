@@ -1,0 +1,503 @@
+{
+  "id": "mock-02",
+  "testNumber": 2,
+  "title": "Mock Test 02: Cross-Functional Team Collaboration",
+  "difficulty": "Foundation",
+  "durationMinutes": 60,
+  "description": "Internal sprint communication, task handoffs between QA and developers, and clarifying work requirements.",
+  "sectionTimers": {
+    "grammar": 12,
+    "writing": 10,
+    "situational": 10,
+    "reading": 10,
+    "listening": 8,
+    "speaking": 10
+  },
+  "sections": {
+    "grammar": [
+      {
+        "id": "mock-02-gram-01",
+        "type": "grammar",
+        "prompt": "Every developer and quality analyst on the squad _____ responsible for updating their Jira ticket statuses daily.",
+        "options": [
+          "are",
+          "is",
+          "were",
+          "have been"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"is\") is correct. Subjects preceded by 'every' are grammatically singular and require singular verbs ('is').",
+        "topic": "Subject-Verb Agreement",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-02-gram-02",
+        "type": "grammar",
+        "prompt": "The frontend engineer realized that the API endpoint _____ modified during the previous weekend deployment.",
+        "options": [
+          "has been",
+          "is being",
+          "had been",
+          "will be"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"had been\") is correct. Past perfect passive ('had been modified') expresses an action completed prior to the past moment of realization ('realized').",
+        "topic": "Tenses",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-02-gram-03",
+        "type": "grammar",
+        "prompt": "The team authoring the documentation established _____ uniform standard for API error codes across all microservices.",
+        "options": [
+          "an",
+          "the",
+          "no article needed",
+          "a"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"a\") is correct. 'Uniform' begins with a consonant 'y' sound (/ˈjuːnɪfɔːm/), hence taking the article 'a'.",
+        "topic": "Articles",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-02-gram-04",
+        "type": "grammar",
+        "prompt": "The scrum master insisted _____ conducting a short root-cause retrospective before starting the next sprint.",
+        "options": [
+          "on",
+          "for",
+          "to",
+          "with"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"on\") is correct. 'Insist' takes the preposition 'on' (or 'upon') when introducing a gerund phrase ('insisted on conducting').",
+        "topic": "Prepositions",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-02-gram-05",
+        "type": "grammar",
+        "prompt": "Neither the lead designer nor the backend developers consider _____ ready for the final code freeze.",
+        "options": [
+          "himself",
+          "themselves",
+          "herself",
+          "itself"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"themselves\") is correct. When the plural subject ('developers') is closer to the verb, the reflexive pronoun must be plural ('themselves').",
+        "topic": "Pronouns",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-02-gram-06",
+        "type": "grammar",
+        "prompt": "The code passed all static linting checks, _____ integration tests revealed unexpected memory leaks.",
+        "options": [
+          "because",
+          "therefore",
+          "yet",
+          "unless"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"yet\") is correct. 'Yet' acts as an adversative conjunction highlighting the contrast between clean linting and memory leaks.",
+        "topic": "Conjunctions",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-02-gram-07",
+        "type": "grammar",
+        "prompt": "Convert to passive voice: 'The QA automation engineer executed twenty test suites before noon.'",
+        "options": [
+          "Twenty test suites have been executed by the QA automation engineer before noon.",
+          "Twenty test suites are executed before noon by the QA automation engineer.",
+          "The QA automation engineer was executed by twenty test suites before noon.",
+          "Twenty test suites were executed by the QA automation engineer before noon."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"Twenty test suites were executed by the QA automation engineer before noon.\") is correct. Past simple passive replaces the active object with 'were executed' + agent phrase.",
+        "topic": "Active and Passive Voice",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-02-gram-08",
+        "type": "grammar",
+        "prompt": "Change to indirect speech: The technical lead said, 'Please review the pull request before merging.'",
+        "options": [
+          "The technical lead requested that we review the pull request before merging.",
+          "The technical lead said that please review the pull request before merging.",
+          "The technical lead told to us that we should be reviewing the pull request before merging.",
+          "The technical lead asked that we will review the pull request before merging."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"The technical lead requested that we review the pull request before merging.\") is correct. Polite imperative requests shift cleanly to 'requested that we review' in indirect reported speech.",
+        "topic": "Direct and Indirect Speech",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-02-gram-09",
+        "type": "grammar",
+        "prompt": "Identify the sentence that maintains parallel grammatical structure:",
+        "options": [
+          "Effective developers focus on writing clean code, peer pull request review, and to automate regression tests.",
+          "Effective developers focus on writing clean code, reviewing peer pull requests, and automating regression tests.",
+          "Effective developers focus on to write clean code, reviewing peer pull requests, and automation of tests.",
+          "Effective developers focus on writing clean code, peer pull requests, and test automation."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"Effective developers focus on writing clean code, reviewing peer pull requests, and automating regression tests.\") is correct. Parallelism requires that all coordinated items share identical gerund forms ('writing', 'reviewing', 'automating').",
+        "topic": "Sentence Correction",
+        "difficulty": "easy"
+      },
+      {
+        "id": "mock-02-gram-10",
+        "type": "grammar",
+        "prompt": "Choose the word closest in meaning to 'CONCUR' as used in: 'The lead architect concurred with the proposed schema redesign.'",
+        "options": [
+          "disagreed",
+          "hesitated",
+          "agreed",
+          "interfered"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"agreed\") is correct. 'Concur' means to agree or share the same opinion on a matter.",
+        "topic": "Vocabulary in Context",
+        "difficulty": "easy"
+      }
+    ],
+    "writing": [
+      {
+        "id": "mock-02-wri-01",
+        "type": "writing",
+        "prompt": "Draft an email to your QA counterpart requesting clarification on three bug tickets flagged during yesterday's staging deployment.",
+        "scenario": "The tickets lack reproducible steps and screen captures. You need more context to diagnose whether the defects stem from the backend service or browser caching.",
+        "expectedFormat": "professional_email",
+        "recommendedWordCount": {
+          "min": 100,
+          "max": 150
+        },
+        "evaluationCriteria": [
+          "Collaborative, non-blaming tone",
+          "Specific ticket identifiers mentioned",
+          "Actionable request for logs/steps",
+          "Professional signoff"
+        ],
+        "modelResponse": "Hi Priya,\n\nI hope your morning is going well. Thank you for your thorough testing during yesterday's staging deployment.\n\nI am currently investigating bug tickets BUG-401, BUG-404, and BUG-409 regarding the checkout validation latency. To help our backend team reproduce the exact conditions, could you kindly share the browser console logs and specific payload data used during your test run?\n\nThis will help us confirm whether the issue stems from an uncached API response or the payload handler. Let me know if you would like to hop on a quick 5-minute screen share to review the behavior together.\n\nBest regards,\nMarcus Thorne\nFull Stack Developer",
+        "keyPoints": [
+          "mention ticket numbers",
+          "polite request for reproduction logs",
+          "offer for brief sync",
+          "courteous tone"
+        ]
+      },
+      {
+        "id": "mock-02-wri-02",
+        "type": "writing",
+        "prompt": "Draft a sprint handoff update for your team summarizing completed frontend deliverables and outstanding backend dependencies for Sprint 14.",
+        "scenario": "You are completing your sprint tasks and need to document what has been merged to staging and what remains blocked on API endpoints.",
+        "expectedFormat": "formal_memo",
+        "recommendedWordCount": {
+          "min": 110,
+          "max": 160
+        },
+        "evaluationCriteria": [
+          "Clear bulleted status breakdown",
+          "Identification of blockers",
+          "Next sprint priorities",
+          "Executive readability"
+        ],
+        "modelResponse": "Sprint 14 Handoff Summary\n\nTeam,\n\nHere is our end-of-sprint handoff status for the customer profile feature stream:\n\n1. Completed & Merged to Staging:\n- Responsive Profile UI and password reset forms (PR #142, PR #145)\n- Form validation error tooltips with 100% unit test coverage\n\n2. Current Dependencies & Blockers:\n- Avatar Upload: Blocked pending AWS S3 presigned URL endpoint from the backend team (Ticket API-882)\n- Notification Toggles: Ready for end-to-end integration once staging authentication stabilizes\n\n3. Next Steps:\nWe will demo the merged profile screens during tomorrow's sprint review at 3:00 PM.\n\nThank you for a productive sprint!\n\nBest regards,\nEngineering Squad A",
+        "keyPoints": [
+          "completed deliverables",
+          "blocked tickets and reasons",
+          "demonstration timing",
+          "clear bulleted sections"
+        ]
+      }
+    ],
+    "situational": [
+      {
+        "id": "sit-e7g51kbz3",
+        "type": "situational",
+        "context": "A QA engineer rejects your pull request 10 minutes before the sprint code freeze, citing an edge-case visual alignment bug on tablet screens.",
+        "challenge": "You need to decide how to respond so the sprint deployment is not delayed unnecessarily while ensuring quality standards are upheld.",
+        "options": [
+          "Override the QA rejection forcefully using admin privileges and insult the QA engineer on public Slack.",
+          "Ignore the comment completely and log off for the weekend.",
+          "Complain to the Director of Engineering that QA is actively sabotaging your career.",
+          "Review the bug report collaboratively with the QA engineer, determine whether the visual glitch impairs user functionality, and agree to either merge with a hotfix ticket or push a 15-minute CSS patch together."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Collaborative triage of severity trade-offs ensures release velocity without compromising engineering team solidarity.",
+        "writtenPrompt": "Write a polite Slack reply to the QA engineer on the pull request thread.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Thanks for catching the tablet layout discrepancy, Priya; let's take 5 minutes to verify if we can push a quick flexbox patch before the 4 PM freeze."
+      },
+      {
+        "id": "sit-g6mpz63ub",
+        "type": "situational",
+        "context": "During the daily standup, a senior colleague continuously interrupts a quieter junior developer who is trying to explain their sprint progress.",
+        "challenge": "You want to ensure an inclusive, psychologically safe team environment without creating unnecessary interpersonal hostility.",
+        "options": [
+          "Intervene gently during the call by saying: 'Thanks David, but let's make sure Maya finishes explaining her update so we have the full context on the auth module.'",
+          "Shout at the senior developer to shut up and leave the call immediately.",
+          "Say nothing during the call, but send an anonymous complaint to Human Resources afterward.",
+          "Interrupt both of them and take over the meeting yourself."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Gentle, respectful facilitation models psychological safety and ensures every team member's operational voice is valued.",
+        "writtenPrompt": "Write a private 1-sentence Slack note thanking Maya for her clear update.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Great update on the auth module today, Maya; your explanation of the token lifecycle really clarified our next integration steps."
+      },
+      {
+        "id": "sit-4k01rnbo9",
+        "type": "situational",
+        "context": "The backend team releases an unannounced breaking change to the database schema that breaks your frontend staging build.",
+        "challenge": "You need the issue resolved rapidly without triggering a blame game between squads.",
+        "options": [
+          "Post angry memes in the company-wide general channel accusing the backend team of incompetence.",
+          "Post a clear, data-driven update in the shared engineering Slack channel highlighting the specific failing payload and asking the backend squad to coordinate a rollback or patch.",
+          "Silently delete the frontend code and pretend you never wrote it.",
+          "Directly modify the backend database schema yourself in production without notifying anyone."
+        ],
+        "bestOption": 1,
+        "bestOptionRationale": "Option B is the optimal professional strategy. Objective, blameless communication supported by telemetry and reproduction steps accelerates technical resolution.",
+        "writtenPrompt": "Write a concise 2-sentence Slack message to the backend team detailing the issue.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Hi backend team, our staging UI builds are failing on user payload verification following commit #b84f; could we align on the updated schema fields so we can adjust our interfaces?"
+      },
+      {
+        "id": "sit-vv9ujhl8t",
+        "type": "situational",
+        "context": "A developer on your squad repeatedly forgets to update their ticket status on the Kanban board, creating confusion about sprint progress.",
+        "challenge": "You need ticket visibility for daily stakeholder reporting without micromanaging your teammate.",
+        "options": [
+          "Publicly call them lazy and unorganized during the executive steering review.",
+          "Stop speaking to the teammate completely.",
+          "Approach the teammate during a 1-on-1 coffee break, explain how outdated board statuses create reporting bottlenecks for leadership, and offer to set up an automated reminder bot together.",
+          "Secretly log into their Jira account and move their tickets around every night."
+        ],
+        "bestOption": 2,
+        "bestOptionRationale": "Option C is the optimal professional strategy. Constructive private dialogue combined with automated process scaffolding addresses behavioral friction without defensiveness.",
+        "writtenPrompt": "Write a polite private message suggesting a quick sync on board management.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Hey Sam, could we grab 5 minutes today to sync on board automation? Having our tickets up to date really helps keep leadership off our backs during sprint reviews."
+      },
+      {
+        "id": "sit-4e09xr3i5",
+        "type": "situational",
+        "context": "The product manager asks you to bypass code review to deploy a feature directly to production to meet a marketing campaign deadline.",
+        "challenge": "You want to support business goals, but bypassing reviews introduces severe security and stability risks.",
+        "options": [
+          "Bypass all reviews immediately without testing anything because the business is always right.",
+          "Refuse rudely and send an email CCing the entire executive committee claiming the product manager is unethical.",
+          "Pretend to deploy the feature, but actually do nothing and lie about it on the demo.",
+          "Politely explain the technical risks of skipping peer review (defect rate, security vulnerabilities), and offer an expedited 30-minute peer review with a designated senior engineer as a balanced compromise."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Constructive compromise upholding fundamental quality boundaries while providing accelerated delivery pathways demonstrates senior consulting maturity.",
+        "writtenPrompt": "Write a diplomatic 2-sentence email to the Product Manager proposing the expedited review.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "We understand how vital the marketing launch deadline is for the company. To prevent critical production defects while meeting your timeline, our lead engineer has agreed to perform an expedited 30-minute review right now so we can deploy safely by 2:00 PM."
+      },
+      {
+        "id": "sit-9oc54ao8v",
+        "type": "situational",
+        "context": "In a sprint retrospective, two team members begin arguing aggressively about whose fault it was that the regression suite failed.",
+        "challenge": "As the session facilitator, you must de-escalate the tension and redirect the conversation toward constructive process improvements.",
+        "options": [
+          "Pause the discussion calmly, remind everyone that retrospectives are strictly blameless learning forums, and refocus the inquiry onto systemic safeguards: 'What automated guardrail could prevent this defect regardless of who wrote the code?'",
+          "Encourage them to fight it out physically so the stronger developer wins the argument.",
+          "End the meeting abruptly and never schedule another retrospective.",
+          "Pick one developer to blame publicly and demand that they write a letter of apology."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Blameless problem-solving shifts team dynamics from accusatory finger-pointing to systemic architectural resilience.",
+        "writtenPrompt": "Write a 1-sentence de-escalation statement to restore psychological safety.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Let's step back from individual actions and examine our process: what automated pipeline check can we introduce so our team catches this issue before code review?"
+      }
+    ],
+    "reading": {
+      "id": "mock-02-read",
+      "type": "reading",
+      "passageTitle": "Asynchronous Coordination in Agile Engineering Ecosystems",
+      "passageTopic": "Agile Engineering & DevOps",
+      "wordCount": 375,
+      "passageContent": "As software organizations transition from co-located office floors to geographically distributed engineering clusters, the operational mechanics of agile collaboration have undergone fundamental transformation. Traditional agile frameworks, conceived in an era of physical co-presence, relied heavily upon high-bandwidth synchronous interactions—such as the fifteen-minute daily standup, physical sticky-note Kanban boards, and spontaneous desk-side pair programming. However, when development teams span eight or more time zones, rigid synchronization often transforms into a logistical impediment rather than an accelerator.\n\nEmpirical organizational studies indicate that requiring distributed engineers to attend early morning or late-night synchronous ceremonies introduces circadian fatigue and fragments concentrated problem-solving intervals. When an engineer's day is punctured by recurrent synchronous check-ins, the duration of uninterrupted deep work decreases precipitously. Consequently, advanced technology organizations are pioneering 'asynchronous-first' agile paradigms. In these environments, the traditional verbal standup is superseded by structured text updates broadcast via team communication platforms, while architectural debates are conducted through asynchronous RFC (Request for Comments) documents with defined review windows.\n\nNevertheless, asynchronous collaboration is not an abdication of coordination; rather, it demands elevated communicative precision. In a synchronous conversation, vocal inflection and immediate visual feedback allow participants to clarify ambiguous statements instantaneously. In contrast, an asynchronous technical proposal must be meticulously contextualized, articulating assumptions, edge cases, and anticipated trade-offs with explicit clarity. Organizations that master asynchronous articulation cultivate superior organizational documentation, eliminate geographical hiring constraints, and grant their engineering workforce the autonomy necessary for sustained deep technical execution.",
+      "questions": [
+        {
+          "id": "mock-02-read-q01",
+          "prompt": "According to paragraph 1, what did traditional agile frameworks rely upon heavily?",
+          "options": [
+            "Strict algorithmic artificial intelligence automation engines.",
+            "High-bandwidth synchronous interactions like physical standups and spontaneous desk-side pairing.",
+            "Entirely asynchronous RFC documentation repositories across continents.",
+            "Outsourcing all software quality testing to offshore third-party contractors."
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"High-bandwidth synchronous interactions like physical standups and spontaneous desk-side pairing.\") is correct. Paragraph 1 notes that traditional frameworks 'relied heavily upon high-bandwidth synchronous interactions—such as the fifteen-minute daily standup... and spontaneous desk-side pair programming.'",
+          "questionType": "factual"
+        },
+        {
+          "id": "mock-02-read-q02",
+          "prompt": "What is a primary drawback of recurrent synchronous ceremonies for distributed engineers, according to paragraph 2?",
+          "options": [
+            "An immediate decrease in employee compensation packages.",
+            "A complete failure of automated unit testing frameworks.",
+            "Circadian fatigue and the fragmentation of uninterrupted deep work intervals.",
+            "Severe network bandwidth consumption across local routers."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"Circadian fatigue and the fragmentation of uninterrupted deep work intervals.\") is correct. Paragraph 2 states that recurrent check-ins introduce 'circadian fatigue and fragments concentrated problem-solving intervals.'",
+          "questionType": "factual"
+        },
+        {
+          "id": "mock-02-read-q03",
+          "prompt": "What does the author argue is required for asynchronous collaboration to succeed?",
+          "options": [
+            "A complete elimination of all code reviews and documentation.",
+            "Requiring all engineers to move to the same time zone within six months.",
+            "Replacing all written documentation with audio voice notes.",
+            "Elevated communicative precision and meticulous contextualization of technical proposals."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"Elevated communicative precision and meticulous contextualization of technical proposals.\") is correct. Paragraph 3 explicitly emphasizes that asynchronous collaboration 'demands elevated communicative precision... articulating assumptions, edge cases, and anticipated trade-offs with explicit clarity.'",
+          "questionType": "inference"
+        },
+        {
+          "id": "mock-02-read-q04",
+          "prompt": "As used in paragraph 2, what does the word 'SUPERSEDED' most closely mean?",
+          "options": [
+            "Replaced or supplanted by something newer or more effective",
+            "Postponed indefinitely",
+            "Examined under a microscope",
+            "Violently rejected"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"Replaced or supplanted by something newer or more effective\") is correct. 'Superseded' means replaced or set aside in favor of a superior alternative.",
+          "questionType": "vocabulary"
+        }
+      ]
+    },
+    "listening": {
+      "id": "mock-02-list",
+      "type": "listening",
+      "title": "Sprint Standup: API Integration Checkpoint",
+      "context": "Liam (Scrum Master), Maya (Frontend Lead), and Carlos (Backend Architect) synchronize sprint velocity and unblock pull request reviews.",
+      "dialogue": [
+        {
+          "speaker": "Liam",
+          "text": "Good morning team. We have four days left in Sprint 14. Maya, how are things looking on the responsive checkout redesign?"
+        },
+        {
+          "speaker": "Maya",
+          "text": "Frontend components are ninety percent complete, Liam. However, we are blocked on the Stripe payment webhook integration because the staging API returns a 403 Forbidden error."
+        },
+        {
+          "speaker": "Carlos",
+          "text": "I can speak to that, Maya. We rotated the staging API authentication secrets yesterday evening to comply with the new security audit. I updated the environment variables in the wiki this morning."
+        },
+        {
+          "speaker": "Maya",
+          "text": "Thanks Carlos, that explains it! Once I pull those updated secrets into our Docker container, our automated integration tests should run green."
+        },
+        {
+          "speaker": "Liam",
+          "text": "Excellent. Carlos, could you also review Maya's pull request on the user profile layout by 2:00 PM today so QA can begin validation?"
+        },
+        {
+          "speaker": "Carlos",
+          "text": "Absolutely, Liam. I'll review it right after this standup."
+        }
+      ],
+      "fullScriptText": "Liam: Good morning team. We have four days left in Sprint 14. Maya, how are things looking on the responsive checkout redesign?\nMaya: Frontend components are ninety percent complete, Liam. However, we are blocked on the Stripe payment webhook integration because the staging API returns a 403 Forbidden error.\nCarlos: I can speak to that, Maya. We rotated the staging API authentication secrets yesterday evening to comply with the new security audit. I updated the environment variables in the wiki this morning.\nMaya: Thanks Carlos, that explains it! Once I pull those updated secrets into our Docker container, our automated integration tests should run green.\nLiam: Excellent. Carlos, could you also review Maya's pull request on the user profile layout by 2:00 PM today so QA can begin validation?\nCarlos: Absolutely, Liam. I'll review it right after this standup.",
+      "questions": [
+        {
+          "id": "mock-02-list-q01",
+          "prompt": "Why did the staging API return a 403 Forbidden error for the frontend team?",
+          "options": [
+            "The Stripe service experienced a worldwide server outage.",
+            "The frontend code had syntax errors in the CSS styling.",
+            "The backend team rotated the authentication secrets to comply with a security audit.",
+            "The staging database was permanently deleted by an intern."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"The backend team rotated the authentication secrets to comply with a security audit.\") is correct. Carlos explains: 'We rotated the staging API authentication secrets yesterday evening to comply with the new security audit.'"
+        },
+        {
+          "id": "mock-02-list-q02",
+          "prompt": "By what time did Liam request Carlos to review Maya's pull request on user profiles?",
+          "options": [
+            "By 9:00 AM tomorrow",
+            "By next Monday morning",
+            "By midnight tonight",
+            "By 2:00 PM today"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"By 2:00 PM today\") is correct. Liam requests: 'Carlos, could you also review Maya's pull request on the user profile layout by 2:00 PM today?'"
+        },
+        {
+          "id": "mock-02-list-q03",
+          "prompt": "How many days remain in Sprint 14 at the time of this standup meeting?",
+          "options": [
+            "Four days",
+            "Two days",
+            "Seven days",
+            "Ten days"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"Four days\") is correct. Liam opens the meeting stating: 'We have four days left in Sprint 14.'"
+        },
+        {
+          "id": "mock-02-list-q04",
+          "prompt": "Where did Carlos publish the updated environment variables for the team?",
+          "options": [
+            "On an unencrypted email chain",
+            "In the team wiki",
+            "In a private direct message to Liam",
+            "On a physical office whiteboard"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"In the team wiki\") is correct. Carlos confirms: 'I updated the environment variables in the wiki this morning.'"
+        }
+      ]
+    },
+    "speaking": [
+      {
+        "id": "mock-02-spk-01",
+        "type": "speaking",
+        "prompt": "Explain how you handle constructive feedback or criticism when a senior engineer requests significant revisions on your code during peer review.",
+        "context": "Emotional intelligence and growth mindset during technical code reviews. Demonstrate professionalism, receptivity, and objective analysis.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Emotional maturity and professional detachment",
+          "Appreciation for feedback and learning",
+          "Collaborative clarification of architectural rationale",
+          "Commitment to team code quality"
+        ],
+        "modelTranscript": "Receiving constructive critique during code reviews is one of the most effective catalysts for professional growth. When a senior peer requests significant architectural refactoring, I separate my personal ego from the code itself. My first step is to thoroughly examine their comments to understand the underlying principles—whether regarding performance, scalability, or maintainability. If the reasoning is immediately clear, I implement the suggested improvements promptly. If I require deeper context, I schedule a brief 10-minute sync to discuss the architectural trade-offs collaboratively. Ultimately, peer review is a team safeguard, and I view rigorous feedback as an invaluable mentorship opportunity."
+      },
+      {
+        "id": "mock-02-spk-02",
+        "type": "speaking",
+        "prompt": "Discuss the importance of empathy and active listening when collaborating with non-technical stakeholders (such as marketing, sales, or finance leaders).",
+        "context": "Cross-functional bridge building. Articulate how engineers translate technical trade-offs into business value.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Value of empathetic listening",
+          "Translating technical jargon into business terms",
+          "Building cross-departmental trust",
+          "Concrete workplace example"
+        ],
+        "modelTranscript": "In modern technology enterprises, engineering excellence is meaningless if it fails to solve core commercial objectives. When interacting with non-technical leaders in marketing or finance, active listening is essential. Non-technical stakeholders often express valid business urgency in terms of customer retention or revenue, while engineers perceive the problem through latency and infrastructure constraints. By practicing empathetic listening, I avoid technical jargon and translate trade-offs into plain business impacts—such as risk reduction, cost efficiency, or user experience. When cross-functional partners feel genuinely heard and understood, mutual trust flourishes, ensuring projects launch smoothly and deliver enduring value."
+      }
+    ]
+  }
+}

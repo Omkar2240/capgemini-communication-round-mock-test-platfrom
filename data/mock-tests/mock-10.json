@@ -1,0 +1,503 @@
+{
+  "id": "mock-10",
+  "testNumber": 10,
+  "title": "Mock Test 10: Product Release & Go-To-Market Enablement",
+  "difficulty": "Intermediate",
+  "durationMinutes": 60,
+  "description": "Feature launch coordination, sales enablement, release readiness checklists, customer success handoffs, and product communication.",
+  "sectionTimers": {
+    "grammar": 12,
+    "writing": 10,
+    "situational": 10,
+    "reading": 10,
+    "listening": 8,
+    "speaking": 10
+  },
+  "sections": {
+    "grammar": [
+      {
+        "id": "mock-10-gram-01",
+        "type": "grammar",
+        "prompt": "Neither the product marketing manager nor the sales enablement specialists _____ completed the onboarding collateral.",
+        "options": [
+          "has",
+          "have",
+          "is",
+          "was"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"have\") is correct. In 'neither... nor' constructions, the verb agrees in number with the closer plural subject ('sales enablement specialists' -> 'have').",
+        "topic": "Subject-Verb Agreement",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-10-gram-02",
+        "type": "grammar",
+        "prompt": "By the time the global press release went live, our customer support leads _____ three training workshops.",
+        "options": [
+          "already conducted",
+          "have already conducted",
+          "had already conducted",
+          "are already conducting"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"had already conducted\") is correct. Past perfect ('had already conducted') is required for an action completed prior to the past event of going live.",
+        "topic": "Tenses",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-10-gram-03",
+        "type": "grammar",
+        "prompt": "The launch squad delivered _____ user-friendly walkthrough video for all inbound enterprise trial accounts.",
+        "options": [
+          "an",
+          "the",
+          "no article needed",
+          "a"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"a\") is correct. 'User-friendly' begins with a consonant semivowel sound (/j/), requiring the indefinite article 'a'.",
+        "topic": "Articles",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-10-gram-04",
+        "type": "grammar",
+        "prompt": "The product enablement curriculum adheres _____ the pedagogical standards approved by the academy director.",
+        "options": [
+          "to",
+          "with",
+          "in",
+          "for"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"to\") is correct. The verb 'adheres' standardly pairs with the preposition 'to'.",
+        "topic": "Prepositions",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-10-gram-05",
+        "type": "grammar",
+        "prompt": "If the customer advisory council _____ the beta build next week, we will proceed to general commercial availability.",
+        "options": [
+          "endorsed",
+          "endorses",
+          "will endorse",
+          "has endorsed"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"endorses\") is correct. First conditional clause (If + present simple, will + verb) requires 'endorses' for the singular collective subject.",
+        "topic": "Conditionals",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-10-gram-06",
+        "type": "grammar",
+        "prompt": "The initial feature release was celebrated across social channels, _____ several enterprise users flagged missing CSV export tools.",
+        "options": [
+          "because",
+          "therefore",
+          "although",
+          "since"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"although\") is correct. Concessive conjunction 'although' introduces the contrast between public celebrations and missing feature complaints.",
+        "topic": "Conjunctions",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-10-gram-07",
+        "type": "grammar",
+        "prompt": "Among all the market expansion strategies evaluated, the self-service freemium model achieved the _____ customer acquisition rate.",
+        "options": [
+          "higher",
+          "high",
+          "more high",
+          "highest"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Option D (\"highest\") is correct. Superlative form 'highest' is required when comparing more than two strategies.",
+        "topic": "Adjectives & Adverbs",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-10-gram-08",
+        "type": "grammar",
+        "prompt": "Comprehensive release notes and API migration guides _____ to all enterprise customers forty-eight hours prior to launch.",
+        "options": [
+          "are dispatched",
+          "is dispatched",
+          "dispatching",
+          "dispatched"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Option A (\"are dispatched\") is correct. Passive voice present simple plural ('are dispatched') matches the plural compound subject 'notes and guides'.",
+        "topic": "Voice & Modals",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-10-gram-09",
+        "type": "grammar",
+        "prompt": "The VP of Product, _____ keynote presentation unveiled the new generative AI assistant, received widespread industry praise.",
+        "options": [
+          "who",
+          "whose",
+          "whom",
+          "which"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Option B (\"whose\") is correct. Possessive relative pronoun 'whose' describes the keynote presentation belonging to the VP of Product.",
+        "topic": "Pronouns & Relative Clauses",
+        "difficulty": "medium"
+      },
+      {
+        "id": "mock-10-gram-10",
+        "type": "grammar",
+        "prompt": "To maximize market penetration, the commercial team will _____ targeted incentive programs for early enterprise adopters.",
+        "options": [
+          "rolling out",
+          "rolled out",
+          "roll out",
+          "rollout"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C (\"roll out\") is correct. Modal auxiliary 'will' takes the base verb phrase 'roll out' (meaning to launch or introduce).",
+        "topic": "Business Vocabulary",
+        "difficulty": "medium"
+      }
+    ],
+    "writing": [
+      {
+        "id": "mock-10-wri-01",
+        "type": "writing",
+        "prompt": "Write a product launch announcement email to internal client-facing teams (Sales, Customer Success, and Support) introducing the new Enterprise Reporting Suite, highlighting three key customer benefits, and detailing the enablement schedule.",
+        "scenario": "Launch date: November 20. Key benefits: real-time dashboard analytics, automated scheduled PDF exports, and role-based permissions. Enablement webinars: Tuesday and Thursday at 10:00 AM EST.",
+        "expectedFormat": "professional_email",
+        "recommendedWordCount": {
+          "min": 90,
+          "max": 160
+        },
+        "evaluationCriteria": [
+          "Energizing professional tone",
+          "Clear value proposition breakdown",
+          "Actionable enablement webinar schedule",
+          "Clear call to action for sales readiness"
+        ],
+        "modelResponse": "Team,\n\nWe are thrilled to announce the official commercial launch of our Enterprise Reporting Suite, scheduled for general availability on Tuesday, November 20!\n\nThis release equips our corporate clients with powerful data capabilities engineered to drive operational intelligence:\n\n1. Real-Time Telemetry Dashboards: Live operational metrics updating with sub-second latency.\n2. Automated Scheduled Exports: Seamless distribution of customized executive PDF and CSV summaries directly to client leadership inboxes.\n3. Granular Role-Based Access Controls: Enterprise-grade permission controls ensuring rigorous data governance across multi-tier teams.\n\nTo ensure our client-facing teams are fully prepared to drive adoption and answer customer queries, we are hosting two mandatory Go-to-Market Enablement Webinars:\n• Session 1: Tuesday, November 16, at 10:00 AM EST\n• Session 2: Thursday, November 18, at 10:00 AM EST\n\nPlease register via the link below and review the attached customer battle cards.\n\nBest regards,\nProduct Marketing Director",
+        "keyPoints": [
+          "Energizing professional tone",
+          "Clear value proposition breakdown",
+          "Actionable enablement webinar schedule",
+          "Clear call to action for sales readiness"
+        ]
+      },
+      {
+        "id": "mock-10-wri-02",
+        "type": "writing",
+        "prompt": "Summarize the Product-Led Growth (PLG) methodology and explain how frictionless self-service onboarding accelerates enterprise expansion compared to traditional top-down sales cycles.",
+        "scenario": "Focus on user-centric product value realization, viral bottom-up adoption, lowering customer acquisition cost (CAC), and data-driven upsell triggers.",
+        "expectedFormat": "formal_memo",
+        "recommendedWordCount": {
+          "min": 75,
+          "max": 130
+        },
+        "evaluationCriteria": [
+          "Crisp commercial analysis",
+          "Accurate PLG concept definitions",
+          "Logical organizational structure",
+          "Concise academic prose"
+        ],
+        "modelResponse": "Product-Led Growth (PLG) is a go-to-market strategy that positions the software product itself as the primary vehicle for customer acquisition, retention, and expansion. Unlike traditional top-down sales models—which rely heavily on cold outreach, lengthy procurement negotiations, and executive presentations—PLG prioritizes frictionless self-service onboarding. End users immediately experience core product value through freemium or trial tiers without upfront sales gatekeeping. As adoption spreads organically within teams through bottom-up advocacy and collaborative features, usage data generates actionable expansion signals. Enterprise sales teams can then engage account leaders with verified utilization metrics and proven organizational ROI, substantially compressing sales cycles and driving down Customer Acquisition Costs (CAC).",
+        "keyPoints": [
+          "Crisp commercial analysis",
+          "Accurate PLG concept definitions",
+          "Logical organizational structure",
+          "Concise academic prose"
+        ]
+      }
+    ],
+    "situational": [
+      {
+        "id": "mock-10-sit-01",
+        "type": "situational",
+        "context": "Two days before a major commercial product launch, your quality assurance lead discovers a minor cosmetic alignment bug on mobile Safari screens that does not impact transactional functionality.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Cancel the entire worldwide commercial launch and fire the front-end developer immediately.",
+          "Pretend the bug does not exist and delete all automated mobile testing scripts from the repository.",
+          "Announce on social media that the software is broken and instruct customers not to buy it.",
+          "Evaluate the bug's severity with the product manager, determine that core transactional workflows are fully operational, document the issue as a known cosmetic defect for an expedited post-launch patch, and proceed with the launch."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Pragmatic release management balances minor non-blocking cosmetic defects against commercial launch commitments while planning fast post-launch patches.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Evaluate the bug's severity with the product manager, determine that core transactional workflows are fully operational, document the issue as a known cosmetic defect for an expedited post-launch patch, and proceed with the launch."
+      },
+      {
+        "id": "mock-10-sit-02",
+        "type": "situational",
+        "context": "Your sales team begins promising enterprise clients a major custom feature that has not been designed, approved, or scheduled on your engineering roadmap.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Convene an immediate alignment meeting between product management and sales leadership, clarify the official product roadmap commitments, and establish clear boundaries to prevent sales reps from promising uncommitted features.",
+          "Force your engineering squad to cancel all vacations and work 100-hour weeks to build the unapproved feature.",
+          "Secretly publish a fake press release claiming the feature is already completed and available.",
+          "Ignore the sales promises and let the client sue your company for breach of contract later."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Product governance requires direct cross-functional alignment between sales and product leadership to establish firm roadmap boundaries and prevent overpromising.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Convene an immediate alignment meeting between product management and sales leadership, clarify the official product roadmap commitments, and establish clear boundaries to prevent sales reps from promising uncommitted features."
+      },
+      {
+        "id": "mock-10-sit-03",
+        "type": "situational",
+        "context": "During a live product launch webinar attended by 300 prospective clients, the demo environment crashes unexpectedly with a 500 internal server error.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Burst into tears, blame your DevOps colleagues by name, and terminate the webinar abruptly.",
+          "Remain completely calm, explain with a smile that the staging server experienced a transient restart, seamlessly transition to backup presentation slides or video recordings, and demonstrate the product workflows smoothly.",
+          "Pretend that the error 500 screen is a high-tech new security feature that users should admire.",
+          "Sit in complete silence for thirty minutes while refreshing the crashed browser window over and over."
+        ],
+        "bestOption": 1,
+        "bestOptionRationale": "Option B is the optimal professional strategy. Composure and prepared redundancy (backup slide decks or pre-recorded walkthroughs) enable presenters to navigate live technical glitches gracefully and professionally.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Remain completely calm, explain with a smile that the staging server experienced a transient restart, seamlessly transition to backup presentation slides or video recordings, and demonstrate the product workflows smoothly."
+      },
+      {
+        "id": "mock-10-sit-04",
+        "type": "situational",
+        "context": "Customer Support representatives report that incoming tickets have doubled following yesterday's release because users cannot find the new navigation menu.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Instruct the customer support team to delete all incoming tickets and ignore complaining users.",
+          "Revert the entire software platform back to its five-year-old legacy user interface permanently.",
+          "Work with the UX design lead to deploy an immediate in-app tooltip walkthrough guiding users to the new menu, publish a quick 60-second video guide, and update the help center knowledge base.",
+          "Blame the end users publicly on your corporate blog for not knowing how to read menus."
+        ],
+        "bestOption": 2,
+        "bestOptionRationale": "Option C is the optimal professional strategy. Deploying lightweight in-app guidance tooltips and video guides resolves user friction rapidly without requiring full architectural rollbacks.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Work with the UX design lead to deploy an immediate in-app tooltip walkthrough guiding users to the new menu, publish a quick 60-second video guide, and update the help center knowledge base."
+      },
+      {
+        "id": "mock-10-sit-05",
+        "type": "situational",
+        "context": "A prominent enterprise client threatens to cancel their subscription because a deprecated feature they relied upon was retired in the latest software update.",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Tell the client that their business does not matter and invite them to cancel their contract immediately.",
+          "Hack the production database to force the deprecated insecure code back into production for that single client.",
+          "Refuse to answer the client's calls and instruct your account team to block their email address.",
+          "Acknowledge the client's frustration, explain the security or architectural rationale behind the deprecation, provide temporary legacy API access if feasible, and personally assist them with migrating to the modern alternative."
+        ],
+        "bestOption": 3,
+        "bestOptionRationale": "Option D is the optimal professional strategy. Empathetic customer success management combines temporary transitional support with dedicated migration assistance to protect client retention.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "chat",
+        "modelWrittenResponse": "Acknowledge the client's frustration, explain the security or architectural rationale behind the deprecation, provide temporary legacy API access if feasible, and personally assist them with migrating to the modern alternative."
+      },
+      {
+        "id": "mock-10-sit-06",
+        "type": "situational",
+        "context": "Your product marketing team produces launch collateral that exaggerates the capabilities of your AI features, claiming the system possesses 'flawless human-level intelligence.'",
+        "challenge": "Balancing operational continuity, technical standards, and stakeholder alignment.",
+        "options": [
+          "Intervene with marketing and legal leadership, present an objective technical assessment of the AI model's true capabilities and limitations, and adjust the copy to reflect accurate, defensible, and compliant claims.",
+          "Approve the exaggerated copy because exaggerated claims will help sales hit their quarterly revenue targets.",
+          "Post anonymous complaints online accusing your marketing team of corporate fraud.",
+          "Resign from your job immediately without explaining your concerns to anyone in leadership."
+        ],
+        "bestOption": 0,
+        "bestOptionRationale": "Option A is the optimal professional strategy. Upholding technical accuracy and regulatory truth-in-advertising protects the enterprise from severe legal, regulatory, and brand reputational liabilities.",
+        "writtenPrompt": "Draft a concise, professional follow-up addressing this scenario.",
+        "communicationFormat": "email",
+        "modelWrittenResponse": "Intervene with marketing and legal leadership, present an objective technical assessment of the AI model's true capabilities and limitations, and adjust the copy to reflect accurate, defensible, and compliant claims."
+      }
+    ],
+    "reading": {
+      "id": "mock-10-read",
+      "type": "reading",
+      "passageTitle": "Product-Led Growth & Modern Go-To-Market Enablement: The Convergence of Product, Sales, and Success",
+      "passageTopic": "Product Release & Go-To-Market Enablement",
+      "wordCount": 354,
+      "passageContent": "The paradigm of enterprise software go-to-market (GTM) strategy has undergone a seismic transformation over the past decade. In the legacy enterprise model, software distribution was dominated by top-down, sales-led motions. Enterprise buyers—predominantly Chief Information Officers and procurement committees—were courted through extensive golf outings, multi-month Request for Proposal (RFP) marathons, and scripted product demos. Software was purchased on multi-year commitments before end users ever touched a keyboard. Deployment cycles often spanned quarters or years, and software utilization frequently languished, leading to high shelfware rates and customer churn.\n\nIn contemporary technology markets, this hierarchy has been upended by the emergence of Product-Led Growth (PLG). In a PLG organization, the product itself serves as the primary conduit for customer acquisition, user onboarding, retention, and viral expansion. Pioneered by companies like Slack, Zoom, and Atlassian, PLG leverages self-service freemium or trial architectures that allow individual practitioners to test, adopt, and integrate software within minutes. Value realization—often termed the 'Time to Value' (TTV)—is compressed from months to moments. As practitioners experience tangible productivity gains, organic peer recommendations drive bottom-up adoption across team departments.\n\nHowever, a common misconception is that Product-Led Growth renders enterprise sales obsolete. In reality, mature technology organizations operate a sophisticated hybrid model known as 'Product-Led Sales' (PLS). PLS does not replace human sales professionals; rather, it supercharges them with high-intent product usage telemetry. Rather than pursuing cold outreach, sales representatives monitor Product Qualified Leads (PQLs)—accounts whose active usage patterns (such as exceeding collaborative seat limits, executing high-volume API requests, or attempting to configure SSO) signal readiness for enterprise-tier governance, security, and volume licensing.\n\nTo execute this hybrid motion successfully, organizations must align their Go-to-Market enablement infrastructure across three interconnected pillars. First, Product Marketing must craft precise value messaging and modular battle cards that equip client-facing teams to articulate technical differentiators against competitors. Second, Customer Success must shift from reactive ticket resolution to proactive customer lifecycle orchestration, analyzing cohort health scores to preempt churn before renewals approach. Finally, Engineering and Product teams must build observability and in-app onboarding tools directly into the application canvas, ensuring that every release is accompanied by frictionless discovery and measurable user delight.",
+      "questions": [
+        {
+          "id": "mock-10-read-q01",
+          "prompt": "What critical operational flaw characterized the traditional legacy top-down enterprise software sales model?",
+          "options": [
+            "Software was distributed completely free of charge to all corporate users without revenue models.",
+            "Software was purchased on multi-year contracts before end users tried it, leading to high shelfware rates and churn.",
+            "Enterprise software was legally forbidden from using computer networks or relational databases.",
+            "Procurement committees were replaced entirely by automated artificial intelligence algorithms."
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"Software was purchased on multi-year contracts before end users tried it, leading to high shelfware rates and churn.\") is correct. The passage states: 'Software was purchased on multi-year commitments before end users ever touched a keyboard... leading to high shelfware rates and customer churn.'",
+          "questionType": "factual"
+        },
+        {
+          "id": "mock-10-read-q02",
+          "prompt": "In Product-Led Sales (PLS), how do sales representatives identify high-intent enterprise opportunities?",
+          "options": [
+            "By sending unsolicited cold marketing faxes to random residential phone numbers.",
+            "By requiring all engineers to knock on doors in physical office parks.",
+            "By monitoring Product Qualified Leads (PQLs) whose active telemetry signals readiness for enterprise-tier features.",
+            "By purchasing unverified email address lists from third-party advertising brokers."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"By monitoring Product Qualified Leads (PQLs) whose active telemetry signals readiness for enterprise-tier features.\") is correct. The text explains: 'sales representatives monitor Product Qualified Leads (PQLs)—accounts whose active usage patterns... signal readiness for enterprise-tier governance, security, and volume licensing.'",
+          "questionType": "inference"
+        },
+        {
+          "id": "mock-10-read-q03",
+          "prompt": "What concept does the text define as 'Time to Value' (TTV)?",
+          "options": [
+            "The total number of years required for an enterprise to pay off its bank loan liabilities.",
+            "The duration of an executive lunch meeting between sales reps and procurement officers.",
+            "The time required for an offshore engineering team to compile a legacy COBOL program.",
+            "The rapid timeframe within which a new end user realizes tangible product value from software."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"The rapid timeframe within which a new end user realizes tangible product value from software.\") is correct. The passage mentions: 'Value realization—often termed the \"Time to Value\" (TTV)—is compressed from months to moments.'",
+          "questionType": "vocabulary"
+        },
+        {
+          "id": "mock-10-read-q04",
+          "prompt": "According to the text, what proactive transition must Customer Success teams make in modern enablement?",
+          "options": [
+            "Transitioning from reactive ticket resolution to proactive lifecycle orchestration using cohort health scores.",
+            "Terminating all telephone customer support channels to eliminate operating expenses.",
+            "Focusing exclusively on filing patent applications for software algorithms.",
+            "Transferring all customer relationship management duties to junior marketing interns."
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"Transitioning from reactive ticket resolution to proactive lifecycle orchestration using cohort health scores.\") is correct. The final paragraph states: 'Customer Success must shift from reactive ticket resolution to proactive customer lifecycle orchestration, analyzing cohort health scores to preempt churn.'",
+          "questionType": "main-idea"
+        }
+      ]
+    },
+    "listening": {
+      "id": "mock-10-list",
+      "type": "listening",
+      "title": "Audio Briefing: Global Product Launch Go-to-Market Readiness Review",
+      "context": "Go-to-market operational readiness review confirming sales enablement, customer support, and infrastructure metrics for product launch.",
+      "dialogue": [
+        {
+          "speaker": "Nathan",
+          "text": "Welcome team. Our global launch of the Analytics 4.0 Platform is scheduled for Tuesday, November 18. Chloe, how is sales certification progressing?"
+        },
+        {
+          "speaker": "Chloe",
+          "text": "As of yesterday evening Nathan, 91% of our global enterprise sales representatives have completed the mandatory certification assessment, exceeding our 85% goal."
+        },
+        {
+          "speaker": "Nathan",
+          "text": "Excellent. How did customer support perform in their scenario-based simulation drills?"
+        },
+        {
+          "speaker": "Chloe",
+          "text": "Our tier-one and tier-two support squads achieved an average resolution time of six minutes and forty seconds during simulated triage, well within our ten-minute SLA."
+        },
+        {
+          "speaker": "Nathan",
+          "text": "On the infrastructure side, load tests across four AWS regions verified sub-100-millisecond response latency under three times the forecasted peak user load."
+        },
+        {
+          "speaker": "Chloe",
+          "text": "Fantastic. Our final pre-launch go/no-go checkpoint is set for Monday at 14:00 UTC."
+        }
+      ],
+      "fullScriptText": "Nathan: Welcome team. Our global launch of the Analytics 4.0 Platform is scheduled for Tuesday, November 18. Chloe, how is sales certification progressing?\nChloe: As of yesterday evening Nathan, 91% of our global enterprise sales representatives have completed the mandatory certification assessment, exceeding our 85% goal.\nNathan: Excellent. How did customer support perform in their scenario-based simulation drills?\nChloe: Our tier-one and tier-two support squads achieved an average resolution time of six minutes and forty seconds during simulated triage, well within our ten-minute SLA.\nNathan: On the infrastructure side, load tests across four AWS regions verified sub-100-millisecond response latency under three times the forecasted peak user load.\nChloe: Fantastic. Our final pre-launch go/no-go checkpoint is set for Monday at 14:00 UTC.",
+      "questions": [
+        {
+          "id": "mock-10-list-q01",
+          "prompt": "What percentage of enterprise sales representatives have completed the mandatory certification assessment?",
+          "options": [
+            "45%",
+            "65%",
+            "91%",
+            "100%"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Option C (\"91%\") is correct. Nathan Brooks states: 'As of yesterday evening, 91% of our global enterprise sales representatives have completed the mandatory certification assessment, surpassing our launch threshold of 85%.'"
+        },
+        {
+          "id": "mock-10-list-q02",
+          "prompt": "What average resolution time did support squads achieve during scenario-based simulation drills?",
+          "options": [
+            "Thirty seconds",
+            "Twelve minutes",
+            "Forty-five minutes",
+            "Six minutes and forty seconds"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Option D (\"Six minutes and forty seconds\") is correct. Nathan reports: 'Average resolution time during simulations clocked in at six minutes and forty seconds, well within our SLA ceiling of ten minutes.'"
+        },
+        {
+          "id": "mock-10-list-q03",
+          "prompt": "Under what load condition was sub-100ms response latency validated across global cloud regions?",
+          "options": [
+            "Under three times the forecasted peak user load",
+            "Under zero simulated user traffic conditions",
+            "Only during overnight maintenance hours",
+            "Under ten percent of standard weekday traffic"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Option A (\"Under three times the forecasted peak user load\") is correct. Nathan explicitly notes: 'validating that our telemetry ingestion pipelines easily maintain sub-100-millisecond response latencies under three times our forecasted peak user load.'"
+        },
+        {
+          "id": "mock-10-list-q04",
+          "prompt": "When is the final pre-launch go/no-go confirmation checkpoint scheduled to take place?",
+          "options": [
+            "Friday at midnight",
+            "Monday at 14:00 UTC",
+            "Tuesday morning at 08:00 UTC",
+            "Wednesday afternoon"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Option B (\"Monday at 14:00 UTC\") is correct. The speaker confirms: 'Our final pre-launch checkpoint is scheduled for Monday at 14:00 UTC, where regional directors will deliver their final go/no-go confirmations.'"
+        }
+      ]
+    },
+    "speaking": [
+      {
+        "id": "mock-10-spk-01",
+        "type": "speaking",
+        "prompt": "Deliver a compelling 90-second product elevator pitch to a prospective enterprise Chief Technology Officer, explaining why they should upgrade from legacy batch analytics to your real-time streaming analytics platform.",
+        "context": "Address latency challenges in legacy reporting, emphasize real-time decision intelligence, data governance compliance, and tangible ROI.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Executive value proposition hook",
+          "Contrasting legacy batch latency vs real-time streaming intelligence",
+          "Enterprise governance and security compliance",
+          "Measurable business impact and call to action"
+        ],
+        "modelTranscript": "In today's hyper-competitive digital economy, making strategic decisions based on twenty-four-hour-old batch reporting is like navigating high-speed traffic by looking exclusively in your rearview mirror. When your engineering and business teams wait for overnight batch jobs to complete, critical customer friction points, payment gateway degradations, and inventory anomalies remain undetected until the damage is already done. Our next-generation Streaming Analytics platform transforms operational data into actionable, sub-second decision intelligence. Built on distributed cloud architecture with native Kafka and Redis streaming, it ingests millions of events per second with sub-hundred-millisecond latency. More importantly, it integrates enterprise-grade role-based access control and automated compliance auditing out of the box. By migrating from batch processing to real-time telemetry, our enterprise partners reduce operational incident containment times by seventy percent and unlock immediate revenue optimizations. I would welcome the opportunity to show you a fifteen-minute tailored demo of our platform running on your sample data."
+      },
+      {
+        "id": "mock-10-spk-02",
+        "type": "speaking",
+        "prompt": "Describe how a cross-functional team should manage customer feedback when early adopters report significant friction with a newly released user interface overhaul.",
+        "context": "Detail how product, UX design, engineering, and customer support collaborate to triage feedback, prioritize refinements, and communicate transparently.",
+        "preparationSeconds": 30,
+        "recordingSeconds": 90,
+        "recommendedMinimumWords": 90,
+        "keyFocusAreas": [
+          "Synthesizing multi-channel customer feedback",
+          "Differentiating temporary change aversion from genuine usability flaws",
+          "Rapid cross-functional triage and sprint prioritization",
+          "Transparent customer communication and closing the feedback loop"
+        ],
+        "modelTranscript": "When launching a major UI overhaul, user friction is natural, but cross-functional teams must distinguish between temporary change resistance and genuine usability defects. The first step is consolidating feedback from customer support tickets, in-app heatmaps, and advisory council surveys into a centralized triage dashboard. Product managers, UX designers, and engineering leads must review these signals daily to identify severe UX bottlenecks—such as buried navigation menus or multi-step checkout friction. Once high-friction areas are identified, the engineering squad should deploy quick tactical improvements, such as guided in-app tooltips or shortcut keys, in rapid weekly patch cycles. Simultaneously, the product marketing team must communicate transparently with users through release changelogs and video walkthroughs, acknowledging their feedback and demonstrating that their input directly shapes product refinements. Closing this feedback loop turns initial user frustration into long-term brand advocacy."
+      }
+    ]
+  }
+}
