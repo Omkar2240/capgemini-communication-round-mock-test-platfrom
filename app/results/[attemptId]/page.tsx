@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { getStoredAttemptById } from "@/lib/storage";
+import { getAttemptFromDB } from "@/lib/audio-db";
 import { TestAttempt } from "@/types/exam";
 import { AppShell } from "@/components/layout/AppShell";
 import { ResultsView } from "@/components/results/ResultsView";
@@ -18,9 +19,42 @@ export default function ResultsPage() {
 
   useEffect(() => {
     if (!attemptId) return;
-    const data = getStoredAttemptById(attemptId);
-    setAttempt(data);
-    setLoading(false);
+
+    let isMounted = true;
+
+    async function fetchAttempt() {
+      // 1. Synchronous check: Memory map, sessionStorage, localStorage
+      let data = getStoredAttemptById(attemptId);
+      if (data && isMounted) {
+        setAttempt(data);
+        setLoading(false);
+        return;
+      }
+
+      // 2. High-capacity IndexedDB check (stores full attempts without quota restrictions)
+      data = await getAttemptFromDB(attemptId);
+      if (data && isMounted) {
+        setAttempt(data);
+        setLoading(false);
+        return;
+      }
+
+      // 3. Brief retry in case of ongoing asynchronous transaction
+      const t = setTimeout(async () => {
+        if (!isMounted) return;
+        const retryData = getStoredAttemptById(attemptId) || (await getAttemptFromDB(attemptId));
+        setAttempt(retryData);
+        setLoading(false);
+      }, 150);
+
+      return () => clearTimeout(t);
+    }
+
+    fetchAttempt();
+
+    return () => {
+      isMounted = false;
+    };
   }, [attemptId]);
 
   if (loading) {

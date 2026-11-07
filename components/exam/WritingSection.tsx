@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import { useExamStore } from "@/store/exam-store";
 import { QuestionNavigator } from "./QuestionNavigator";
 import { getWordCount } from "@/lib/scoring";
@@ -9,14 +10,23 @@ export function WritingSection() {
   const {
     mockTest,
     currentQuestionIndex,
+    setCurrentQuestionIndex,
     answers,
     setWritingAnswer,
     mode,
   } = useExamStore();
 
-  if (!mockTest) return null;
-  const tasks = mockTest.sections.writing;
-  const currentTask = tasks[currentQuestionIndex];
+  const tasks = mockTest?.sections?.writing || [];
+  const safeIndex = Math.min(Math.max(0, currentQuestionIndex), Math.max(0, tasks.length - 1));
+
+  useEffect(() => {
+    if (tasks.length > 0 && currentQuestionIndex !== safeIndex) {
+      setCurrentQuestionIndex(safeIndex);
+    }
+  }, [currentQuestionIndex, safeIndex, tasks.length, setCurrentQuestionIndex]);
+
+  if (!mockTest || tasks.length === 0) return null;
+  const currentTask = tasks[safeIndex];
   if (!currentTask) return null;
 
   const currentText = answers.writing[currentTask.id] || "";
@@ -38,10 +48,10 @@ export function WritingSection() {
           <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-slate-100">
             <div className="flex items-center gap-2">
               <span className="flex h-7 w-7 items-center justify-center rounded-md bg-[#2457D6]/10 text-xs font-bold text-[#2457D6]">
-                Task {currentQuestionIndex + 1}
+                Task {safeIndex + 1}
               </span>
               <span className="text-xs font-medium text-slate-500">
-                Writing Task {currentQuestionIndex + 1} of {tasks.length}
+                Writing Task {safeIndex + 1} of {tasks.length}
               </span>
             </div>
             <span className="rounded-md bg-blue-50 px-2.5 py-1 text-xs font-semibold text-[#2457D6] uppercase tracking-wide">

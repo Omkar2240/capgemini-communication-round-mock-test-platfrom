@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import { useExamStore } from "@/store/exam-store";
 import { QuestionNavigator } from "./QuestionNavigator";
 import { HelpCircle } from "lucide-react";
@@ -8,14 +9,23 @@ export function GrammarSection() {
   const {
     mockTest,
     currentQuestionIndex,
+    setCurrentQuestionIndex,
     answers,
     setGrammarAnswer,
     mode,
   } = useExamStore();
 
-  if (!mockTest) return null;
-  const questions = mockTest.sections.grammar;
-  const currentQ = questions[currentQuestionIndex];
+  const questions = mockTest?.sections?.grammar || [];
+  const safeIndex = Math.min(Math.max(0, currentQuestionIndex), Math.max(0, questions.length - 1));
+
+  useEffect(() => {
+    if (questions.length > 0 && currentQuestionIndex !== safeIndex) {
+      setCurrentQuestionIndex(safeIndex);
+    }
+  }, [currentQuestionIndex, safeIndex, questions.length, setCurrentQuestionIndex]);
+
+  if (!mockTest || questions.length === 0) return null;
+  const currentQ = questions[safeIndex];
   if (!currentQ) return null;
 
   const selectedAnswer = answers.grammar[currentQ.id];
@@ -30,10 +40,10 @@ export function GrammarSection() {
           <div className="flex flex-wrap items-center justify-between gap-2 pb-4 border-b border-slate-100">
             <div className="flex items-center gap-2">
               <span className="flex h-7 w-7 items-center justify-center rounded-md bg-[#2457D6]/10 text-xs font-bold text-[#2457D6]">
-                Q{currentQuestionIndex + 1}
+                Q{safeIndex + 1}
               </span>
               <span className="text-xs font-medium text-slate-500">
-                Question {currentQuestionIndex + 1} of {questions.length}
+                Question {safeIndex + 1} of {questions.length}
               </span>
             </div>
 

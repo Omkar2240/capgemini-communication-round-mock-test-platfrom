@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import { useExamStore } from "@/store/exam-store";
 import { QuestionNavigator } from "./QuestionNavigator";
 import { MessageSquare, Mail, HelpCircle } from "lucide-react";
@@ -9,15 +10,24 @@ export function SituationalSection() {
   const {
     mockTest,
     currentQuestionIndex,
+    setCurrentQuestionIndex,
     answers,
     setSituationalOption,
     setSituationalWritten,
     mode,
   } = useExamStore();
 
-  if (!mockTest) return null;
-  const scenarios = mockTest.sections.situational;
-  const currentScenario = scenarios[currentQuestionIndex];
+  const scenarios = mockTest?.sections?.situational || [];
+  const safeIndex = Math.min(Math.max(0, currentQuestionIndex), Math.max(0, scenarios.length - 1));
+
+  useEffect(() => {
+    if (scenarios.length > 0 && currentQuestionIndex !== safeIndex) {
+      setCurrentQuestionIndex(safeIndex);
+    }
+  }, [currentQuestionIndex, safeIndex, scenarios.length, setCurrentQuestionIndex]);
+
+  if (!mockTest || scenarios.length === 0) return null;
+  const currentScenario = scenarios[safeIndex];
   if (!currentScenario) return null;
 
   const currentAnswer = answers.situational[currentScenario.id] || {};
@@ -36,10 +46,10 @@ export function SituationalSection() {
           <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-slate-100">
             <div className="flex items-center gap-2">
               <span className="flex h-7 w-7 items-center justify-center rounded-md bg-[#2457D6]/10 text-xs font-bold text-[#2457D6]">
-                S{currentQuestionIndex + 1}
+                S{safeIndex + 1}
               </span>
               <span className="text-xs font-medium text-slate-500">
-                Workplace Scenario {currentQuestionIndex + 1} of {scenarios.length}
+                Workplace Scenario {safeIndex + 1} of {scenarios.length}
               </span>
             </div>
 

@@ -35,7 +35,17 @@ export const ALL_MOCK_TESTS: MockTest[] = [
 ];
 
 export function getMockTestById(id: string): MockTest | undefined {
-  return ALL_MOCK_TESTS.find((t) => t.id === id);
+  if (!id) return undefined;
+  const clean = id.trim().toLowerCase();
+  const direct = ALL_MOCK_TESTS.find((t) => t.id.toLowerCase() === clean);
+  if (direct) return direct;
+
+  const numPart = clean.replace(/^(mock[-_]?)0*/i, "");
+  const num = parseInt(numPart, 10);
+  if (!isNaN(num)) {
+    return ALL_MOCK_TESTS.find((t) => t.testNumber === num);
+  }
+  return undefined;
 }
 
 export function getMockTestByNumber(num: number): MockTest | undefined {

@@ -6,6 +6,7 @@ import {
   DifficultyLevel,
 } from "@/types/exam";
 import { saveInProgressExam, clearInProgressExam } from "@/lib/storage";
+import { saveAudioToDB } from "@/lib/audio-db";
 
 export const SECTION_ORDER: SectionKey[] = [
   "grammar",
@@ -25,6 +26,27 @@ export const SECTION_LABELS: Record<SectionKey, string> = {
   speaking: "Spoken Communication",
 };
 
+export function getSectionItemCount(mockTest: MockTest | null, section: SectionKey): number {
+  if (!mockTest) return 0;
+  if (section === "grammar") return mockTest.sections.grammar.length;
+  if (section === "writing") return mockTest.sections.writing.length;
+  if (section === "situational") return mockTest.sections.situational.length;
+  if (section === "reading") return mockTest.sections.reading?.questions?.length || 0;
+  if (section === "listening") return mockTest.sections.listening?.questions?.length || 0;
+  if (section === "speaking") return mockTest.sections.speaking.length;
+  return 0;
+}
+
+export function getSafeQuestionIndex(
+  mockTest: MockTest | null,
+  section: SectionKey,
+  requestedIndex: number
+): number {
+  const count = getSectionItemCount(mockTest, section);
+  if (count <= 0) return 0;
+  return Math.min(Math.max(0, requestedIndex), count - 1);
+}
+
 interface ExamState {
   mockTest: MockTest | null;
   mode: "exam" | "practice";
@@ -40,7 +62,20 @@ interface ExamState {
   totalTimeSpentSeconds: number;
 
   // Actions
-  initExam: (mockTest: MockTest, mode: "exam" | "practice", restored?: Partial<ExamState>) => void;
+  initExam: (
+    mockTest: MockTest,
+    mode: "exam" | "practice",
+    restored?: {
+      answers?: UserAnswers;
+      sectionTimeSpent?: Record<SectionKey, number>;
+      sectionTimeRemaining?: Record<SectionKey, number>;
+      currentSection?: SectionKey;
+      currentQuestionIndex?: number;
+      completedSections?: Record<SectionKey, boolean>;
+      flaggedItems?: Record<string, boolean>;
+      totalTimeSpentSeconds?: number;
+    }
+  ) => void;
   setCurrentSection: (section: SectionKey) => void;
   setCurrentQuestionIndex: (index: number) => void;
   nextQuestion: () => void;
@@ -82,6 +117,23 @@ const initialAnswers: UserAnswers = {
   listening: {},
   speaking: {},
 };
+
+function persistStoreState(state: ExamState) {
+  if (!state.mockTest) return;
+  saveInProgressExam({
+    testId: state.mockTest.id,
+    answers: state.answers,
+    sectionTimeSpent: state.sectionTimeSpent,
+    sectionTimeRemaining: state.sectionTimeRemaining,
+    currentSection: state.currentSection,
+    currentQuestionIndex: state.currentQuestionIndex,
+    mode: state.mode,
+    completedSections: state.completedSections,
+    flaggedItems: state.flaggedItems,
+    totalTimeSpentSeconds: state.totalTimeSpentSeconds,
+    lastUpdated: Date.now(),
+  });
+}
 
 export const useExamStore = create<ExamState>((set, get) => ({
   mockTest: null,
@@ -128,11 +180,18 @@ export const useExamStore = create<ExamState>((set, get) => ({
       speaking: (mockTest.sectionTimers?.speaking || 10) * 60,
     };
 
-    set({
+    const targetSection = restored?.currentSection || "grammar";
+    const safeQIndex = getSafeQuestionIndex(
+      mockTest,
+      targetSection,
+      restored?.currentQuestionIndex ?? 0
+    );
+
+    const newState = {
       mockTest,
       mode,
-      currentSection: restored?.currentSection || "grammar",
-      currentQuestionIndex: restored?.currentQuestionIndex ?? 0,
+      currentSection: targetSection,
+      currentQuestionIndex: safeQIndex,
       sectionTimeRemaining: restored?.sectionTimeRemaining || defaultTimers,
       sectionTimeSpent: restored?.sectionTimeSpent || {
         grammar: 0,
@@ -153,8 +212,12 @@ export const useExamStore = create<ExamState>((set, get) => ({
         listening: false,
         speaking: false,
       },
+      totalTimeSpentSeconds: restored?.totalTimeSpentSeconds || 0,
       showSubmitModal: false,
-    });
+    };
+
+    set(newState);
+    persistStoreState(get());
   },
 
   setCurrentSection: (section) => {
@@ -164,25 +227,26 @@ export const useExamStore = create<ExamState>((set, get) => ({
       return;
     }
     set({ currentSection: section, currentQuestionIndex: 0 });
+    persistStoreState(get());
   },
 
-  setCurrentQuestionIndex: (index) => set({ currentQuestionIndex: index }),
+  setCurrentQuestionIndex: (index) => {
+    const state = get();
+    const safeIndex = getSafeQuestionIndex(state.mockTest, state.currentSection, index);
+    set({ currentQuestionIndex: safeIndex });
+    persistStoreState(get());
+  },
 
   nextQuestion: () => {
     const state = get();
     if (!state.mockTest) return;
 
-    let maxIndex = 0;
-    const sec = state.currentSection;
-    if (sec === "grammar") maxIndex = state.mockTest.sections.grammar.length - 1;
-    else if (sec === "writing") maxIndex = state.mockTest.sections.writing.length - 1;
-    else if (sec === "situational") maxIndex = state.mockTest.sections.situational.length - 1;
-    else if (sec === "reading") maxIndex = state.mockTest.sections.reading.questions.length - 1;
-    else if (sec === "listening") maxIndex = state.mockTest.sections.listening.questions.length - 1;
-    else if (sec === "speaking") maxIndex = state.mockTest.sections.speaking.length - 1;
+    const count = getSectionItemCount(state.mockTest, state.currentSection);
+    const maxIndex = Math.max(0, count - 1);
 
     if (state.currentQuestionIndex < maxIndex) {
       set({ currentQuestionIndex: state.currentQuestionIndex + 1 });
+      persistStoreState(get());
     } else {
       // Prompt next section
       state.nextSection();
@@ -193,6 +257,7 @@ export const useExamStore = create<ExamState>((set, get) => ({
     const state = get();
     if (state.currentQuestionIndex > 0) {
       set({ currentQuestionIndex: state.currentQuestionIndex - 1 });
+      persistStoreState(get());
     }
   },
 
@@ -207,6 +272,7 @@ export const useExamStore = create<ExamState>((set, get) => ({
         currentSection: nextSec,
         currentQuestionIndex: 0,
       }));
+      persistStoreState(get());
     } else {
       // Reached the end of sections -> prompt submission
       set({ showSubmitModal: true });
@@ -222,6 +288,7 @@ export const useExamStore = create<ExamState>((set, get) => ({
         currentSection: SECTION_ORDER[currIdx - 1],
         currentQuestionIndex: 0,
       });
+      persistStoreState(get());
     }
   },
 
@@ -231,20 +298,9 @@ export const useExamStore = create<ExamState>((set, get) => ({
         ...state.answers,
         grammar: { ...state.answers.grammar, [qId]: optIdx },
       };
-      if (state.mockTest) {
-        saveInProgressExam({
-          testId: state.mockTest.id,
-          answers: newAnswers,
-          sectionTimeSpent: state.sectionTimeSpent,
-          sectionTimeRemaining: state.sectionTimeRemaining,
-          currentSection: state.currentSection,
-          currentQuestionIndex: state.currentQuestionIndex,
-          mode: state.mode,
-          lastUpdated: Date.now(),
-        });
-      }
       return { answers: newAnswers };
     });
+    persistStoreState(get());
   },
 
   setWritingAnswer: (taskId, text) => {
@@ -253,20 +309,9 @@ export const useExamStore = create<ExamState>((set, get) => ({
         ...state.answers,
         writing: { ...state.answers.writing, [taskId]: text },
       };
-      if (state.mockTest) {
-        saveInProgressExam({
-          testId: state.mockTest.id,
-          answers: newAnswers,
-          sectionTimeSpent: state.sectionTimeSpent,
-          sectionTimeRemaining: state.sectionTimeRemaining,
-          currentSection: state.currentSection,
-          currentQuestionIndex: state.currentQuestionIndex,
-          mode: state.mode,
-          lastUpdated: Date.now(),
-        });
-      }
       return { answers: newAnswers };
     });
+    persistStoreState(get());
   },
 
   setSituationalOption: (scId, optIdx) => {
@@ -279,20 +324,9 @@ export const useExamStore = create<ExamState>((set, get) => ({
           [scId]: { ...prev, selectedOption: optIdx },
         },
       };
-      if (state.mockTest) {
-        saveInProgressExam({
-          testId: state.mockTest.id,
-          answers: newAnswers,
-          sectionTimeSpent: state.sectionTimeSpent,
-          sectionTimeRemaining: state.sectionTimeRemaining,
-          currentSection: state.currentSection,
-          currentQuestionIndex: state.currentQuestionIndex,
-          mode: state.mode,
-          lastUpdated: Date.now(),
-        });
-      }
       return { answers: newAnswers };
     });
+    persistStoreState(get());
   },
 
   setSituationalWritten: (scId, text) => {
@@ -305,20 +339,9 @@ export const useExamStore = create<ExamState>((set, get) => ({
           [scId]: { ...prev, writtenResponse: text },
         },
       };
-      if (state.mockTest) {
-        saveInProgressExam({
-          testId: state.mockTest.id,
-          answers: newAnswers,
-          sectionTimeSpent: state.sectionTimeSpent,
-          sectionTimeRemaining: state.sectionTimeRemaining,
-          currentSection: state.currentSection,
-          currentQuestionIndex: state.currentQuestionIndex,
-          mode: state.mode,
-          lastUpdated: Date.now(),
-        });
-      }
       return { answers: newAnswers };
     });
+    persistStoreState(get());
   },
 
   setReadingAnswer: (qId, optIdx) => {
@@ -327,20 +350,9 @@ export const useExamStore = create<ExamState>((set, get) => ({
         ...state.answers,
         reading: { ...state.answers.reading, [qId]: optIdx },
       };
-      if (state.mockTest) {
-        saveInProgressExam({
-          testId: state.mockTest.id,
-          answers: newAnswers,
-          sectionTimeSpent: state.sectionTimeSpent,
-          sectionTimeRemaining: state.sectionTimeRemaining,
-          currentSection: state.currentSection,
-          currentQuestionIndex: state.currentQuestionIndex,
-          mode: state.mode,
-          lastUpdated: Date.now(),
-        });
-      }
       return { answers: newAnswers };
     });
+    persistStoreState(get());
   },
 
   setListeningAnswer: (qId, optIdx) => {
@@ -349,46 +361,30 @@ export const useExamStore = create<ExamState>((set, get) => ({
         ...state.answers,
         listening: { ...state.answers.listening, [qId]: optIdx },
       };
-      if (state.mockTest) {
-        saveInProgressExam({
-          testId: state.mockTest.id,
-          answers: newAnswers,
-          sectionTimeSpent: state.sectionTimeSpent,
-          sectionTimeRemaining: state.sectionTimeRemaining,
-          currentSection: state.currentSection,
-          currentQuestionIndex: state.currentQuestionIndex,
-          mode: state.mode,
-          lastUpdated: Date.now(),
-        });
-      }
       return { answers: newAnswers };
     });
+    persistStoreState(get());
   },
 
   setSpeakingAnswer: (taskId, data) => {
-    set((state) => {
-      const prev = state.answers.speaking[taskId] || {};
+    const state = get();
+    // Asynchronously save heavy base64 to IndexedDB if present
+    if (state.mockTest && data.audioDataUrl) {
+      saveAudioToDB(`${state.mockTest.id}_${taskId}`, data.audioDataUrl, data.durationSeconds);
+    }
+
+    set((s) => {
+      const prev = s.answers.speaking[taskId] || {};
       const newAnswers = {
-        ...state.answers,
+        ...s.answers,
         speaking: {
-          ...state.answers.speaking,
+          ...s.answers.speaking,
           [taskId]: { ...prev, ...data },
         },
       };
-      if (state.mockTest) {
-        saveInProgressExam({
-          testId: state.mockTest.id,
-          answers: newAnswers,
-          sectionTimeSpent: state.sectionTimeSpent,
-          sectionTimeRemaining: state.sectionTimeRemaining,
-          currentSection: state.currentSection,
-          currentQuestionIndex: state.currentQuestionIndex,
-          mode: state.mode,
-          lastUpdated: Date.now(),
-        });
-      }
       return { answers: newAnswers };
     });
+    persistStoreState(get());
   },
 
   toggleFlag: (id) => {
@@ -398,6 +394,7 @@ export const useExamStore = create<ExamState>((set, get) => ({
         [id]: !state.flaggedItems[id],
       },
     }));
+    persistStoreState(get());
   },
 
   tickTimer: () => {
@@ -405,7 +402,7 @@ export const useExamStore = create<ExamState>((set, get) => ({
     if (!state.isTimerRunning) return;
 
     const currentSec = state.currentSection;
-    const remaining = state.sectionTimeRemaining[currentSec];
+    const remaining = state.sectionTimeRemaining[currentSec] ?? 600;
 
     // In practice mode, timer can just run up or be untimed
     if (state.mode === "practice") {
@@ -416,6 +413,10 @@ export const useExamStore = create<ExamState>((set, get) => ({
         },
         totalTimeSpentSeconds: s.totalTimeSpentSeconds + 1,
       }));
+      // Persist periodically
+      if (state.totalTimeSpentSeconds % 5 === 0) {
+        persistStoreState(get());
+      }
       return;
     }
 
@@ -432,6 +433,7 @@ export const useExamStore = create<ExamState>((set, get) => ({
       } else {
         state.nextSection();
       }
+      persistStoreState(get());
       return;
     }
 
@@ -446,6 +448,11 @@ export const useExamStore = create<ExamState>((set, get) => ({
       },
       totalTimeSpentSeconds: s.totalTimeSpentSeconds + 1,
     }));
+
+    // Persist every 5 seconds so timer remains accurate on refresh
+    if (state.totalTimeSpentSeconds % 5 === 0) {
+      persistStoreState(get());
+    }
   },
 
   pauseTimer: () => set({ isTimerRunning: false }),
@@ -471,10 +478,10 @@ export const useExamStore = create<ExamState>((set, get) => ({
         (ans) => ans && (ans.selectedOption !== undefined || (ans.writtenResponse && ans.writtenResponse.trim().length > 5))
       ).length;
     } else if (secKey === "reading") {
-      total = state.mockTest.sections.reading.questions.length;
+      total = state.mockTest.sections.reading?.questions?.length || 0;
       answered = Object.keys(state.answers.reading).length;
     } else if (secKey === "listening") {
-      total = state.mockTest.sections.listening.questions.length;
+      total = state.mockTest.sections.listening?.questions?.length || 0;
       answered = Object.keys(state.answers.listening).length;
     } else if (secKey === "speaking") {
       total = state.mockTest.sections.speaking.length;
@@ -488,7 +495,7 @@ export const useExamStore = create<ExamState>((set, get) => ({
 
   getTotalAnsweredCount: () => {
     const state = get();
-    let totalItems = 28; // 10 grammar + 2 writing + 6 situational + 4 reading + 4 listening + 2 speaking
+    let totalItems = 28;
     let answeredItems = 0;
 
     answeredItems += Object.keys(state.answers.grammar).length;
@@ -517,4 +524,3 @@ export const useExamStore = create<ExamState>((set, get) => ({
     });
   },
 }));
-

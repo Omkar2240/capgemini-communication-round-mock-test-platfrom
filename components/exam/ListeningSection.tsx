@@ -18,6 +18,7 @@ export function ListeningSection() {
   const {
     mockTest,
     currentQuestionIndex,
+    setCurrentQuestionIndex,
     answers,
     setListeningAnswer,
     mode,
@@ -43,10 +44,18 @@ export function ListeningSection() {
     };
   }, [speechManager]);
 
-  if (!mockTest) return null;
-  const listeningData = mockTest.sections.listening;
-  const questions = listeningData.questions;
-  const currentQ = questions[currentQuestionIndex];
+  const listeningData = mockTest?.sections?.listening;
+  const questions = listeningData?.questions || [];
+  const safeIndex = Math.min(Math.max(0, currentQuestionIndex), Math.max(0, questions.length - 1));
+
+  useEffect(() => {
+    if (questions.length > 0 && currentQuestionIndex !== safeIndex) {
+      setCurrentQuestionIndex(safeIndex);
+    }
+  }, [currentQuestionIndex, safeIndex, questions.length, setCurrentQuestionIndex]);
+
+  if (!mockTest || !listeningData || questions.length === 0) return null;
+  const currentQ = questions[safeIndex];
   if (!currentQ) return null;
 
   const selectedAnswer = answers.listening[currentQ.id];
@@ -222,10 +231,10 @@ export function ListeningSection() {
           <div className="flex items-center justify-between pb-3 border-b border-slate-100">
             <div className="flex items-center gap-2">
               <span className="flex h-7 w-7 items-center justify-center rounded-md bg-[#2457D6]/10 text-xs font-bold text-[#2457D6]">
-                Q{currentQuestionIndex + 1}
+                Q{safeIndex + 1}
               </span>
               <span className="text-xs font-medium text-slate-500">
-                Question {currentQuestionIndex + 1} of {questions.length}
+                Question {safeIndex + 1} of {questions.length}
               </span>
             </div>
           </div>

@@ -19,6 +19,7 @@ export function SpeakingSection() {
   const {
     mockTest,
     currentQuestionIndex,
+    setCurrentQuestionIndex,
     answers,
     setSpeakingAnswer,
     mode,
@@ -35,7 +36,15 @@ export function SpeakingSection() {
   const recordTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   const tasks = mockTest?.sections?.speaking || [];
-  const currentTask = tasks[currentQuestionIndex];
+  const safeIndex = Math.min(Math.max(0, currentQuestionIndex), Math.max(0, tasks.length - 1));
+
+  useEffect(() => {
+    if (tasks.length > 0 && currentQuestionIndex !== safeIndex) {
+      setCurrentQuestionIndex(safeIndex);
+    }
+  }, [currentQuestionIndex, safeIndex, tasks.length, setCurrentQuestionIndex]);
+
+  const currentTask = tasks[safeIndex];
   const currentAnswer = currentTask ? answers.speaking[currentTask.id] || {} : {};
   const itemIds = tasks.map((t) => t.id);
 
@@ -144,10 +153,10 @@ export function SpeakingSection() {
           <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-slate-100">
             <div className="flex items-center gap-2">
               <span className="flex h-7 w-7 items-center justify-center rounded-md bg-[#2457D6]/10 text-xs font-bold text-[#2457D6]">
-                Task {currentQuestionIndex + 1}
+                Task {safeIndex + 1}
               </span>
               <span className="text-xs font-medium text-slate-500">
-                Spoken Communication {currentQuestionIndex + 1} of {tasks.length}
+                Spoken Communication {safeIndex + 1} of {tasks.length}
               </span>
             </div>
             <div className="flex items-center gap-2 text-xs font-mono text-slate-500">

@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import { useExamStore } from "@/store/exam-store";
 import { QuestionNavigator } from "./QuestionNavigator";
 import { BookOpen, HelpCircle } from "lucide-react";
@@ -8,15 +9,24 @@ export function ReadingSection() {
   const {
     mockTest,
     currentQuestionIndex,
+    setCurrentQuestionIndex,
     answers,
     setReadingAnswer,
     mode,
   } = useExamStore();
 
-  if (!mockTest) return null;
-  const readingData = mockTest.sections.reading;
-  const questions = readingData.questions;
-  const currentQ = questions[currentQuestionIndex];
+  const readingData = mockTest?.sections?.reading;
+  const questions = readingData?.questions || [];
+  const safeIndex = Math.min(Math.max(0, currentQuestionIndex), Math.max(0, questions.length - 1));
+
+  useEffect(() => {
+    if (questions.length > 0 && currentQuestionIndex !== safeIndex) {
+      setCurrentQuestionIndex(safeIndex);
+    }
+  }, [currentQuestionIndex, safeIndex, questions.length, setCurrentQuestionIndex]);
+
+  if (!mockTest || !readingData || questions.length === 0) return null;
+  const currentQ = questions[safeIndex];
   if (!currentQ) return null;
 
   const selectedAnswer = answers.reading[currentQ.id];
@@ -62,10 +72,10 @@ export function ReadingSection() {
           <div className="flex items-center justify-between pb-3 border-b border-slate-100">
             <div className="flex items-center gap-2">
               <span className="flex h-7 w-7 items-center justify-center rounded-md bg-[#2457D6]/10 text-xs font-bold text-[#2457D6]">
-                Q{currentQuestionIndex + 1}
+                Q{safeIndex + 1}
               </span>
               <span className="text-xs font-medium text-slate-500">
-                Question {currentQuestionIndex + 1} of {questions.length}
+                Question {safeIndex + 1} of {questions.length}
               </span>
             </div>
             <span className="rounded-md bg-blue-50 px-2 py-0.5 text-[11px] font-semibold text-[#2457D6] capitalize">

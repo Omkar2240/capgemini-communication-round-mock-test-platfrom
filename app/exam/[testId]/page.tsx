@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useParams, useSearchParams } from "next/navigation";
 import { getMockTestById } from "@/data/mock-tests";
 import { useExamStore } from "@/store/exam-store";
-import { getInProgressExam } from "@/lib/storage";
+import { getInProgressExam, saveInProgressExam } from "@/lib/storage";
 import { ExamHeader } from "@/components/exam/ExamHeader";
 import { SectionNavigation } from "@/components/exam/SectionNavigation";
 import { GrammarSection } from "@/components/exam/GrammarSection";
@@ -48,6 +48,9 @@ export default function ExamPage() {
         sectionTimeRemaining: inProgress.sectionTimeRemaining,
         currentSection: inProgress.currentSection,
         currentQuestionIndex: inProgress.currentQuestionIndex,
+        completedSections: inProgress.completedSections,
+        flaggedItems: inProgress.flaggedItems,
+        totalTimeSpentSeconds: inProgress.totalTimeSpentSeconds,
       });
     } else {
       initExam(test, modeParam);
@@ -55,6 +58,33 @@ export default function ExamPage() {
 
     setLoading(false);
   }, [testId, modeParam, initExam]);
+
+  // Synchronous flush on window beforeunload (e.g. browser refresh or tab close)
+  useEffect(() => {
+    const handleBeforeUnload = () => {
+      const state = useExamStore.getState();
+      if (state.mockTest) {
+        saveInProgressExam({
+          testId: state.mockTest.id,
+          answers: state.answers,
+          sectionTimeSpent: state.sectionTimeSpent,
+          sectionTimeRemaining: state.sectionTimeRemaining,
+          currentSection: state.currentSection,
+          currentQuestionIndex: state.currentQuestionIndex,
+          mode: state.mode,
+          completedSections: state.completedSections,
+          flaggedItems: state.flaggedItems,
+          totalTimeSpentSeconds: state.totalTimeSpentSeconds,
+          lastUpdated: Date.now(),
+        });
+      }
+    };
+
+    window.addEventListener("beforeunload", handleBeforeUnload);
+    return () => {
+      window.removeEventListener("beforeunload", handleBeforeUnload);
+    };
+  }, []);
 
   if (loading) {
     return (

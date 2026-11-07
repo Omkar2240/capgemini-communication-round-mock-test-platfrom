@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useExamStore, SECTION_ORDER, SECTION_LABELS } from "@/store/exam-store";
 import { calculateTestResults } from "@/lib/scoring";
 import { saveStoredAttempt, clearInProgressExam } from "@/lib/storage";
+import { saveAudioToDB } from "@/lib/audio-db";
 import {
   Send,
   AlertTriangle,
@@ -45,9 +46,20 @@ export function SubmissionModal() {
         sectionTimeSpent
       );
 
-      // Save locally
-      saveStoredAttempt(attempt);
+      // Save heavy speech audio to IndexedDB so they persist reliably without filling localStorage
+      if (answers.speaking) {
+        for (const [taskId, spk] of Object.entries(answers.speaking)) {
+          if (spk?.audioDataUrl) {
+            await saveAudioToDB(`${attempt.id}_${taskId}`, spk.audioDataUrl, spk.durationSeconds);
+          }
+        }
+      }
+
+      // Free up storage space by clearing the in-progress exam first
       clearInProgressExam(mockTest.id);
+
+      // Save locally (memory, sessionStorage, localStorage with auto-sanitization, and IndexedDB)
+      saveStoredAttempt(attempt);
 
       // Navigate to results
       router.push(`/results/${attempt.id}`);

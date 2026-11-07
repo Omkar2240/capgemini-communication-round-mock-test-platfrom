@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { TestAttempt, SectionKey } from "@/types/exam";
 import { SECTION_ORDER, SECTION_LABELS } from "@/store/exam-store";
 import { getMockTestById } from "@/data/mock-tests";
+import { getAudioFromDB } from "@/lib/audio-db";
 import {
   Trophy,
   Award,
@@ -26,7 +27,30 @@ interface ResultsViewProps {
 
 export function ResultsView({ attempt }: ResultsViewProps) {
   const [activeTab, setActiveTab] = useState<SectionKey>("grammar");
+  const [audioUrls, setAudioUrls] = useState<Record<string, string>>({});
   const mockTest = getMockTestById(attempt.testId);
+
+  useEffect(() => {
+    async function loadAudios() {
+      if (!mockTest?.sections?.speaking) return;
+      const loaded: Record<string, string> = {};
+      for (const task of mockTest.sections.speaking) {
+        const spAns = attempt.answers?.speaking?.[task.id];
+        if (spAns?.audioBlobUrl || spAns?.audioDataUrl) {
+          loaded[task.id] = spAns.audioBlobUrl || spAns.audioDataUrl || "";
+        } else {
+          const stored =
+            (await getAudioFromDB(`${attempt.id}_${task.id}`)) ||
+            (await getAudioFromDB(`${attempt.testId}_${task.id}`));
+          if (stored?.dataUrl) {
+            loaded[task.id] = stored.dataUrl;
+          }
+        }
+      }
+      setAudioUrls(loaded);
+    }
+    loadAudios();
+  }, [attempt, mockTest]);
 
   const formatSeconds = (sec: number) => {
     const m = Math.floor(sec / 60);
@@ -660,12 +684,16 @@ export function ResultsView({ attempt }: ResultsViewProps) {
                   )}
 
                   {/* Audio Player */}
-                  {(spAns.audioBlobUrl || spAns.audioDataUrl) && (
+                  {Boolean(spAns.audioBlobUrl || spAns.audioDataUrl || audioUrls[task.id]) && (
                     <div className="p-3 bg-slate-50 rounded-xl border border-slate-200">
                       <span className="text-xs font-bold text-slate-700 block mb-2">
                         Your Recorded Speech Audio:
                       </span>
-                      <audio controls src={spAns.audioBlobUrl || spAns.audioDataUrl} className="w-full" />
+                      <audio
+                        controls
+                        src={spAns.audioBlobUrl || spAns.audioDataUrl || audioUrls[task.id]}
+                        className="w-full"
+                      />
                     </div>
                   )}
 
